@@ -1,0 +1,146 @@
+/* line 2, ../../sass/new_layout/home.scss */
+#main-header {
+  background-color: #2f3342;
+  color: #f2f2f2;
+}
+/* line 6, ../../sass/new_layout/home.scss */
+#main-header img.shlogo {
+  width: 100%;
+  position: relative;
+  left: 100px;
+}
+/* line 12, ../../sass/new_layout/home.scss */
+#main-header .header {
+  margin-top: 40px;
+}
+/* line 15, ../../sass/new_layout/home.scss */
+#main-header .header h2 {
+  color: #1F2533;
+  font-size: 50px;
+}
+/* line 20, ../../sass/new_layout/home.scss */
+#main-header .header p {
+  font-size: 25px;
+  color: #1F2533;
+}
+/* line 24, ../../sass/new_layout/home.scss */
+#main-header .header ul {
+  margin-top: 30px;
+}
+/* line 26, ../../sass/new_layout/home.scss */
+#main-header .header ul li {
+  width: 26%;
+}
+/* line 29, ../../sass/new_layout/home.scss */
+#main-header .header ul li#fb {
+  margin-left: 14px;
+}
+/* line 31, ../../sass/new_layout/home.scss */
+#main-header .header ul li#fb a {
+  background-color: #3C5AA0;
+}
+/* line 33, ../../sass/new_layout/home.scss */
+#main-header .header ul li#fb a:hover {
+  background-color: #4C6Ab0;
+}
+/* line 38, ../../sass/new_layout/home.scss */
+#main-header .header ul li#in a {
+  background-color: #0079B9;
+}
+/* line 40, ../../sass/new_layout/home.scss */
+#main-header .header ul li#in a:hover {
+  background-color: #1089C9;
+}
+/* line 44, ../../sass/new_layout/home.scss */
+#main-header .header ul li#google a {
+  background-color: #C53200;
+}
+/* line 46, ../../sass/new_layout/home.scss */
+#main-header .header ul li#google a:hover {
+  background-color: #D54210;
+}
+/* line 51, ../../sass/new_layout/home.scss */
+#main-header .header ul a {
+  padding: 0px 5px 0px 0px;
+  color: #1F2533;
+}
+/* line 55, ../../sass/new_layout/home.scss */
+#main-header .header ul a img {
+  height: 30px;
+}
+/* line 58, ../../sass/new_layout/home.scss */
+#main-header .header ul a span {
+  position: relative;
+  top: 1px;
+}
+/* line 64, ../../sass/new_layout/home.scss */
+#main-header .header .registration {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: -18px;
+  width: 88%;
+}
+/* line 71, ../../sass/new_layout/home.scss */
+#main-header .header .registration a, #main-header .header .registration a:active, #main-header .header .registration a:visited {
+  margin-left: 5px;
+  color: #1F2533;
+}
+/* line 75, ../../sass/new_layout/home.scss */
+#main-header .header .registration a:hover {
+  color: #F9b85C;
+}
+
+/* line 83, ../../sass/new_layout/home.scss */
+#mirror-header h2 {
+  color: #383B44;
+  font-size: 60px;
+  text-align: center;
+}
+/* line 88, ../../sass/new_layout/home.scss */
+#mirror-header h2 div {
+  position: relative;
+  top: -7px;
+}
+/* line 92, ../../sass/new_layout/home.scss */
+#mirror-header h2 div.line {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: 0px;
+}
+/* line 99, ../../sass/new_layout/home.scss */
+#mirror-header .panel.callout.radius {
+  background-color: #F6F6F6;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+/* line 104, ../../sass/new_layout/home.scss */
+#mirror-header .panel.callout.radius div {
+  width: 100%;
+  background-color: #2F3342;
+  height: 340px;
+  font-size: 80px;
+  padding-top: 90px;
+}
+/* line 112, ../../sass/new_layout/home.scss */
+#mirror-header .link-center {
+  text-align: center;
+}
+/* line 114, ../../sass/new_layout/home.scss */
+#mirror-header .link-center a {
+  color: #1f2533;
+}
+
+/* line 120, ../../sass/new_layout/home.scss */
+#header-group {
+  background-color: #49758e;
+  color: #D9F0FF;
+}
+/* line 124, ../../sass/new_layout/home.scss */
+#header-group h3 {
+  color: #1f2533;
+}
+/* line 127, ../../sass/new_layout/home.scss */
+#header-group p {
+  color: #1f2533;
+}

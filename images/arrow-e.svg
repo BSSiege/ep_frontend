@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="70"
+   height="60"
+   viewBox="0 0 70 60"
+   id="svg4714">
+  <defs
+     id="defs4716">
+    <clipPath
+       id="clipPath4672">
+      <path
+         d="m 0,2484 1920,0 L 1920,0 0,0 0,2484 z"
+         id="path4674" />
+    </clipPath>
+    <clipPath
+       id="clipPath4680">
+      <path
+         d="m 999.645,2221.13 71.995,0 0,-230.51 -71.995,0 0,230.51 z"
+         id="path4682" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata4719">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-862.36218)"
+     id="layer1">
+    <g
+       transform="matrix(1.25,0,0,-1.25,-1269.9646,3575.209)"
+       id="g4668">
+      <g
+         clip-path="url(#clipPath4672)"
+         id="g4670">
+        <g
+           id="g4676">
+          <g
+             id="g4678" />
+          <g
+             id="g4684">
+            <g
+               clip-path="url(#clipPath4680)"
+               id="g4686"
+               style="opacity:0.35000604">
+              <text
+                 transform="matrix(1,0,0,-1,999.6455,2019.5293)"
+                 id="text4688">
+                <tspan
+                   x="0"
+                   y="0"
+                   id="tspan4690"
+                   style="font-size:201.59890747px;font-variant:normal;font-weight:normal;font-stretch:normal;writing-mode:lr-tb;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:FontAwesome;-inkscape-font-specification:FontAwesome">∠</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

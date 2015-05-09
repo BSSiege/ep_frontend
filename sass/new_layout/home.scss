@@ -1,0 +1,130 @@
+
+#main-header{
+  background-color: #2f3342;
+  color: #f2f2f2;
+
+  img.shlogo{
+    width:100%;
+    position: relative;
+    left:100px;
+  }
+
+  .header{
+    margin-top: 40px;
+
+    h2{
+      color: #1F2533;
+      font-size: 50px;
+    }
+
+    p{
+      font-size: 25px;
+      color: #1F2533;
+    }
+    ul {
+      margin-top:30px;
+      li{
+      width: 26%;
+      }
+      li#fb{
+        margin-left:14px;
+        a{
+          background-color: #3C5AA0;
+          &:hover{
+            background-color: #4C6Ab0;
+          }
+        }
+      }
+      li#in a{
+        background-color: #0079B9;
+        &:hover{
+          background-color: #1089C9;
+        }
+      }
+      li#google a{
+        background-color: #C53200;
+        &:hover{
+          background-color: #D54210;
+        }
+      }
+
+      a{
+        padding: 0px 5px 0px 0px;
+        color: #1F2533;
+
+        img{
+          height:30px;
+        }
+        span{
+          position:relative;
+          top:1px;
+        }
+      }
+    }
+    .registration{
+      font-size: 15px;
+      text-align: center;
+      position: relative;
+      top: -18px;
+      width: 88%;
+
+      a, a:active, a:visited{
+        margin-left:5px;
+        color: #1F2533;
+      }
+      a:hover{
+        color: #F9b85C;
+      }
+    }
+  }
+}
+
+#mirror-header{
+  h2{
+    color: #383B44;
+    font-size: 60px;
+    text-align:center;
+
+    div{
+      position: relative;
+      top: -7px;
+
+      &.line{
+        margin: 0px 0px 0px 0px;
+        position:relative;
+        top: 0px;
+      }
+    }
+  }
+  .panel.callout.radius{
+    background-color: #F6F6F6;
+    padding: 20px 0px 0px 0px;
+    text-align:center;
+
+    div{
+      width: 100%;
+      background-color: #2F3342;
+      height:340px;
+      font-size:80px;
+      padding-top:90px;
+    }
+  }
+  .link-center{
+    text-align:center;
+    a{
+      color: #1f2533;
+    }
+  }
+}
+
+#header-group{
+  background-color: #49758e;
+  color: #D9F0FF;
+
+  h3{
+    color:#1f2533;
+  }
+  p{
+    color:#1f2533;
+  }
+}

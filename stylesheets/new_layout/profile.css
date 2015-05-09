@@ -1,0 +1,428 @@
+/* line 2, ../../sass/new_layout/profile.scss */
+#profile .select-view {
+  background-color: #49758E;
+  padding: 14px 0px;
+}
+/* line 6, ../../sass/new_layout/profile.scss */
+#profile .select-view label, #profile .select-view select {
+  diplay: inline-block;
+}
+/* line 9, ../../sass/new_layout/profile.scss */
+#profile .select-view label {
+  width: 225px;
+  margin: 0px;
+  position: relative;
+  top: 9px;
+  color: #F2F2F2;
+  font-weight: 300;
+}
+/* line 17, ../../sass/new_layout/profile.scss */
+#profile .select-view select {
+  width: 100px;
+  margin: 0px;
+}
+/* line 24, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header {
+  margin: 35px 0px;
+  height: 100%;
+}
+/* line 27, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .img {
+  padding: 0px;
+}
+/* line 29, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .img img {
+  width: 200px;
+}
+/* line 33, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .data {
+  position: relative;
+  left: 30px;
+}
+/* line 37, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .data h4 {
+  margin-bottom: 0px;
+  font-size: 27px;
+  height: 32px;
+}
+/* line 42, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .data h5 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+/* line 46, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .data p.fallowers {
+  background-color: #989898;
+  text-align: center;
+  width: 143px;
+  padding: 2px 0px;
+  -webkit-border-radius: 03px;
+  -moz-border-radius: 03px;
+  border-radius: 03px;
+  color: #F2F2F2;
+  font-weight: 100;
+}
+/* line 57, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .header .data .text {
+  font-size: 14px;
+}
+/* line 62, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic {
+  width: 360px;
+  top: -10px;
+}
+/* line 66, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic h3 {
+  font-size: 54px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* line 71, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic i {
+  position: relative;
+  right: 8px;
+}
+/* line 75, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic .up {
+  border-right: 1px solid #BFBFBF;
+  height: 94px;
+  padding-right: 0px;
+  width: 168px;
+}
+/* line 80, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic .up p {
+  color: #97A552;
+  position: relative;
+  top: -10px;
+  font-size: 20px;
+  width: 200px;
+  font-weight: 300;
+}
+/* line 89, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic .stat {
+  padding-left: 30px;
+}
+/* line 92, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic .stat h5 {
+  font-weight: 300;
+  font-size: 20px;
+  width: 200px;
+  position: relative;
+  top: -12px;
+}
+/* line 100, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .statisctic .bottom {
+  border-top: 1px solid #BFBFBF;
+  padding-top: 10px;
+  margin-top: 4px;
+  padding-top: 14px;
+  font-size: 20px;
+  font-weight: 300;
+}
+/* line 110, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter {
+  margin-bottom: 15px;
+}
+/* line 113, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h5 {
+  font-size: 20px;
+}
+/* line 116, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 {
+  position: absolute;
+  top: 3px;
+  right: 16px;
+  color: #989898;
+  font-weight: 300;
+}
+/* line 122, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 span {
+  margin-left: 5px;
+  padding: 2px;
+}
+/* line 125, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 span img {
+  width: 13px;
+  margin-left: 3px;
+}
+/* line 130, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 .filter-box {
+  z-index: 999;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 12px;
+  width: 80px;
+  position: absolute;
+  right: 0px;
+  border: 1px solid #989898;
+  cursor: pointer;
+  padding: 0px 8px;
+  color: #1f2533;
+}
+/* line 146, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 .filter-box div {
+  padding: 5px 0px;
+  color: #1f2533;
+}
+/* line 150, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .filter h6 .filter-box div:nth-child(n+2) {
+  border-top: 1px solid #989898;
+}
+/* line 156, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel {
+  position: relative;
+  background-color: #F8F8F8;
+}
+/* line 160, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .icon-svg-static-profile.secund {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: #F8F8F8;
+  cursor: pointer;
+}
+/* line 168, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .indicator-time-profile {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #BFBFBF;
+  background-color: #F8F8F8;
+  cursor: pointer;
+}
+/* line 176, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel h6 {
+  font-size: 15px;
+  color: #989898;
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 182, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel h4 {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+}
+/* line 188, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel p {
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 20px;
+  margin-bottom: 60px;
+}
+/* line 196, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .foot i {
+  margin: 0px 3px;
+  color: #49758E;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+}
+/* line 203, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .foot p.right {
+  font-size: 25px;
+  margin: 0px;
+}
+/* line 208, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .options-profile {
+  font-size: 12px;
+  width: 80px;
+  position: absolute;
+  right: 0px;
+  border: 1px solid #989898;
+  cursor: pointer;
+  padding: 0px 8px;
+}
+/* line 217, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .options-profile div {
+  padding: 5px 0px;
+}
+/* line 220, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .profile-stance .panel .options-profile div:nth-child(n+2) {
+  border-top: 1px solid #989898;
+}
+/* line 227, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead {
+  height: 40px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  background-color: #49758E;
+  position: relative;
+  overflow: visible;
+}
+/* line 235, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead p {
+  position: absolute;
+  top: 8px;
+  color: #F2F2F2;
+  font-weight: 300;
+}
+/* line 241, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead .icon-svg-static-profile.secund {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+/* line 248, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead .icon-svg-static-profile.secund img {
+  padding: 5px;
+}
+/* line 252, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead .back-stance {
+  font-size: 12px;
+  width: 92px;
+  position: absolute;
+  right: -2px;
+  border: 1px solid #989898;
+  cursor: pointer;
+  padding: 0px 8px;
+  background-color: #F8F8F8;
+}
+/* line 262, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead .back-stance div {
+  padding: 5px 0px;
+}
+/* line 265, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel.lead .back-stance div:nth-child(n+2) {
+  border-top: 1px solid #989898;
+}
+/* line 270, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel {
+  padding-bottom: 0px;
+}
+/* line 272, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel p {
+  font-weight: 300;
+}
+/* line 275, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel a {
+  color: #49758E;
+  text-decoration: underline;
+}
+/* line 279, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel p.time {
+  font-size: 12px;
+  color: #989898;
+}
+/* line 283, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .read-more {
+  text-align: right;
+  font-weight: 300;
+}
+/* line 287, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .read {
+  margin-bottom: 50px;
+}
+/* line 290, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 294, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel h6 {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* line 301, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .links {
+  padding: 20px 0px;
+}
+/* line 305, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .person img {
+  width: 60px;
+}
+/* line 308, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .person p.inline {
+  position: relative;
+  right: -12px;
+  top: -6px;
+  font-size: 18px;
+  font-weight: normal;
+  border-right: 1px solid #BFBFBF;
+  height: 70px;
+}
+/* line 316, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .person p.inline span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #989898;
+  position: relative;
+  top: -8px;
+}
+/* line 326, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .foot i {
+  margin: 0px 3px;
+  color: #49758E;
+  font-size: 18px;
+  position: relative;
+  top: -2px;
+}
+/* line 333, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .foot p.right {
+  font-size: 25px;
+  margin: 0px;
+  position: relative;
+  top: -12px;
+}
+/* line 341, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .buttons .columns.large-6 {
+  padding-right: 0px;
+}
+/* line 344, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .buttons .columns.large-6 button {
+  float: right;
+  position: relative;
+  left: 14px;
+  background-color: #F2F2F2;
+  color: #1F2533;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  border: 1px solid #E9E9E9;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+/* line 358, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .buttons .columns.large-6 button:hover, #profile #profile-stance .action-profile .panel .buttons .columns.large-6 .button:hover {
+  background-color: #e5b85c;
+  color: #f2f2f2;
+  font-weight: 900;
+  border: 1px solid #e2b559;
+}
+/* line 364, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .buttons .columns.large-6 a, #profile #profile-stance .action-profile .panel .buttons .columns.large-6 span {
+  position: relative;
+  top: 7px;
+  margin-left: 10px;
+}
+
+/* line 376, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .stats p {
+  font-size: 24pt;
+  font-weight: 600;
+  padding-bottom: 0px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  color: #97A552;
+  line-height: 24px;
+  position: relative;
+  top: 5px;
+}
+/* line 389, ../../sass/new_layout/profile.scss */
+#profile #profile-stance .action-profile .panel .stats p span {
+  color: #1E2532;
+  font-size: 16px;
+  font-weight: 300;
+}

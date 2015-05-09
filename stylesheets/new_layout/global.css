@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+/* line 3, ../../sass/new_layout/global.scss */
+body {
+  background-color: #F2F2F2;
+  color: #1f2533;
+}
+
+/* line 9, ../../sass/new_layout/global.scss */
+#action_board html, #action_board body, #action_board div, #action_board span, #action_board applet, #action_board object, #action_board iframe,
+#action_board h1, #action_board h2, #action_board h3, #action_board h4, #action_board h5, #action_board h6, #action_board p, #action_board blockquote, #action_board pre,
+#action_board a, #action_board abbr, #action_board acronym, #action_board address, #action_board big, #action_board cite, #action_board code,
+#action_board del, #action_board dfn, #action_board em, #action_board img, #action_board ins, #action_board kbd, #action_board q, #action_board s, #action_board samp,
+#action_board small, #action_board strike, #action_board strong, #action_board sub, #action_board sup, #action_board tt, #action_board var,
+#action_board b, #action_board u, #action_board i, #action_board center,
+#action_board dl, #action_board dt, #action_board dd, #action_board ol, #action_board ul, #action_board li,
+#action_board fieldset, #action_board form, #action_board label, #action_board legend,
+#action_board table, #action_board caption, #action_board tbody, #action_board tfoot, #action_board thead, #action_board tr, #action_board th, #action_board td,
+#action_board article, #action_board aside, #action_board canvas, #action_board details, #action_board embed,
+#action_board figure, #action_board figcaption, #action_board footer, #action_board header, #action_board hgroup,
+#action_board menu, #action_board nav, #action_board output, #action_board ruby, #action_board section, #action_board summary,
+#action_board time, #action_board mark, #action_board audio, #action_board video {
+  letter-spacing: -1px;
+}
+/* line 25, ../../sass/new_layout/global.scss */
+#action_board h3 {
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+/* line 31, ../../sass/new_layout/global.scss */
+#action_board button, #action_board .button {
+  background-color: #F2F2F2;
+  color: #1F2533;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  border: 1px solid #E9E9E9;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+/* line 44, ../../sass/new_layout/global.scss */
+#action_board button:hover, #action_board .button:hover {
+  background-color: #e5b85c;
+  color: #f2f2f2;
+  font-weight: 900;
+  border: 1px solid #e2b559;
+}

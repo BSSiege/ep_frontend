@@ -1,0 +1,82 @@
+/* line 2, ../../sass/new_layout/action_boards.scss */
+section#action_board .header-section {
+  margin-top: 40px;
+}
+/* line 4, ../../sass/new_layout/action_boards.scss */
+section#action_board .header-section h5 {
+  position: absolute;
+  top: 44px;
+  right: 16px;
+  color: #A9A9A9;
+  font-weight: 300;
+}
+/* line 12, ../../sass/new_layout/action_boards.scss */
+section#action_board .row.content {
+  margin-top: 20px;
+}
+/* line 16, ../../sass/new_layout/action_boards.scss */
+section#action_board hr.section-break {
+  border: none;
+  border-top: 2px dashed #999;
+  color: #1f2533;
+}
+/* line 23, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision {
+  position: relative;
+}
+/* line 26, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel {
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.25);
+}
+/* line 33, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel h3 {
+  margin-top: 15px;
+}
+/* line 37, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel .si-icons, section#action_board .decision .panel .icon-svg-static.secund {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
+/* line 44, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel .icon-svg-static.secund img {
+  position: relative;
+  top: -3px;
+}
+/* line 49, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel .indicator-time {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #999999;
+  background-color: #F6F6F6;
+}
+/* line 57, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel .for-hide-panel.button {
+  position: absolute;
+  right: -5px;
+  top: 22px;
+  padding: 5px 7px 5px 7px;
+  z-index: 10;
+}
+/* line 65, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel p.lead {
+  margin: 0px;
+  font-size: 15px;
+  color: #999999;
+  position: relative;
+  top: -4px;
+}
+/* line 73, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel p.should {
+  margin: 15px 0px 0px 0px;
+  font-size: 20px;
+}
+/* line 78, ../../sass/new_layout/action_boards.scss */
+section#action_board .decision .panel button {
+  width: 100%;
+}

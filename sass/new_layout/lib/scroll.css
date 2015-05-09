@@ -1,0 +1,23 @@
+.transitions #examples{
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+}
+
+.transitions .content{
+	-webkit-transition: all .6s ease-out;
+	-moz-transition: all .6s ease-out;
+	-o-transition: all .6s ease-out;
+	transition: all .6s ease-out;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail{
+	background-color: #eee;
+}
+
+div.mCSB_dragger_bar {
+	background-color: #bbb !important;
+}
+
+#mCSB_1_container{
+	margin-right:	10px;
+}

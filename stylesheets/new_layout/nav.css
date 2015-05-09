@@ -1,0 +1,57 @@
+/* line 1, ../../sass/new_layout/nav.scss */
+body {
+  margin-top: 70px;
+}
+
+/* line 5, ../../sass/new_layout/nav.scss */
+.nav-bg {
+  background-color: #2F3342;
+}
+
+/* line 9, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar {
+  height: 70px;
+}
+/* line 12, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar h1 a {
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+}
+/* line 15, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar h1 a img {
+  height: 42px;
+  padding-top: 0px;
+}
+/* line 20, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar .button {
+  background-color: #F4A63C;
+  margin-right: 20px;
+  margin-top: 14px;
+  padding-top: 5px;
+}
+/* line 26, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar li:not(.title-area) a {
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 300;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+/* line 34, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar ul.right img {
+  margin-top: 14px;
+}
+/* line 38, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar li {
+  background-color: #2F3342;
+}
+/* line 43, ../../sass/new_layout/nav.scss */
+.contain-to-grid nav.top-bar li.indicator a {
+  color: #e5b85c;
+  font-size: 37px;
+  font-weight: 300;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

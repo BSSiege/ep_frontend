@@ -1,0 +1,52 @@
+body{
+  margin-top: 70px;
+}
+
+.nav-bg{
+  background-color: #2F3342;
+}
+
+.contain-to-grid nav.top-bar{
+  height:70px;
+
+  h1 a{
+    padding-top:10px !important;
+    padding-bottom: 15px !important;
+    img{
+      height:42px;
+      padding-top: 0px;
+    }
+  }
+  .button{
+    background-color: #F4A63C;
+    margin-right: 20px;
+    margin-top: 14px;
+    padding-top: 5px;
+  }
+  li:not(.title-area) a{
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 300;
+    height:100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  ul.right img{
+    margin-top:14px
+  }
+
+  li{
+    background-color: #2F3342;
+  }
+
+  li.indicator{
+    a{
+      color:#e5b85c;
+      font-size: 37px;
+      font-weight: 300;
+      text-align: left;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/* line 1, ../../sass/new_layout/components.scss */
+.content-block {
+  padding: 70px;
+}
+
+/* line 5, ../../sass/new_layout/components.scss */
+div.circle {
+  border-radius: 50%;
+  width: 42px;
+  height: 41px;
+  display: inline-block;
+  text-align: center;
+  font-size: 28px;
+  color: #f2f2f2;
+  background-color: #999;
+}
+/* line 15, ../../sass/new_layout/components.scss */
+div.circle.active {
+  background-color: #2f3342;
+}
+
+/* line 20, ../../sass/new_layout/components.scss */
+#action_board div.circle {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 26, ../../sass/new_layout/components.scss */
+div.line {
+  display: inline-block;
+  color: #999;
+}
+
+/* line 31, ../../sass/new_layout/components.scss */
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 14px solid #2f3342;
+}

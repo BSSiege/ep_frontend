@@ -1,0 +1,133 @@
+/* line 1, ../../../sass/new_layout/icon-svg/component.scss */
+.si-icons span, .icon-svg-static.secund {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  padding: 6px 6px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  background-color: #F6F6F6;
+}
+
+/* line 13, ../../../sass/new_layout/icon-svg/component.scss */
+.si-icons span svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* line 17, ../../../sass/new_layout/icon-svg/component.scss */
+.si-icons-hover span {
+  width: 128px;
+  height: 128px;
+  margin: 50px 40px;
+}
+
+/* Fallback for browsers that don't support SVG - Generated with http://iconizr.com/ */
+/* line 25, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-clock {
+  background-image: url("/assets/svg-icons/png/clock.png");
+}
+
+/* line 26, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-contract {
+  background-image: url("/assets/svg-icons/png/contract.png");
+}
+
+/* line 27, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-down-arrow {
+  background-image: url("/assets/svg-icons/png/down-arrow.png");
+}
+
+/* line 28, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-equalizer {
+  background-image: url("/assets/svg-icons/png/equalizer.png");
+}
+
+/* line 29, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-flag {
+  background-image: url("/assets/svg-icons/png/flag.png");
+}
+
+/* line 30, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-glass-empty {
+  background-image: url("/assets/svg-icons/png/glass.png");
+}
+
+/* line 31, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-hamburger, .no-svg .si-icon-hamburger-cross {
+  background-image: url("/assets/svg-icons/png/hamburger.png");
+}
+
+/* line 32, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-hourglass {
+  background-image: url("/assets/svg-icons/png/hourglass.png");
+}
+
+/* line 33, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-mail {
+  background-image: url("/assets/svg-icons/png/mail.png");
+}
+
+/* line 34, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-maximize, .no-svg .si-icon-maximize-rotate {
+  background-image: url("/assets/svg-icons/png/maximize.png");
+}
+
+/* line 35, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-monitor {
+  background-image: url("/assets/svg-icons/png/monitor.png");
+}
+
+/* line 36, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-nav-left-arrow {
+  background-image: url("/assets/svg-icons/png/nav-left-arrow.png");
+}
+
+/* line 37, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-nav-up-arrow {
+  background-image: url("/assets/svg-icons/png/nav-up-arrow.png");
+}
+
+/* line 38, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-lock {
+  background-image: url("/assets/svg-icons/png/padlock.png");
+}
+
+/* line 39, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-play {
+  background-image: url("/assets/svg-icons/png/play.png");
+}
+
+/* line 40, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-plus, .no-svg .si-icon-plus-cross {
+  background-image: url("/assets/svg-icons/png/plus.png");
+}
+
+/* line 41, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-right-arrow {
+  background-image: url("/assets/svg-icons/png/right-arrow.png");
+}
+
+/* line 42, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-smiley {
+  background-image: url("/assets/svg-icons/png/smiley.png");
+}
+
+/* line 43, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-trash {
+  background-image: url("/assets/svg-icons/png/trash.png");
+}
+
+/* line 44, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-volume {
+  background-image: url("/assets/svg-icons/png/volume.png");
+}
+
+/* line 45, ../../../sass/new_layout/icon-svg/component.scss */
+.no-svg .si-icon-zoom {
+  background-image: url("/assets/svg-icons/png/zoom.png");
+}
+
+/* alternatively you can define that there is no background image when SVG is supported instead of using .no-svg */
