@@ -47,7 +47,10 @@ button, .button {
 	&.twitter{
 		@extend %color__background--twitter;
 		@extend %color__font--white;
-		i{ margin-left: -16px}
+		i{ 
+			margin-left: -13px;
+  			margin-top: -2px;
+  		}
 	}
 	&.google{
 		@extend %color__background--google;
