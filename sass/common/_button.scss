@@ -36,7 +36,9 @@ button, .button {
 	}
 
 	// Color
-
+	&.current {
+		background-color: $button-selected;
+	}
 	&.facebook{
 		@extend %color__background--facebook;
 		@extend %color__font--white;

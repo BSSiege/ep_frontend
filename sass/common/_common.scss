@@ -8,6 +8,9 @@ body{
 * a{
 	text-decoration: none;
 	@extend %color__font--link;
+	&:hover{
+		color: $button-selected;
+	}
 }
 img {
 	display: block;
@@ -76,12 +79,20 @@ input {
 .padding__top--60{
 	padding-top: 60px;
 }
+.padding__bottom--60{
+	padding-bottom: 60px;
+}
 .pdding__all--zero {
 	padding: 0;
 }
 // Courser
 .courser--no{
 	cursor: text;
+}
+
+// font size
+.font__size--18px {
+	font-size: 18px;
 }
 
 // font color 

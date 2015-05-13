@@ -1,7 +1,6 @@
 #signup{
   @extend %clearfix;
   @extend .font__color--secondary;
-  // height: 100vh;
   #social{
     a{
       display: block;
@@ -37,4 +36,16 @@
       @include column(9/12, $gutter: 0);
     }
   }
+}
+#login {
+	@extend #signup;
+	.login__container {
+	  .login__container--separator--mannual{
+	    .login__container--separator {
+	      .login__container--separator--box {
+	        min-height: 400px !important;;  
+	      }
+	    }
+	  }
+	}
 }
