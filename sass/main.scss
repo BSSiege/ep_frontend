@@ -1,16 +1,6 @@
-@import 'new_layout/normalize';
-@import 'new_layout/foundation';
-@import 'new_layout/global';
-@import 'new_layout/components';
-@import 'new_layout/nav';
-@import 'new_layout/footer';
-@import 'new_layout/home';
-@import 'new_layout/action_boards';
-@import 'new_layout/icon-svg/component';
-@import 'new_layout/sticky';
-@import 'new_layout/lib/jquery.mCustomScrollbar.min.css';
-@import 'new_layout/lib/scroll.css';
-@import 'new_layout/collapse';
-@import 'new_layout/profile';
-
-// @import "font-awesome";
+@import "compass/reset";
+@import "compass/typography/vertical_rhythm";
+@import "vendor/jeet/index";
+@import "vendor/bourbon/bourbon";
+@import "common/*";
+@import "pages/*";

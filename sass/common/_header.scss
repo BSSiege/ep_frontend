@@ -1,0 +1,23 @@
+header {
+  @extend .background__color--royal-blue;
+  height: 67px;
+  .logo{
+    margin-top: 15px;
+    @extend %clearfix;
+    @extend .display--inblock;
+    @extend .float--left;
+    i{
+      font-size: 40px;
+    }
+  }
+  nav {
+    margin-top: 15px;
+    li{
+      @extend .display--inblock;
+      @extend .margin__right--12;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
