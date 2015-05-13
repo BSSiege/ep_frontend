@@ -463,49 +463,49 @@ button, .button {
 button:hover, .button:hover {
   background-color: #E6B85C;
 }
-/* line 39, ../sass/common/_button.scss */
+/* line 40, ../sass/common/_button.scss */
 button.current, .button.current {
   background-color: #E6B85C;
 }
-/* line 45, ../sass/common/_button.scss */
+/* line 46, ../sass/common/_button.scss */
 button.facebook i, .button.facebook i {
   margin-top: -2px;
 }
-/* line 50, ../sass/common/_button.scss */
+/* line 51, ../sass/common/_button.scss */
 button.twitter i, .button.twitter i {
   margin-left: -13px;
   margin-top: -2px;
 }
-/* line 58, ../sass/common/_button.scss */
+/* line 59, ../sass/common/_button.scss */
 button.google i, .button.google i {
   margin-left: -8px;
 }
-/* line 63, ../sass/common/_button.scss */
+/* line 64, ../sass/common/_button.scss */
 button.linkedin i, .button.linkedin i {
   margin-left: -8px;
   margin-top: -6px;
 }
-/* line 68, ../sass/common/_button.scss */
+/* line 69, ../sass/common/_button.scss */
 button.width--full, .button.width--full {
   width: 100%;
 }
-/* line 69, ../sass/common/_button.scss */
+/* line 70, ../sass/common/_button.scss */
 button.width--half, .button.width--half {
   width: 50%;
 }
-/* line 73, ../sass/common/_button.scss */
+/* line 74, ../sass/common/_button.scss */
 button.padding--66, .button.padding--66 {
   padding: 9px 66px;
 }
-/* line 74, ../sass/common/_button.scss */
+/* line 75, ../sass/common/_button.scss */
 button.icon--right, .button.icon--right {
   padding-right: 8px;
 }
-/* line 75, ../sass/common/_button.scss */
+/* line 76, ../sass/common/_button.scss */
 button.icon--left, .button.icon--left {
   padding-left: 8px;
 }
-/* line 76, ../sass/common/_button.scss */
+/* line 77, ../sass/common/_button.scss */
 button i, .button i {
   height: 100%;
   display: inline-block;
@@ -513,7 +513,7 @@ button i, .button i {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 82, ../sass/common/_button.scss */
+/* line 83, ../sass/common/_button.scss */
 button i.margin__right--0, .button i.margin__right--0 {
   margin-right: 0px;
 }
@@ -967,7 +967,7 @@ input {
 }
 
 /* line 3, ../sass/common/_extends.scss */
-button, .button, .font__color--blue {
+button, .button, button:hover, .button:hover, .font__color--blue {
   color: #1F2533;
 }
 
