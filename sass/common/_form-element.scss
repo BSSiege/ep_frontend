@@ -281,6 +281,63 @@ $secondaryColor: $button-selected;
   float: left;
   margin-top: -7px;
 }
+
+
+
+.select-wrap {
+  display: block;
+  padding: 0;
+  text-align: left;
+  background-color: #FFF;
+  position: relative;
+  width: 100px;
+  @include border-top-radius(5px);
+  @include border-right-radius(5px);
+  @include border-bottom-radius(5px);
+  @include border-left-radius(5px);
+  color: #49758E;
+  &:after {
+    content:"";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color:  #49758E transparent transparent transparent;
+    position: absolute;
+    top: 11px;
+    right: 14px;
+  }
+  &:before {
+    content: "";
+    border-left: 1px solid #49758E;
+    position: absolute;
+    width: 39px;
+    height: 28px;
+    right: 0;
+
+  }
+}
+
+.input-select {
+  color: #49758E;
+
+  padding: 0.6em 0.9em;
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-right: 1px solid #49758E;
+  appearance: none;
+  transition: border-color 400ms, box-shadow 400ms;
+}
+
+
+
+
+
 .radio {
   position: relative;
   margin: 0 1rem 0 0 ;
