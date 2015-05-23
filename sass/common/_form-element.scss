@@ -218,6 +218,69 @@ $secondaryColor: $button-selected;
   }
 }
 
+
+.checkbox2 {
+  position: relative;
+  margin: 0 12px 0 0 ;
+  cursor: pointer;
+  float: left;
+  &:before {
+    // @include transition(transform .4s cubic-bezier(.45,1.8,.5,.75));
+    // @include transform(rotate(-45deg) scale(0, 0));
+    font-family: 'epistocracy';
+    content: "\e616";
+    position: absolute;
+
+    z-index: 1;
+    color: $green;
+    left: -6px;
+    top: -3px;
+    font-size: 17px;
+    display: none;
+    background: #fff;
+  }
+  
+  &:checked {
+    &:after {
+      display: none;
+    }
+    &:before {
+      display: block;
+    } 
+
+  }
+  &:checked + .label--checkbox-text{
+      text-decoration: line-through;
+      color: $green;
+      &:after{
+        content: "";
+        border-bottom: 1px solid $green;
+        width: 100%;
+        display: block;
+        margin-top: -6px;
+        margin-bottom: 5px;
+      }
+    }
+  &:after {
+    display: block;
+    content: "\e617";
+    font-family: 'epistocracy';
+    font-size: 17px;
+    position: absolute;
+    background: #fff;
+    cursor: pointer;
+    left: -6px;
+    top: -3px;
+    @include border-top-radius(5px);
+    @include border-right-radius(5px);
+    @include border-bottom-radius(5px);
+    @include border-left-radius(5px);
+  }
+}
+.checkbox2 + .label--checkbox-text {
+  float: left;
+  margin-top: -7px;
+}
 .radio {
   position: relative;
   margin: 0 1rem 0 0 ;

@@ -67,6 +67,7 @@ button, .button {
 	// Width
 
 	&.width--full { width: 100%;}
+	&.width--full--no-padding { width: 100%; padding: 6px 0}
 	&.width--half { width: 50%;}
 
 	// Extra padding
@@ -81,6 +82,15 @@ button, .button {
 		vertical-align: middle;
 		margin-right: 10px;
 		&.margin__right--0{ margin-right: 0px}
+	}
+}
+.button--close {
+	position: absolute;
+	right: 12px;
+	top: 18px;	
+	a {
+		color: $white;
+		font-size: 18px;
 	}
 }
 

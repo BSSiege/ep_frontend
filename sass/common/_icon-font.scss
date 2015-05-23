@@ -23,22 +23,37 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-e:before {
-  content: "\e600";
-}
-
 // <i class="icon-epistocracy-logo">
 //   <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span>
 // </i>
 
+.icon-uncheck:before {
+  content: "\e617";
+}
+.icon-check:before {
+  content: "\e616";
+}
+.icon-angle-right:before {
+  content: "\e614";
+}
+.icon-angle-up:before {
+  content: "\e615";
+}
+.icon-close:before {
+  content: "\e613";
+}
+.icon-angle-down:before {
+  content: "\e612";
+}
+.icon-angle-left:before {
+  content: "\e611";
+}
 .icon-twitter:before {
   content: "\e610";
 }
-
 .icon-e:before {
   content: "\e600";
 }
-
 .icon-epistocracy-logo .path1:before {
   content: "\e601";
   color: rgb(255, 255, 255);
@@ -98,16 +113,12 @@ i {
   margin-left: -4.1484375em;
   color: rgb(249, 165, 49);
 }
-
 .icon-google:before {
   content: "\e60d";
 }
-
 .icon-linkedin:before {
   content: "\e60e";
 }
-
 .icon-facebook:before {
   content: "\e60f";
 }
-

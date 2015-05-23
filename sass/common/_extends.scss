@@ -8,6 +8,9 @@
 %color__font--dark-bg--secondary { color:  $darkbg-text-secondary}
 %color__font--link { color:  $link}
 %color__font--white { color:  $white}
+%color__font--yellow { color:  $button-selected}
+%color__font--icon-blue { color:  $blue}
+%color__font--green { color:  $green}
 
 // Social
 %color__font--facebook { color: $facebook; }
@@ -22,6 +25,8 @@
 
 %color__background--main { background-color: $backgound; }
 %color__background--royal-blue { background-color: $text; }
+%color__background--white { background-color: $white; }
+%color__background--icon-blue { background-color:  $blue}
 
 // Social
 %color__background--facebook { background-color: $facebook; }

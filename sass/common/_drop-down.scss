@@ -1,0 +1,73 @@
+
+.wrapper-dropdon-2 {
+    position: relative;
+    width: 10px;
+    margin: 3px auto;
+    padding: 10px 15px;
+ 
+    /* Styles */
+    cursor: pointer;
+    outline: none;
+}
+.wrapper-dropdon-2:after {
+    font-family: 'epistocracy';
+    content: "\e612";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 25px;
+    color: white;
+    // margin-top: -3px;
+    // border-width: 6px 6px 0 6px;
+    // border-style: solid;
+    // border-color: grey transparent;
+}
+.wrapper-dropdon-2 .dropdon {
+  /* Size & position */
+    position: absolute;
+    top: 22px;
+    left: -179px;
+    right: 0px;
+ 
+    /* Styles */
+    background: white;
+    transition: all 0.3s ease-out;
+    list-style: none;
+    border: 1px solid #D9D9D9;
+ 
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+.wrapper-dropdon-2 .dropdon li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: all 0.3s ease-out;
+}
+ 
+ 
+.wrapper-dropdon-2 .dropdon li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+}
+ 
+/* Hover state */
+ 
+.wrapper-dropdon-2 .dropdon li:hover a {
+    color: #F2F2F2;
+    background-color: #49758E;
+}
+.wrapper-dropdon-2.active:after {
+    font-family: 'epistocracy';
+    content:  "\e615";
+}
+ 
+.wrapper-dropdon-2.active .dropdon {
+    opacity: 1;
+    pointer-events: auto;
+}

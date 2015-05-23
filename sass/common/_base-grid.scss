@@ -12,12 +12,13 @@
 
 // Full sized info boxes example in student/activity
 .content__info__wrapper--full {
-	width: 95%;
-	padding: 5% 2.5%;
+	width: 90%;
+	padding: 5% 5%;
 	@extend %clearfix;
-	&.box-shadow--none{
-		@include box-shadow($color: rgba(#000, 0));
-	}
+}
+.content__info__wrapper--full--no-padding {
+	width: 100%;
+	@extend %clearfix;
 }
 // Half sized info boxes example in student/activity
 .content__info__wrapper--half {
