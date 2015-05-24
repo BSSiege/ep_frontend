@@ -207,8 +207,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 11, ../sass/common/_avatar.scss */
 .user-avatar.extra-large {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 /* line 15, ../sass/common/_avatar.scss */
 .user-avatar.large {
@@ -453,6 +453,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: both;
 }
 
+/* line 40, ../sass/common/_base-grid.scss */
+.content__info__wrapper--twothird-with-gutter {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 65.0%;
+  margin-left: 0%;
+  margin-right: 5%;
+}
+/* line 344, ../sass/vendor/jeet/_grid.scss */
+.content__info__wrapper--twothird-with-gutter:before, .content__info__wrapper--twothird-with-gutter:after {
+  content: '';
+  display: table;
+}
+/* line 349, ../sass/vendor/jeet/_grid.scss */
+.content__info__wrapper--twothird-with-gutter:after {
+  clear: both;
+}
+/* line 50, ../sass/vendor/jeet/_grid.scss */
+.content__info__wrapper--twothird-with-gutter:nth-of-type(3n) {
+  margin-right: 0%;
+  float: right;
+}
+/* line 54, ../sass/vendor/jeet/_grid.scss */
+.content__info__wrapper--twothird-with-gutter:nth-of-type(3n + 1) {
+  clear: both;
+}
+
 /* line 4, ../sass/common/_button.scss */
 button {
   width: auto;
@@ -611,506 +640,521 @@ input {
   clear: both;
 }
 
-/* line 34, ../sass/common/_common.scss */
+/* line 32, ../sass/common/_common.scss */
+.clear--none {
+  clear: none !important;
+}
+
+/* line 37, ../sass/common/_common.scss */
 .underline {
   text-decoration: underline;
 }
 
-/* line 35, ../sass/common/_common.scss */
+/* line 38, ../sass/common/_common.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 38, ../sass/common/_common.scss */
+/* line 41, ../sass/common/_common.scss */
 .float--right {
   float: right;
 }
 
-/* line 39, ../sass/common/_common.scss */
+/* line 42, ../sass/common/_common.scss */
 .float--left, header .logo {
   float: left;
 }
 
-/* line 40, ../sass/common/_common.scss */
+/* line 43, ../sass/common/_common.scss */
 .float--none {
   float: none;
 }
 
-/* line 43, ../sass/common/_common.scss */
+/* line 46, ../sass/common/_common.scss */
 .float__imp--right {
   float: right !important;
 }
 
-/* line 44, ../sass/common/_common.scss */
+/* line 47, ../sass/common/_common.scss */
 .float__imp--left {
   float: left !important;
 }
 
-/* line 45, ../sass/common/_common.scss */
+/* line 48, ../sass/common/_common.scss */
 .float__imp--none {
   float: none !important;
 }
 
-/* line 48, ../sass/common/_common.scss */
+/* line 51, ../sass/common/_common.scss */
 .font__align--center, .card {
   text-align: center;
 }
 
-/* line 49, ../sass/common/_common.scss */
+/* line 52, ../sass/common/_common.scss */
 .font__align--left {
   text-align: left;
 }
 
-/* line 50, ../sass/common/_common.scss */
+/* line 53, ../sass/common/_common.scss */
 .font__align--right {
   text-align: right;
 }
 
-/* line 53, ../sass/common/_common.scss */
+/* line 56, ../sass/common/_common.scss */
 .font__weight--100 {
   font-weight: 100;
 }
 
-/* line 54, ../sass/common/_common.scss */
+/* line 57, ../sass/common/_common.scss */
 .font__weight--300 {
   font-weight: 300;
 }
 
-/* line 55, ../sass/common/_common.scss */
+/* line 58, ../sass/common/_common.scss */
 .font__weight--400 {
   font-weight: 400;
 }
 
-/* line 56, ../sass/common/_common.scss */
+/* line 59, ../sass/common/_common.scss */
 .font__weight--700 {
   font-weight: 700;
 }
 
-/* line 57, ../sass/common/_common.scss */
+/* line 60, ../sass/common/_common.scss */
 .font__weight--900 {
   font-weight: 900;
 }
 
-/* line 60, ../sass/common/_common.scss */
+/* line 63, ../sass/common/_common.scss */
 .margin__left--3 {
   margin-left: 3px;
 }
 
-/* line 61, ../sass/common/_common.scss */
+/* line 64, ../sass/common/_common.scss */
 .margin__top--4 {
   margin-top: 4px;
 }
 
-/* line 62, ../sass/common/_common.scss */
+/* line 65, ../sass/common/_common.scss */
 .margin__auto--top0 {
   margin: 0 auto;
 }
 
-/* line 63, ../sass/common/_common.scss */
+/* line 66, ../sass/common/_common.scss */
 .margin__top--30 {
   margin-top: 30px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--0 {
   margin-top: 0px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--6 {
   margin-top: 6px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--12 {
   margin-top: 12px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--18 {
   margin-top: 18px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--24 {
   margin-top: 24px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--30 {
   margin-top: 30px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--36 {
   margin-top: 36px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--42 {
   margin-top: 42px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--48 {
   margin-top: 48px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--54 {
   margin-top: 54px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__top--60 {
   margin-top: 60px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--0 {
   margin-bottom: 0px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--6 {
   margin-bottom: 6px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--12 {
   margin-bottom: 12px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--18 {
   margin-bottom: 18px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--24 {
   margin-bottom: 24px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--30, .devider--dashed--bottom, .stances, .card {
   margin-bottom: 30px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--36 {
   margin-bottom: 36px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--42 {
   margin-bottom: 42px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--48 {
   margin-bottom: 48px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--54 {
   margin-bottom: 54px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__bottom--60 {
   margin-bottom: 60px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--0 {
   margin-left: 0px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--6 {
   margin-left: 6px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--12 {
   margin-left: 12px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--18 {
   margin-left: 18px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--24 {
   margin-left: 24px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--30 {
   margin-left: 30px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--36 {
   margin-left: 36px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--42 {
   margin-left: 42px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--48 {
   margin-left: 48px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--54 {
   margin-left: 54px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__left--60 {
   margin-left: 60px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--0 {
   margin-right: 0px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--6 {
   margin-right: 6px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--12, header nav li {
   margin-right: 12px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--18 {
   margin-right: 18px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--24 {
   margin-right: 24px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--30 {
   margin-right: 30px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--36 {
   margin-right: 36px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--42 {
   margin-right: 42px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--48 {
   margin-right: 48px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--54 {
   margin-right: 54px;
 }
 
-/* line 67, ../sass/common/_common.scss */
+/* line 70, ../sass/common/_common.scss */
 .margin__right--60 {
   margin-right: 60px;
 }
 
-/* line 77, ../sass/common/_common.scss */
+/* line 80, ../sass/common/_common.scss */
 .padding__right--30 {
   padding-right: 30px;
 }
 
-/* line 80, ../sass/common/_common.scss */
+/* line 83, ../sass/common/_common.scss */
 .padding__top--60 {
   padding-top: 60px;
 }
 
-/* line 83, ../sass/common/_common.scss */
+/* line 86, ../sass/common/_common.scss */
 .padding__bottom--60 {
   padding-bottom: 60px;
 }
 
-/* line 86, ../sass/common/_common.scss */
+/* line 89, ../sass/common/_common.scss */
+.padding__bottom--30 {
+  padding-bottom: 30px;
+}
+
+/* line 92, ../sass/common/_common.scss */
 .padding__bottom--12 {
   padding-bottom: 12px;
 }
 
-/* line 89, ../sass/common/_common.scss */
+/* line 95, ../sass/common/_common.scss */
 .pdding__all--zero {
   padding: 0;
 }
 
-/* line 92, ../sass/common/_common.scss */
+/* line 98, ../sass/common/_common.scss */
 .padding__point25 {
   padding: 1% 3%;
   width: 94%;
 }
 
-/* line 97, ../sass/common/_common.scss */
+/* line 103, ../sass/common/_common.scss */
 .courser--no {
   cursor: text;
 }
 
-/* line 102, ../sass/common/_common.scss */
+/* line 108, ../sass/common/_common.scss */
 .font__size--12px {
   font-size: 12px;
 }
 
-/* line 105, ../sass/common/_common.scss */
+/* line 111, ../sass/common/_common.scss */
 .font__size--14px {
   font-size: 14px;
 }
 
-/* line 108, ../sass/common/_common.scss */
+/* line 114, ../sass/common/_common.scss */
 .font__size--16px {
   font-size: 16px;
 }
 
-/* line 111, ../sass/common/_common.scss */
+/* line 117, ../sass/common/_common.scss */
 .font__size--18px {
   font-size: 18px;
 }
 
-/* line 114, ../sass/common/_common.scss */
+/* line 120, ../sass/common/_common.scss */
 .font__size--24px {
   font-size: 24px;
 }
 
-/* line 117, ../sass/common/_common.scss */
+/* line 123, ../sass/common/_common.scss */
 .font__size--30px {
   font-size: 30px;
 }
 
-/* line 120, ../sass/common/_common.scss */
+/* line 126, ../sass/common/_common.scss */
 .font__size--37px {
   font-size: 37px;
 }
 
-/* line 123, ../sass/common/_common.scss */
+/* line 129, ../sass/common/_common.scss */
 .font__size--100px {
   font-size: 100px;
 }
 
-/* line 127, ../sass/common/_common.scss */
+/* line 133, ../sass/common/_common.scss */
 .line__height--105em {
   line-height: 1.5em;
 }
 
-/* line 130, ../sass/common/_common.scss */
+/* line 136, ../sass/common/_common.scss */
 .line__height--1em {
   line-height: 1em;
 }
 
-/* line 141, ../sass/common/_common.scss */
+/* line 147, ../sass/common/_common.scss */
 .font__color--white--opacity--point35 {
   color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 178, ../sass/common/_common.scss */
+/* line 187, ../sass/common/_common.scss */
 .text__align--left {
   text-align: left;
 }
 
-/* line 181, ../sass/common/_common.scss */
+/* line 190, ../sass/common/_common.scss */
 .text__align--right {
   text-align: right;
 }
 
-/* line 184, ../sass/common/_common.scss */
+/* line 193, ../sass/common/_common.scss */
 .text__align--center {
   text-align: center;
 }
 
-/* line 187, ../sass/common/_common.scss */
+/* line 196, ../sass/common/_common.scss */
 .text__align--justify {
   text-align: justify;
 }
 
-/* line 193, ../sass/common/_common.scss */
+/* line 202, ../sass/common/_common.scss */
 .display--block {
   display: block;
 }
 
-/* line 196, ../sass/common/_common.scss */
+/* line 205, ../sass/common/_common.scss */
 .display--inblock, header .logo, header nav li {
   display: inline-block;
 }
 
-/* line 199, ../sass/common/_common.scss */
+/* line 208, ../sass/common/_common.scss */
 .display--table {
   display: table;
 }
 
-/* line 202, ../sass/common/_common.scss */
+/* line 211, ../sass/common/_common.scss */
 .display--table-cell {
   display: table-cell;
 }
 
-/* line 206, ../sass/common/_common.scss */
+/* line 215, ../sass/common/_common.scss */
 .align__vertical--middle {
   vertical-align: middle;
 }
 
-/* line 210, ../sass/common/_common.scss */
+/* line 219, ../sass/common/_common.scss */
 .position--relative {
   position: relative;
 }
 
-/* line 214, ../sass/common/_common.scss */
+/* line 223, ../sass/common/_common.scss */
 .visibility--hidden {
   visibility: hidden;
 }
 
-/* line 218, ../sass/common/_common.scss */
+/* line 227, ../sass/common/_common.scss */
 .devider--dashed--bottom {
   height: 0;
   width: 100%;
   border-bottom: 2px dashed #D9D9D9;
 }
 
-/* line 224, ../sass/common/_common.scss */
+/* line 233, ../sass/common/_common.scss */
 .devider--line--bottom {
   height: 0;
   width: 100%;
   border-bottom: 1px solid #1F2533;
 }
 
-/* line 229, ../sass/common/_common.scss */
+/* line 238, ../sass/common/_common.scss */
 .devider--right {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
 }
 
-/* line 232, ../sass/common/_common.scss */
+/* line 241, ../sass/common/_common.scss */
 .devider--left--inset {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 236, ../sass/common/_common.scss */
+/* line 244, ../sass/common/_common.scss */
+.border--bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 248, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 240, ../sass/common/_common.scss */
+/* line 252, ../sass/common/_common.scss */
 .border-red {
   border: 1px solid red;
 }
@@ -1125,8 +1169,7 @@ input {
   cursor: pointer;
   outline: none;
 }
-
-/* line 12, ../sass/common/_drop-down.scss */
+/* line 11, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2:after {
   font-family: 'epistocracy';
   content: "\e612";
@@ -1138,7 +1181,6 @@ input {
   font-size: 25px;
   color: white;
 }
-
 /* line 27, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon {
   /* Size & position */
@@ -1155,8 +1197,11 @@ input {
   opacity: 0;
   pointer-events: none;
 }
-
-/* line 44, ../sass/common/_drop-down.scss */
+/* line 43, ../sass/common/_drop-down.scss */
+.wrapper-dropdon-2 .dropdon li {
+  padding: 10px;
+}
+/* line 45, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li a {
   display: block;
   text-decoration: none;
@@ -1164,28 +1209,23 @@ input {
   padding: 10px;
   transition: all 0.3s ease-out;
 }
-
-/* line 53, ../sass/common/_drop-down.scss */
+/* line 52, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li i {
   margin-right: 5px;
   color: inherit;
   vertical-align: middle;
 }
-
-/* Hover state */
-/* line 61, ../sass/common/_drop-down.scss */
+/* line 57, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li:hover a {
   color: #F2F2F2;
   background-color: #49758E;
 }
-
-/* line 65, ../sass/common/_drop-down.scss */
+/* line 64, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active:after {
   font-family: 'epistocracy';
   content: "\e615";
 }
-
-/* line 70, ../sass/common/_drop-down.scss */
+/* line 68, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active .dropdon {
   opacity: 1;
   pointer-events: auto;
@@ -1197,7 +1237,7 @@ button, .button, button:hover, .button:hover, .font__color--blue, .card {
 }
 
 /* line 4, ../sass/common/_extends.scss */
-.font__color--secondary, #signup, #login {
+.font__color--secondary, .wrapper-dropdon-2.secondary:after, #signup, #login {
   color: #999999;
 }
 
@@ -1267,27 +1307,32 @@ body {
   background-color: #49758E;
 }
 
-/* line 32, ../sass/common/_extends.scss */
+/* line 30, ../sass/common/_extends.scss */
+.background__color--gray {
+  background-color: #BFBFBF;
+}
+
+/* line 33, ../sass/common/_extends.scss */
 button.facebook, .button.facebook {
   background-color: #3b5998;
 }
 
-/* line 33, ../sass/common/_extends.scss */
+/* line 34, ../sass/common/_extends.scss */
 button.twitter, .button.twitter {
   background-color: #55acee;
 }
 
-/* line 34, ../sass/common/_extends.scss */
+/* line 35, ../sass/common/_extends.scss */
 button.linkedin, .button.linkedin {
   background-color: #0077B5;
 }
 
-/* line 35, ../sass/common/_extends.scss */
+/* line 36, ../sass/common/_extends.scss */
 button.google, .button.google {
   background-color: #db4437;
 }
 
-/* line 48, ../sass/common/_extends.scss */
+/* line 49, ../sass/common/_extends.scss */
 .content__info__wrapper--full:after, .card:after, .content__info__wrapper--full--no-padding:after, header .logo:after, #signup:after, #login:after {
   content: "";
   display: table;
@@ -1691,30 +1736,22 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
 }
 /* line 299, ../sass/common/_form-element.scss */
 .select-wrap:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: 7px solid transparent;
-  border-color: #49758E transparent transparent transparent;
-  position: absolute;
-  top: 11px;
-  right: 14px;
-}
-/* line 309, ../sass/common/_form-element.scss */
-.select-wrap:before {
-  content: "";
+  font-family: 'epistocracy';
+  content: "\e618";
+  width: 0px;
+  height: 24px;
   border-left: 1px solid #49758E;
-  position: absolute;
-  width: 39px;
-  height: 28px;
-  right: 0;
+  font-size: 28px;
+  float: right;
+  margin-right: 38px;
+  margin-top: -25px;
 }
 
-/* line 320, ../sass/common/_form-element.scss */
+/* line 312, ../sass/common/_form-element.scss */
 .input-select {
   color: #49758E;
   padding: 0.6em 0.9em;
-  width: 100%;
+  width: 120%;
   cursor: pointer;
   background: transparent;
   border: 1px solid transparent;
@@ -1727,13 +1764,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   transition: border-color 400ms, box-shadow 400ms;
 }
 
-/* line 341, ../sass/common/_form-element.scss */
+/* line 333, ../sass/common/_form-element.scss */
 .radio {
   position: relative;
   margin: 0 1rem 0 0;
   cursor: pointer;
 }
-/* line 345, ../sass/common/_form-element.scss */
+/* line 337, ../sass/common/_form-element.scss */
 .radio:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -1753,7 +1790,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   background: #1F2533;
   border-radius: 50%;
 }
-/* line 360, ../sass/common/_form-element.scss */
+/* line 352, ../sass/common/_form-element.scss */
 .radio:checked:before {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -1761,7 +1798,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 365, ../sass/common/_form-element.scss */
+/* line 357, ../sass/common/_form-element.scss */
 .radio:after {
   content: "";
   position: absolute;
@@ -1843,8 +1880,8 @@ header nav .notification {
 
 @font-face {
   font-family: 'epistocracy';
-  src: url('../fonts/epistocracy.eot?-a5tqu5&1432305206');
-  src: url('../fonts/epistocracy.eot?&1432305206#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1432305206') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1432305206') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1432305206#epistocracy-10') format("svg");
+  src: url('../fonts/epistocracy.eot?-a5tqu5&1432484892');
+  src: url('../fonts/epistocracy.eot?&1432484892#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1432484892') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1432484892') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1432484892#epistocracy-10') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1863,144 +1900,159 @@ i {
 }
 
 /* line 30, ../sass/common/_icon-font.scss */
+.icon-arrow-down:before {
+  content: "\e61a";
+}
+
+/* line 33, ../sass/common/_icon-font.scss */
+.icon-arrow-up:before {
+  content: "\e619";
+}
+
+/* line 36, ../sass/common/_icon-font.scss */
+.icon-caret-down:before {
+  content: "\e618";
+}
+
+/* line 39, ../sass/common/_icon-font.scss */
 .icon-uncheck:before {
   content: "\e617";
 }
 
-/* line 33, ../sass/common/_icon-font.scss */
+/* line 42, ../sass/common/_icon-font.scss */
 .icon-check:before {
   content: "\e616";
 }
 
-/* line 36, ../sass/common/_icon-font.scss */
+/* line 45, ../sass/common/_icon-font.scss */
 .icon-angle-right:before {
   content: "\e614";
 }
 
-/* line 39, ../sass/common/_icon-font.scss */
+/* line 48, ../sass/common/_icon-font.scss */
 .icon-angle-up:before {
   content: "\e615";
 }
 
-/* line 42, ../sass/common/_icon-font.scss */
+/* line 51, ../sass/common/_icon-font.scss */
 .icon-close:before {
   content: "\e613";
 }
 
-/* line 45, ../sass/common/_icon-font.scss */
+/* line 54, ../sass/common/_icon-font.scss */
 .icon-angle-down:before {
   content: "\e612";
 }
 
-/* line 48, ../sass/common/_icon-font.scss */
+/* line 57, ../sass/common/_icon-font.scss */
 .icon-angle-left:before {
   content: "\e611";
 }
 
-/* line 51, ../sass/common/_icon-font.scss */
+/* line 60, ../sass/common/_icon-font.scss */
 .icon-twitter:before {
   content: "\e610";
 }
 
-/* line 54, ../sass/common/_icon-font.scss */
+/* line 63, ../sass/common/_icon-font.scss */
 .icon-e:before {
   content: "\e600";
 }
 
-/* line 57, ../sass/common/_icon-font.scss */
+/* line 66, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path1:before {
   content: "\e601";
   color: white;
 }
 
-/* line 61, ../sass/common/_icon-font.scss */
+/* line 70, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path2:before {
   content: "\e602";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 66, ../sass/common/_icon-font.scss */
+/* line 75, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path3:before {
   content: "\e603";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 71, ../sass/common/_icon-font.scss */
+/* line 80, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path4:before {
   content: "\e604";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 76, ../sass/common/_icon-font.scss */
+/* line 85, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path5:before {
   content: "\e605";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 81, ../sass/common/_icon-font.scss */
+/* line 90, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path6:before {
   content: "\e606";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 86, ../sass/common/_icon-font.scss */
+/* line 95, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path7:before {
   content: "\e607";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 91, ../sass/common/_icon-font.scss */
+/* line 100, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path8:before {
   content: "\e608";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 96, ../sass/common/_icon-font.scss */
+/* line 105, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path9:before {
   content: "\e609";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 101, ../sass/common/_icon-font.scss */
+/* line 110, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path10:before {
   content: "\e60a";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 106, ../sass/common/_icon-font.scss */
+/* line 115, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path11:before {
   content: "\e60b";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 111, ../sass/common/_icon-font.scss */
+/* line 120, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path12:before {
   content: "\e60c";
   margin-left: -4.1484375em;
   color: #f9a531;
 }
 
-/* line 116, ../sass/common/_icon-font.scss */
+/* line 125, ../sass/common/_icon-font.scss */
 .icon-google:before {
   content: "\e60d";
 }
 
-/* line 119, ../sass/common/_icon-font.scss */
+/* line 128, ../sass/common/_icon-font.scss */
 .icon-linkedin:before {
   content: "\e60e";
 }
 
-/* line 122, ../sass/common/_icon-font.scss */
+/* line 131, ../sass/common/_icon-font.scss */
 .icon-facebook:before {
   content: "\e60f";
 }
@@ -2251,6 +2303,24 @@ blockquote {
 /* line 54, ../sass/pages/_action-board.scss */
 .name__box {
   min-height: 60px;
+}
+
+/* line 1, ../sass/pages/_profile.scss */
+.followers {
+  display: inline-block;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  margin-top: 12px;
 }
 
 /* line 5, ../sass/pages/_signup-login.scss */

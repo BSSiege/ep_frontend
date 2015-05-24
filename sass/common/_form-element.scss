@@ -297,23 +297,15 @@ $secondaryColor: $button-selected;
   @include border-left-radius(5px);
   color: #49758E;
   &:after {
-    content:"";
-    width: 0;
-    height: 0;
-    border: 7px solid transparent;
-    border-color:  #49758E transparent transparent transparent;
-    position: absolute;
-    top: 11px;
-    right: 14px;
-  }
-  &:before {
-    content: "";
-    border-left: 1px solid #49758E;
-    position: absolute;
-    width: 39px;
-    height: 28px;
-    right: 0;
-
+      font-family: 'epistocracy';
+      content: "\e618";
+      width: 0px;
+      height: 24px;
+      border-left: 1px solid #49758E;
+      font-size: 28px;
+      float: right;
+      margin-right: 38px;
+      margin-top: -25px;
   }
 }
 
@@ -321,7 +313,7 @@ $secondaryColor: $button-selected;
   color: #49758E;
 
   padding: 0.6em 0.9em;
-  width: 100%;
+  width: 120%;
   cursor: pointer;
   background: transparent;
   border: 1px solid transparent;
