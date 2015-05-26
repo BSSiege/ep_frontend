@@ -1186,7 +1186,7 @@ input {
   /* Size & position */
   position: absolute;
   top: 22px;
-  left: -179px;
+  left: -115px;
   right: 0px;
   /* Styles */
   background: white;
@@ -1200,8 +1200,10 @@ input {
 /* line 43, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li {
   padding: 10px;
+  border-bottom: 1px solid #D9D9D9;
+  text-align: left;
 }
-/* line 45, ../sass/common/_drop-down.scss */
+/* line 47, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li a {
   display: block;
   text-decoration: none;
@@ -1209,25 +1211,26 @@ input {
   padding: 10px;
   transition: all 0.3s ease-out;
 }
-/* line 52, ../sass/common/_drop-down.scss */
+/* line 54, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li i {
   margin-right: 5px;
   color: inherit;
   vertical-align: middle;
 }
-/* line 57, ../sass/common/_drop-down.scss */
-.wrapper-dropdon-2 .dropdon li:hover a {
+/* line 59, ../sass/common/_drop-down.scss */
+.wrapper-dropdon-2 .dropdon li:hover {
   color: #F2F2F2;
   background-color: #49758E;
 }
-/* line 64, ../sass/common/_drop-down.scss */
+/* line 66, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active:after {
   font-family: 'epistocracy';
   content: "\e615";
 }
-/* line 68, ../sass/common/_drop-down.scss */
+/* line 70, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active .dropdon {
   opacity: 1;
+  width: 140px;
   pointer-events: auto;
 }
 
