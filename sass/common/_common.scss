@@ -182,6 +182,9 @@ input {
 .background__color--gray {
 	@extend %color__background--gray;
 }
+.background__color--green {
+	@extend %color__background--green;
+}
 
 // Align
 .text__align--left {

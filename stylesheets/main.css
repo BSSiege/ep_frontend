@@ -1061,100 +1061,100 @@ input {
   color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 187, ../sass/common/_common.scss */
+/* line 190, ../sass/common/_common.scss */
 .text__align--left {
   text-align: left;
 }
 
-/* line 190, ../sass/common/_common.scss */
+/* line 193, ../sass/common/_common.scss */
 .text__align--right {
   text-align: right;
 }
 
-/* line 193, ../sass/common/_common.scss */
+/* line 196, ../sass/common/_common.scss */
 .text__align--center {
   text-align: center;
 }
 
-/* line 196, ../sass/common/_common.scss */
+/* line 199, ../sass/common/_common.scss */
 .text__align--justify {
   text-align: justify;
 }
 
-/* line 202, ../sass/common/_common.scss */
+/* line 205, ../sass/common/_common.scss */
 .display--block {
   display: block;
 }
 
-/* line 205, ../sass/common/_common.scss */
+/* line 208, ../sass/common/_common.scss */
 .display--inblock, header .logo, header nav li {
   display: inline-block;
 }
 
-/* line 208, ../sass/common/_common.scss */
+/* line 211, ../sass/common/_common.scss */
 .display--table {
   display: table;
 }
 
-/* line 211, ../sass/common/_common.scss */
+/* line 214, ../sass/common/_common.scss */
 .display--table-cell {
   display: table-cell;
 }
 
-/* line 215, ../sass/common/_common.scss */
+/* line 218, ../sass/common/_common.scss */
 .align__vertical--middle {
   vertical-align: middle;
 }
 
-/* line 219, ../sass/common/_common.scss */
+/* line 222, ../sass/common/_common.scss */
 .position--relative {
   position: relative;
 }
 
-/* line 223, ../sass/common/_common.scss */
+/* line 226, ../sass/common/_common.scss */
 .visibility--hidden {
   visibility: hidden;
 }
 
-/* line 227, ../sass/common/_common.scss */
+/* line 230, ../sass/common/_common.scss */
 .devider--dashed--bottom {
   height: 0;
   width: 100%;
   border-bottom: 2px dashed #D9D9D9;
 }
 
-/* line 233, ../sass/common/_common.scss */
+/* line 236, ../sass/common/_common.scss */
 .devider--line--bottom {
   height: 0;
   width: 100%;
   border-bottom: 1px solid #1F2533;
 }
 
-/* line 238, ../sass/common/_common.scss */
+/* line 241, ../sass/common/_common.scss */
 .devider--right {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
 }
 
-/* line 241, ../sass/common/_common.scss */
+/* line 244, ../sass/common/_common.scss */
 .devider--left--inset {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 244, ../sass/common/_common.scss */
+/* line 247, ../sass/common/_common.scss */
 .border--bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 248, ../sass/common/_common.scss */
+/* line 251, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 252, ../sass/common/_common.scss */
+/* line 255, ../sass/common/_common.scss */
 .border-red {
   border: 1px solid red;
 }
@@ -1315,27 +1315,32 @@ body {
   background-color: #BFBFBF;
 }
 
-/* line 33, ../sass/common/_extends.scss */
+/* line 31, ../sass/common/_extends.scss */
+.background__color--green {
+  background-color: #97A552;
+}
+
+/* line 34, ../sass/common/_extends.scss */
 button.facebook, .button.facebook {
   background-color: #3b5998;
 }
 
-/* line 34, ../sass/common/_extends.scss */
+/* line 35, ../sass/common/_extends.scss */
 button.twitter, .button.twitter {
   background-color: #55acee;
 }
 
-/* line 35, ../sass/common/_extends.scss */
+/* line 36, ../sass/common/_extends.scss */
 button.linkedin, .button.linkedin {
   background-color: #0077B5;
 }
 
-/* line 36, ../sass/common/_extends.scss */
+/* line 37, ../sass/common/_extends.scss */
 button.google, .button.google {
   background-color: #db4437;
 }
 
-/* line 49, ../sass/common/_extends.scss */
+/* line 50, ../sass/common/_extends.scss */
 .content__info__wrapper--full:after, .card:after, .content__info__wrapper--full--no-padding:after, header .logo:after, #signup:after, #login:after {
   content: "";
   display: table;
