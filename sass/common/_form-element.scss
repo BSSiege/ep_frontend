@@ -366,3 +366,44 @@ $secondaryColor: $button-selected;
     border-radius: 50%;
   }
 }
+
+
+// @import "compass/css3";
+
+// @import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+$iconColor: #fff;
+$color: #8FC357;
+.search {
+  width: 100%;
+  position: relative;
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'epistocracy';
+    content: '\e61b';
+    background: transparent;
+    text-align: center;
+    color: $text-hints;
+    border-left: 1px solid $text-hints;
+  }
+}
+.searchTerm {
+  width: 96%;
+  border: 1px solid $button-border;
+  padding: 2%;
+  height: 20px;
+  outline: none;
+}
+.searchButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  cursor: pointer;
+}

@@ -4,6 +4,16 @@ $( document ).ready(function() {
   /*	Scrollbar design 
    /* --------------------------------------------------- */
    $(".nano").nanoScroller();
+
+   // TOOL TIp
+
+  $('.tooltips').append("<span></span>");
+  $('.tooltips:not([tooltip-position])').attr('tooltip-position','bottom');
+
+
+  $(".tooltips").mouseenter(function(){
+    $(this).find('span').empty().append($(this).attr('tooltip'));
+  });
  	
  	// $(".stances").flip({
  	// 	reverse: true
