@@ -26,6 +26,12 @@ textarea{
   &.width--full{
     width: 100%;
   }
+  &.border__radius--no {
+    @include border-top-radius(0px);
+    @include border-right-radius(0px);
+    @include border-bottom-radius(0px);
+    @include border-left-radius(0px); 
+  }
 }
 .input--text, 
 input[type=text],

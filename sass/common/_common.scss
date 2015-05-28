@@ -5,6 +5,17 @@ body{
 	@include font($lato);
 	@extend %color__background--main;
 }
+* {
+    -webkit-text-size-adjust: none;
+
+-moz-text-size-adjust: none;
+
+-webkit-text-size-adjust: none;
+
+-ms-text-size-adjust: none;
+
+font-size-adjust: none;
+}
 * a{
 	text-decoration: none;
 	@extend %color__font--link;
@@ -251,10 +262,25 @@ input {
 .width__special--full {
 	width: 100%;
 }
-// Demo
-.border-red {
-	border: 1px solid red;
+
+// Icon holder
+.icon__box {
+	width: 160px;
+	margin: 30px auto;
+	display: inline-block;
+	.icon__box--holder{
+		width: 21px;
+		height: 21px;
+		margin: 0 auto;
+		border: 1px solid $blue;
+		float: left;
+		margin-right: 10px;
+		padding: 10px;
+		font-size: 25px;
+		&.selected {
+			background-color: $blue;
+			color: $white;
+		}
+	}
 }
-
-
 
