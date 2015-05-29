@@ -179,6 +179,9 @@ input {
 .font__color--green {
 	@extend %color__font--green;
 }
+.font__color--red {
+	@extend %color__font--red;
+}
 
 //
 .background__color--royal-blue {
