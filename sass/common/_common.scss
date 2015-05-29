@@ -247,6 +247,9 @@ input {
 	width: 100%;
 	border-bottom: 2px dashed $button-border
 }
+.border--all{
+	border: 1px solid $button-border;
+}
 .devider--line--bottom{
 	height: 0;
 	width: 100%;

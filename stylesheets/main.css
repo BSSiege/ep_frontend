@@ -547,32 +547,38 @@ button.linkedin i, .button.linkedin i {
   margin-left: -8px;
   margin-top: -6px;
 }
-/* line 69, ../sass/common/_button.scss */
+/* line 67, ../sass/common/_button.scss */
+button.plus i, .button.plus i {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -3px;
+}
+/* line 76, ../sass/common/_button.scss */
 button.width--full, .button.width--full {
   width: 100%;
 }
-/* line 70, ../sass/common/_button.scss */
+/* line 77, ../sass/common/_button.scss */
 button.width--full--no-padding, .button.width--full--no-padding {
   width: 100%;
   padding: 6px 0;
 }
-/* line 71, ../sass/common/_button.scss */
+/* line 78, ../sass/common/_button.scss */
 button.width--half, .button.width--half {
   width: 50%;
 }
-/* line 75, ../sass/common/_button.scss */
+/* line 82, ../sass/common/_button.scss */
 button.padding--66, .button.padding--66 {
   padding: 9px 66px;
 }
-/* line 76, ../sass/common/_button.scss */
+/* line 83, ../sass/common/_button.scss */
 button.icon--right, .button.icon--right {
   padding-right: 8px;
 }
-/* line 77, ../sass/common/_button.scss */
+/* line 84, ../sass/common/_button.scss */
 button.icon--left, .button.icon--left {
   padding-left: 8px;
 }
-/* line 78, ../sass/common/_button.scss */
+/* line 85, ../sass/common/_button.scss */
 button i, .button i {
   height: 100%;
   display: inline-block;
@@ -580,18 +586,18 @@ button i, .button i {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 84, ../sass/common/_button.scss */
+/* line 91, ../sass/common/_button.scss */
 button i.margin__right--0, .button i.margin__right--0 {
   margin-right: 0px;
 }
 
-/* line 87, ../sass/common/_button.scss */
+/* line 94, ../sass/common/_button.scss */
 .button--close {
   position: absolute;
   right: 12px;
   top: 18px;
 }
-/* line 91, ../sass/common/_button.scss */
+/* line 98, ../sass/common/_button.scss */
 .button--close a {
   color: #ffffff;
   font-size: 18px;
@@ -1133,43 +1139,48 @@ input {
 }
 
 /* line 250, ../sass/common/_common.scss */
+.border--all {
+  border: 1px solid #D9D9D9;
+}
+
+/* line 253, ../sass/common/_common.scss */
 .devider--line--bottom {
   height: 0;
   width: 100%;
   border-bottom: 1px solid #1F2533;
 }
 
-/* line 255, ../sass/common/_common.scss */
+/* line 258, ../sass/common/_common.scss */
 .devider--right {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
 }
 
-/* line 258, ../sass/common/_common.scss */
+/* line 261, ../sass/common/_common.scss */
 .devider--left--inset {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 261, ../sass/common/_common.scss */
+/* line 264, ../sass/common/_common.scss */
 .border--bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 265, ../sass/common/_common.scss */
+/* line 268, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 270, ../sass/common/_common.scss */
+/* line 273, ../sass/common/_common.scss */
 .icon__box {
   width: 160px;
   margin: 30px auto;
   display: inline-block;
 }
-/* line 274, ../sass/common/_common.scss */
+/* line 277, ../sass/common/_common.scss */
 .icon__box .icon__box--holder {
   width: 21px;
   height: 21px;
@@ -1180,7 +1191,7 @@ input {
   padding: 10px;
   font-size: 25px;
 }
-/* line 283, ../sass/common/_common.scss */
+/* line 286, ../sass/common/_common.scss */
 .icon__box .icon__box--holder.selected {
   background-color: #49758E;
   color: #ffffff;
@@ -1517,8 +1528,21 @@ input[type=password].width--half {
   width: 40%;
   float: left;
 }
+/* line 62, ../sass/common/_form-element.scss */
+.input--text.border__radius--no,
+input[type=text].border__radius--no,
+input[type=password].border__radius--no {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
 
-/* line 64, ../sass/common/_form-element.scss */
+/* line 70, ../sass/common/_form-element.scss */
 input[type=text], textarea, input[type=password] {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -1527,12 +1551,12 @@ input[type=text], textarea, input[type=password] {
   outline: none;
 }
 
-/* line 72, ../sass/common/_form-element.scss */
+/* line 78, ../sass/common/_form-element.scss */
 input[type=text]:focus, textarea:focus, input[type=password]:focus {
   box-shadow: 0 0 10px #e6b85c;
 }
 
-/* line 76, ../sass/common/_form-element.scss */
+/* line 82, ../sass/common/_form-element.scss */
 .dropdown {
   display: inline-block;
   position: relative;
@@ -1551,7 +1575,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 3px;
 }
 
-/* line 90, ../sass/common/_form-element.scss */
+/* line 96, ../sass/common/_form-element.scss */
 .dropdown:after {
   content: '';
   position: absolute;
@@ -1568,20 +1592,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   pointer-events: none;
 }
 
-/* line 106, ../sass/common/_form-element.scss */
+/* line 112, ../sass/common/_form-element.scss */
 .dropdown:before {
   border-bottom-style: solid;
   border-top: none;
 }
 
-/* line 111, ../sass/common/_form-element.scss */
+/* line 117, ../sass/common/_form-element.scss */
 .dropdown:after {
   margin-top: 11px;
   border-top-style: solid;
   border-bottom: none;
 }
 
-/* line 117, ../sass/common/_form-element.scss */
+/* line 123, ../sass/common/_form-element.scss */
 .dropdown-select {
   position: relative;
   width: 130%;
@@ -1601,7 +1625,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -webkit-appearance: none;
 }
 
-/* line 134, ../sass/common/_form-element.scss */
+/* line 140, ../sass/common/_form-element.scss */
 .dropdown-select:focus {
   z-index: 3;
   width: 100%;
@@ -1610,7 +1634,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   outline-offset: -2px;
 }
 
-/* line 142, ../sass/common/_form-element.scss */
+/* line 148, ../sass/common/_form-element.scss */
 .dropdown-select > option {
   margin: 3px;
   padding: 6px 8px;
@@ -1621,36 +1645,36 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
 }
 
 /* Fix for IE 8 putting the arrows behind the select element. */
-/* line 153, ../sass/common/_form-element.scss */
+/* line 159, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown {
   z-index: 1;
 }
 
-/* line 157, ../sass/common/_form-element.scss */
+/* line 163, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown-select {
   z-index: -1;
 }
 
-/* line 161, ../sass/common/_form-element.scss */
+/* line 167, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown-select:focus {
   z-index: 3;
 }
 
 /* Dirty fix for Firefox adding padding where it shouldn't. */
 @-moz-document url-prefix() {
-  /* line 168, ../sass/common/_form-element.scss */
+  /* line 174, ../sass/common/_form-element.scss */
   .dropdown-select {
     padding-left: 6px;
   }
 }
-/* line 178, ../sass/common/_form-element.scss */
+/* line 184, ../sass/common/_form-element.scss */
 .label--checkbox,
 .label--radio {
   position: relative;
   cursor: pointer;
   display: inline-block;
 }
-/* line 183, ../sass/common/_form-element.scss */
+/* line 189, ../sass/common/_form-element.scss */
 .label--checkbox .label--checkbox-text,
 .label--radio .label--checkbox-text {
   margin-top: 0px;
@@ -1658,13 +1682,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   vertical-align: top;
 }
 
-/* line 190, ../sass/common/_form-element.scss */
+/* line 196, ../sass/common/_form-element.scss */
 .checkbox {
   position: relative;
   margin: 0 12px 0 0;
   cursor: pointer;
 }
-/* line 194, ../sass/common/_form-element.scss */
+/* line 200, ../sass/common/_form-element.scss */
 .checkbox:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -1685,7 +1709,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-style: none;
   border-right-style: none;
 }
-/* line 210, ../sass/common/_form-element.scss */
+/* line 216, ../sass/common/_form-element.scss */
 .checkbox:checked:before {
   -webkit-transform: rotate(-45deg) scale(1, 1);
   -moz-transform: rotate(-45deg) scale(1, 1);
@@ -1693,7 +1717,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -o-transform: rotate(-45deg) scale(1, 1);
   transform: rotate(-45deg) scale(1, 1);
 }
-/* line 214, ../sass/common/_form-element.scss */
+/* line 220, ../sass/common/_form-element.scss */
 .checkbox:after {
   content: "";
   position: absolute;
@@ -1706,14 +1730,14 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   cursor: pointer;
 }
 
-/* line 228, ../sass/common/_form-element.scss */
+/* line 234, ../sass/common/_form-element.scss */
 .checkbox2 {
   position: relative;
   margin: 0 12px 0 0;
   cursor: pointer;
   float: left;
 }
-/* line 233, ../sass/common/_form-element.scss */
+/* line 239, ../sass/common/_form-element.scss */
 .checkbox2:before {
   font-family: 'epistocracy';
   content: "\e616";
@@ -1726,20 +1750,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   display: none;
   background: #fff;
 }
-/* line 250, ../sass/common/_form-element.scss */
+/* line 256, ../sass/common/_form-element.scss */
 .checkbox2:checked:after {
   display: none;
 }
-/* line 253, ../sass/common/_form-element.scss */
+/* line 259, ../sass/common/_form-element.scss */
 .checkbox2:checked:before {
   display: block;
 }
-/* line 258, ../sass/common/_form-element.scss */
+/* line 264, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text {
   text-decoration: line-through;
   color: #97A552;
 }
-/* line 261, ../sass/common/_form-element.scss */
+/* line 267, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text:after {
   content: "";
   border-bottom: 1px solid #97A552;
@@ -1748,7 +1772,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   margin-top: -6px;
   margin-bottom: 5px;
 }
-/* line 270, ../sass/common/_form-element.scss */
+/* line 276, ../sass/common/_form-element.scss */
 .checkbox2:after {
   display: block;
   content: "\e617";
@@ -1769,13 +1793,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 5px;
 }
 
-/* line 286, ../sass/common/_form-element.scss */
+/* line 292, ../sass/common/_form-element.scss */
 .checkbox2 + .label--checkbox-text {
   float: left;
   margin-top: -7px;
 }
 
-/* line 293, ../sass/common/_form-element.scss */
+/* line 299, ../sass/common/_form-element.scss */
 .select-wrap {
   display: block;
   padding: 0;
@@ -1793,7 +1817,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 5px;
   color: #49758E;
 }
-/* line 305, ../sass/common/_form-element.scss */
+/* line 311, ../sass/common/_form-element.scss */
 .select-wrap:after {
   font-family: 'epistocracy';
   content: "\e618";
@@ -1806,7 +1830,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   margin-top: -25px;
 }
 
-/* line 318, ../sass/common/_form-element.scss */
+/* line 324, ../sass/common/_form-element.scss */
 .input-select {
   color: #49758E;
   padding: 0.6em 0.9em;
@@ -1823,13 +1847,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   transition: border-color 400ms, box-shadow 400ms;
 }
 
-/* line 339, ../sass/common/_form-element.scss */
+/* line 345, ../sass/common/_form-element.scss */
 .radio {
   position: relative;
   margin: 0 1rem 0 0;
   cursor: pointer;
 }
-/* line 343, ../sass/common/_form-element.scss */
+/* line 349, ../sass/common/_form-element.scss */
 .radio:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -1849,7 +1873,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   background: #1F2533;
   border-radius: 50%;
 }
-/* line 358, ../sass/common/_form-element.scss */
+/* line 364, ../sass/common/_form-element.scss */
 .radio:checked:before {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -1857,7 +1881,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 363, ../sass/common/_form-element.scss */
+/* line 369, ../sass/common/_form-element.scss */
 .radio:after {
   content: "";
   position: absolute;
@@ -1870,12 +1894,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-radius: 50%;
 }
 
-/* line 382, ../sass/common/_form-element.scss */
+/* line 388, ../sass/common/_form-element.scss */
 .search {
   width: 100%;
   position: relative;
 }
-/* line 385, ../sass/common/_form-element.scss */
+/* line 391, ../sass/common/_form-element.scss */
 .search:before {
   position: absolute;
   top: 0;
@@ -1891,7 +1915,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-left: 1px solid #BFBFBF;
 }
 
-/* line 400, ../sass/common/_form-element.scss */
+/* line 406, ../sass/common/_form-element.scss */
 .searchTerm {
   width: 96%;
   border: 1px solid #D9D9D9;
@@ -1900,7 +1924,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   outline: none;
 }
 
-/* line 407, ../sass/common/_form-element.scss */
+/* line 413, ../sass/common/_form-element.scss */
 .searchButton {
   position: absolute;
   top: 0;
@@ -1980,8 +2004,8 @@ header nav .notification {
 
 @font-face {
   font-family: 'epistocracy';
-  src: url('../fonts/epistocracy.eot?-a5tqu5&1432734866');
-  src: url('../fonts/epistocracy.eot?&1432734866#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1432734866') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1432734866') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1432734866#epistocracy-10') format("svg");
+  src: url('../fonts/epistocracy.eot?-a5tqu5&1432906628');
+  src: url('../fonts/epistocracy.eot?&1432906628#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1432906628') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1432906628') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1432906628#epistocracy-10') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -2000,164 +2024,169 @@ i {
 }
 
 /* line 31, ../sass/common/_icon-font.scss */
+.icon-plus:before {
+  content: "\e61c";
+}
+
+/* line 34, ../sass/common/_icon-font.scss */
 .icon-search:before {
   content: "\e61b";
 }
 
-/* line 34, ../sass/common/_icon-font.scss */
+/* line 37, ../sass/common/_icon-font.scss */
 .icon-arrow-down:before {
   content: "\e61a";
 }
 
-/* line 37, ../sass/common/_icon-font.scss */
+/* line 40, ../sass/common/_icon-font.scss */
 .icon-arrow-up:before {
   content: "\e619";
 }
 
-/* line 40, ../sass/common/_icon-font.scss */
+/* line 43, ../sass/common/_icon-font.scss */
 .icon-caret-down:before {
   content: "\e618";
 }
 
-/* line 43, ../sass/common/_icon-font.scss */
+/* line 46, ../sass/common/_icon-font.scss */
 .icon-uncheck:before {
   content: "\e617";
 }
 
-/* line 46, ../sass/common/_icon-font.scss */
+/* line 49, ../sass/common/_icon-font.scss */
 .icon-check:before {
   content: "\e616";
 }
 
-/* line 49, ../sass/common/_icon-font.scss */
+/* line 52, ../sass/common/_icon-font.scss */
 .icon-angle-right:before {
   content: "\e614";
 }
 
-/* line 52, ../sass/common/_icon-font.scss */
+/* line 55, ../sass/common/_icon-font.scss */
 .icon-angle-up:before {
   content: "\e615";
 }
 
-/* line 55, ../sass/common/_icon-font.scss */
+/* line 58, ../sass/common/_icon-font.scss */
 .icon-close:before {
   content: "\e613";
 }
 
-/* line 58, ../sass/common/_icon-font.scss */
+/* line 61, ../sass/common/_icon-font.scss */
 .icon-angle-down:before {
   content: "\e612";
 }
 
-/* line 61, ../sass/common/_icon-font.scss */
+/* line 64, ../sass/common/_icon-font.scss */
 .icon-angle-left:before {
   content: "\e611";
 }
 
-/* line 64, ../sass/common/_icon-font.scss */
+/* line 67, ../sass/common/_icon-font.scss */
 .icon-twitter:before {
   content: "\e610";
 }
 
-/* line 67, ../sass/common/_icon-font.scss */
+/* line 70, ../sass/common/_icon-font.scss */
 .icon-e:before {
   content: "\e600";
 }
 
-/* line 70, ../sass/common/_icon-font.scss */
+/* line 73, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path1:before {
   content: "\e601";
   color: white;
 }
 
-/* line 74, ../sass/common/_icon-font.scss */
+/* line 77, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path2:before {
   content: "\e602";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 79, ../sass/common/_icon-font.scss */
+/* line 82, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path3:before {
   content: "\e603";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 84, ../sass/common/_icon-font.scss */
+/* line 87, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path4:before {
   content: "\e604";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 89, ../sass/common/_icon-font.scss */
+/* line 92, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path5:before {
   content: "\e605";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 94, ../sass/common/_icon-font.scss */
+/* line 97, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path6:before {
   content: "\e606";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 99, ../sass/common/_icon-font.scss */
+/* line 102, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path7:before {
   content: "\e607";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 104, ../sass/common/_icon-font.scss */
+/* line 107, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path8:before {
   content: "\e608";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 109, ../sass/common/_icon-font.scss */
+/* line 112, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path9:before {
   content: "\e609";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 114, ../sass/common/_icon-font.scss */
+/* line 117, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path10:before {
   content: "\e60a";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 119, ../sass/common/_icon-font.scss */
+/* line 122, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path11:before {
   content: "\e60b";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 124, ../sass/common/_icon-font.scss */
+/* line 127, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path12:before {
   content: "\e60c";
   margin-left: -4.1484375em;
   color: #f9a531;
 }
 
-/* line 129, ../sass/common/_icon-font.scss */
+/* line 132, ../sass/common/_icon-font.scss */
 .icon-google:before {
   content: "\e60d";
 }
 
-/* line 132, ../sass/common/_icon-font.scss */
+/* line 135, ../sass/common/_icon-font.scss */
 .icon-linkedin:before {
   content: "\e60e";
 }
 
-/* line 135, ../sass/common/_icon-font.scss */
+/* line 138, ../sass/common/_icon-font.scss */
 .icon-facebook:before {
   content: "\e60f";
 }

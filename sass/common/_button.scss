@@ -63,6 +63,13 @@ button, .button {
 		@extend %color__font--white;
 		i{ margin-left: -8px; margin-top: -6px;}
 	}
+	&.plus {
+		i {
+			font-size: 13px;
+			font-weight: bold;
+			margin-top: -3px;
+		}
+	}
 
 	// Width
 

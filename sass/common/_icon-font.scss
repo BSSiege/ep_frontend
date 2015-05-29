@@ -28,6 +28,9 @@ i {
 // </i>
 
 
+.icon-plus:before {
+  content: "\e61c";
+}
 .icon-search:before {
   content: "\e61b";
 }
