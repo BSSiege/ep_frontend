@@ -60,6 +60,14 @@
                 color: #F2F2F2;
                 background-color: #49758E;
             }
+            &.disable{
+                @extend .font__color--secondary;
+                cursor: text;
+                &:hover {
+                    @extend .font__color--secondary;
+                    background-color: $white;
+                }
+            }
         }
     }
     &.active{

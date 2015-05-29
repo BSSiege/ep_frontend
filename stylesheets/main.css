@@ -1249,12 +1249,20 @@ input {
   color: #F2F2F2;
   background-color: #49758E;
 }
+/* line 63, ../sass/common/_drop-down.scss */
+.wrapper-dropdon-2 .dropdon li.disable {
+  cursor: text;
+}
 /* line 66, ../sass/common/_drop-down.scss */
+.wrapper-dropdon-2 .dropdon li.disable:hover {
+  background-color: #ffffff;
+}
+/* line 74, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active:after {
   font-family: 'epistocracy';
   content: "\e615";
 }
-/* line 70, ../sass/common/_drop-down.scss */
+/* line 78, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active .dropdon {
   opacity: 1;
   width: 140px;
@@ -1267,7 +1275,7 @@ button, .button, button:hover, .button:hover, .font__color--blue, .card {
 }
 
 /* line 4, ../sass/common/_extends.scss */
-.font__color--secondary, .wrapper-dropdon-2.secondary:after, #signup, #login {
+.font__color--secondary, .wrapper-dropdon-2.secondary:after, .wrapper-dropdon-2 .dropdon li.disable, .wrapper-dropdon-2 .dropdon li.disable:hover, #signup, #login {
   color: #999999;
 }
 
