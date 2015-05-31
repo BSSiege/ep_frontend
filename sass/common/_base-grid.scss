@@ -5,6 +5,7 @@
 }
 .content__grid--1100-center {
 	@include center(1100px);
+	padding: 0 2.5%;
 }
 .content__grid--full {
 	@include center(100%);
@@ -41,3 +42,15 @@
 	@include column(2/3, $cycle: 3, $gutter: 5);
 }
 
+
+
+@include responsive(tab-portrait) {
+	.content__grid--full {
+		margin-top: -1px;
+	}
+}
+@include responsive(tab-landscape) {
+	.content__grid--full {
+		margin-top: -1px;
+	}
+}

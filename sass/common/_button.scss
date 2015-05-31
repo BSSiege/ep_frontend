@@ -36,6 +36,12 @@ button, .button {
 		@extend %color__font--blue;
 	}
 
+	&.selected {
+		@extend %color__background--icon-blue;
+		@extend %color__font__dark-bg--main;
+		font-weight: 700;
+	}
+
 	// Color
 	&.current {
 		background-color: $button-selected;

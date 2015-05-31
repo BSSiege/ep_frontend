@@ -8,12 +8,15 @@ header {
     @extend .display--inblock;
     @extend .float--left;
     i{
-      font-size: 40px;
+      font-size: 35px;
     }
   }
   nav {
-    width: 84%;
+    width: 65%;
     margin-top: 15px;
+    &.loggedin{
+      width: 80%;
+    }
     >ul{
       margin-left: 15px;
       margin-top: 10px;
@@ -53,6 +56,38 @@ header {
       @include border-left-radius(10px);
       text-align: center;
       display: inline-block;
+    }
+  }
+}
+
+
+
+@include responsive(tab-landscape) {
+  header {
+    .logo{
+      width: 22%;
+    }
+    nav {
+      &.loggedin {
+        width: 76%; 
+      }
+      li {
+          margin-left: 0px;
+      }
+    }
+  }
+}
+@include responsive(tab-portrait) {
+  header {
+    .logo{
+      width: 22%;
+      margin-top: 20px;
+      i {
+        font-size: 26px;
+      }
+    }
+    nav {
+      margin-top: 12px;
     }
   }
 }

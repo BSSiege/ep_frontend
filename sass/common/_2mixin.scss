@@ -8,3 +8,50 @@
   -moz-box-shadow:$left $top $blur $color #{$inset};
   box-shadow:$left $top $blur $color #{$inset};
 }
+
+@mixin responsive($device) {
+  @if $device == small-mobile {
+    @media only screen and (max-width : 320px) {
+      @content;
+    }
+  }
+  @if $device == mobile {
+    @media only screen and (max-width : 480px) {
+      @content;
+    }
+  }
+
+  @if $device == tab-portrait {
+    @media only screen and (min-width : 586px) and (max-width : 767px)  {
+      @content;
+    }
+  }
+
+  @if $device == tab-landscape {
+   @media only screen and (max-width : 1099px) {
+      @content;
+    }
+  }
+  @if $device == desktop {
+    @media only screen and (max-width : 1200px) {
+      @content;
+    }
+  }
+}
+
+
+@include responsive(tab-landscape) {
+  body {
+  	background-color: red !important;
+  }
+}
+@include responsive(tab-portrait) {
+  body {
+  	background-color: yellow !important;
+  }
+}
+@include responsive(mobile) {
+  body {
+  	background-color: green !important;
+  }
+}

@@ -4,26 +4,32 @@ $base-line-height: 24px;
 
 h1{
 	@include adjust-font-size-to(42px);
-	// @extend %color__font--black__opacity--Point8;
+	@include font($lato);
 }
 h2{
 	@include adjust-font-size-to(30px);
+	@include font($lato);
 	// @extend %color__font--black__opacity--Point8;
 }
 h3{
 	@include adjust-font-size-to(24px);
+	@include font($lato);
 }
 h4{
 	@include adjust-font-size-to(21px);
+	@include font($lato);
 }
 h5{
 	@include adjust-font-size-to(18px);
+	@include font($lato);
 }
 h6{
 	@include adjust-font-size-to(16px);
+	@include font($lato);
 	// @extend %color__font--black__opacity--Point5;
 }
 p{
+	@include font($lato);
 	@include adjust-font-size-to(14px);
 	&.p--big--font {
 		@include adjust-font-size-to(18px);
@@ -36,6 +42,7 @@ p{
 	}
 }
 a {
+	@include font($lato);
 	@extend p;
 }
 
@@ -44,3 +51,17 @@ blockquote {
 	@include adjust-font-size-to(26px);
 }
 
+
+@include responsive(tab-landscape) {
+	.float--right-tl{ float: right; }
+	.float--left-tl { float: left; }
+	.float--none-tl { float: none; }
+}
+// @include responsive(tab-portrait) {
+// 	h1{
+// 		font-size: 35px;
+// 	}
+// 	h2{
+// 		font-size: 25px;
+// 	}
+// }

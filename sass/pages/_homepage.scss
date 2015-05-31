@@ -1,0 +1,76 @@
+ #homepage{ 
+  .e-icon{
+    font-size: 237px;
+  }
+  .button{
+    &.button--width--half{
+      width: 42%;
+      margin-right: 18px;
+    }
+  }
+}
+
+#homepage__content {
+  .box__circel{
+    @include border-top-radius(100%);
+    @include border-right-radius(100%);
+    @include border-bottom-radius(100%);
+    @include border-left-radius(100%);
+    width: 45px;
+    height: 45px;
+    background-color: #CBCBCB;
+    text-align: center;
+    color: #989898;
+    font-size: 28px;
+    vertical-align: middle;
+    display: table-cell;
+    font-weight: 400;
+    float: left;
+    &.selected {
+      background-color: #303443;
+      color: $darkbg-text-main;
+    }
+  }
+  .font__color--dot {
+    color: #CBCBCB;
+  }
+  .card {
+    width: 45%;
+    padding: 2.5%;
+    margin: 60px auto 30px auto;
+  }
+}
+
+@include responsive(tab-landscape) {
+  #homepage {
+    .button{
+      &.button--width--half{
+        width: 35%;
+        margin-right: 18px;
+      }
+    }
+  }
+  #homepage__content{
+    .width__special--half{
+      width: 69%;
+    }
+    .card {
+      width: 65%;
+    }
+  }
+}
+@include responsive(tab-portrait) {
+  #homepage {
+    .button{
+      &.button--width--half{
+        width: 84%;
+        margin-right: 18px;
+      }
+    }
+  }
+  #homepage__content{
+    .width__special--half{
+      width: 92%;
+    }
+  }
+}

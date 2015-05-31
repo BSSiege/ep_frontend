@@ -8,15 +8,21 @@
   @extend %color__font--blue;
   @extend .font__align--center;
   border: 1px solid $button-border;
+
 }
 .social {
   float: left;
+  margin: -10px 0;
   i {
     text-align: left;
     margin-right: 5px;
     font-size: 18px;
   }
+
 }
+.social + p {
+    line-height: 0;
+  }
 
 .right__arrow {
   overflow: hidden;
@@ -51,6 +57,40 @@
     padding-right: 5%;
   }
 }
+.text__box2{
+  width: 90%;
+  padding: 5%;
+}
 .name__box {
   min-height: 60px;
+}
+
+
+@include responsive(tab-landscape) {
+  .right__arrow {
+    height: 83px;
+    i {
+      margin-left: -49px;
+      font-size: 90px;
+    }
+  }
+  .text__box {
+    height: 260px;
+  }
+}
+@include responsive(tab-portrait) {
+  .right__card--blue {
+    min-height: 400px;
+  }
+  .right__arrow {
+    height: 83px;
+    i {
+      margin-left: -49px;
+      font-size: 90px;
+    }
+  }
+  .text__box {
+    height: 340px;
+    width: 64.66667%;
+  }
 }

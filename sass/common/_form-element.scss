@@ -309,15 +309,16 @@ $secondaryColor: $button-selected;
   @include border-left-radius(5px);
   color: #49758E;
   &:after {
-      font-family: 'epistocracy';
-      content: "\e618";
-      width: 0px;
-      height: 24px;
-      border-left: 1px solid #49758E;
-      font-size: 28px;
-      float: right;
-      margin-right: 38px;
-      margin-top: -25px;
+    font-family: 'epistocracy';
+    content: "\e618";
+    width: 0px;
+    height: 29px;
+    border-left: 1px solid #49758E;
+    font-size: 28px;
+    float: right;
+    margin-right: 38px;
+    margin-top: -35px;
+    padding: 7px 0 0 0;
   }
 }
 

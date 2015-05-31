@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   	<link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
   	<script type="text/javascript" src="javascripts/library/jquery-1.11.3.min.js"></script>
 </head>
@@ -11,15 +12,16 @@
 		<div class="content__grid--1100-center">
 			<div class="logo">
 				<a href="/">
-					<i class="icon-epistocracy-logo">
+					<i class="icon-epistocracy-logo float--left">
 						<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span>
 					</i>
+					<sup class="font__color--dark-bg--main float--left font__size--7px">TM</sup>
 				</a>
 			</div>
 			<nav class="float--right">
-				<ul>
-					<li><a href="" class="button">Sign Up</a></li>
-					<li><a href="" class="button current">Login</a></li>
+				<ul class="float--right margin--zero">
+					<li><a href="" class="button current">Sign Up</a></li>
+					<li><a href="" class="button">Login</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -28,18 +30,18 @@
 	<section id="login" class="content__grid--full background__color--royal-blue padding__bottom--60 padding__top--60">
 		<div class="content__grid--1100-center login__container">
 			<div id="social" class="login__container--social">
-				<h3 class="margin__bottom--30">Use any of these for login</h3>
-				<a href="" class="button facebook margin__bottom--30"><i class="icon-facebook"></i>Login with Facebook</a>
-				<a href="" class="button google margin__bottom--30"><i class="icon-google"></i>Login with Google</a>
-				<a href="" class="button twitter margin__bottom--30"><i class="icon-twitter"></i>Login with Twitter</a>
-				<a href="" class="button linkedin margin__bottom--30"><i class="icon-linkedin"></i>Login with linkedin</a>
+				<h3 class="margin__bottom--30 font__color--dark-bg--main">Use any of these for login</h3>
+				<a href="" class="button facebook margin__bottom--30 font__weight--400"><i class="icon-facebook"></i>Login with Facebook</a>
+				<a href="" class="button google margin__bottom--30 font__weight--400"><i class="icon-google"></i>Login with Google</a>
+				<a href="" class="button twitter margin__bottom--30 font__weight--400"><i class="icon-twitter"></i>Login with Twitter</a>
+				<a href="" class="button linkedin margin__bottom--30 font__weight--400"><i class="icon-linkedin"></i>Login with linkedin</a>
 			</div>
 			<div class="login__container--separator--mannual">
 				<div class="login__container--separator">
 					<div class="login__container--separator--box"></div>
 				</div>
 				<div class="login__container--mannual">
-					<h3 class="margin__bottom--30">Login maually</h3>
+					<h3 class="margin__bottom--30 font__color--dark-bg--main">Login maually</h3>
 					
 					<div class="alert__message alert">
 					  	<div class="alert__message--message">
@@ -61,27 +63,38 @@
 					</div>
 
 
+					<form action="">
+						<label for="">Email</label>
+						<input type="text" placeholder="Email" class="margin__bottom--18">
 
-					<label for="">Email</label>
-					<input type="text" placeholder="Email" class="margin__bottom--18">
+						<label for="">Password</label>
+						<input type="password" placeholder="Password" class="margin__bottom--18">
 
-					<label for="">Password</label>
-					<input type="password" placeholder="Password" class="margin__bottom--18">
+						<div class="clear"></div>
 
-					<div class="clear"></div>
-
-					<label class="label--checkbox font__weight--400">
-			      		<input class="checkbox" id="remember" name="remember" type="checkbox" value="">
-			         	<span class="label--checkbox-text">Remenber me</span>
-			     	</label>
-					<div class="clear"></div>
-					<button class="margin__top--24 margin__bottom--12 float--right width--full">Login</button>
-					<div class="clear"></div>
+						<label class="label--checkbox font__weight--400">
+				      		<input class="checkbox" id="remember" name="remember" type="checkbox" value="">
+				         	<span class="label--checkbox-text">Remenber me</span>
+				     	</label>
+						<div class="clear"></div>
+						<button class="margin__top--24 margin__bottom--12 float--right width--full">Login</button>
+						<div class="clear"></div>
+					</form>
 					<a class="underline margin__bottom--30" href="#">Forgot password?</a>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<footer class="content__grid--full background__color--royal-blue padding__bottom--30 padding__top--30">
+		<div class="content__grid--1100-center login__container">
+			<ul>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Terms Of Service</a></li>
+				<li><a href="">About Us</a></li>
+			</ul>
+		</div>
+	</footer>
 	<script type="text/javascript" src="javascripts/user/user.js"></script>
 </body>
 </html>
