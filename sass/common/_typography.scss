@@ -53,15 +53,26 @@ blockquote {
 
 
 @include responsive(tab-landscape) {
-	.float--right-tl{ float: right; }
-	.float--left-tl { float: left; }
-	.float--none-tl { float: none; }
+
 }
-// @include responsive(tab-portrait) {
-// 	h1{
-// 		font-size: 35px;
-// 	}
-// 	h2{
-// 		font-size: 25px;
-// 	}
-// }
+@include responsive(tab-portrait) {
+	h1{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	p {
+		font-size: 14px;
+	}
+	.font__size--16px {
+	  font-size: 14px;
+	}
+	.font__size--24px {
+		font-size: 22px;
+	}
+
+}

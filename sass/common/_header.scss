@@ -2,7 +2,7 @@ header {
   @extend .background__color--royal-blue;
   height: 67px;
   .logo{
-    width: 16%;
+    width: 160px;
     margin-top: 15px;
     @extend %clearfix;
     @extend .display--inblock;
@@ -13,19 +13,17 @@ header {
   }
   nav {
     width: 65%;
-    margin-top: 15px;
+    margin-top: 12px;
     &.loggedin{
-      width: 80%;
+      width: 84%;
     }
     >ul{
-      margin-left: 15px;
       margin-top: 10px;
     }
     li{
       @extend %color__font__dark-bg--main;
       @extend .display--inblock;
       @extend .margin__right--12;
-      margin-left: 10px;
       &:last-child {
         margin-right: 0;
       }
@@ -64,30 +62,31 @@ header {
 
 @include responsive(tab-landscape) {
   header {
-    .logo{
-      width: 22%;
-    }
     nav {
       &.loggedin {
-        width: 76%; 
+        width: 80%; 
       }
       li {
           margin-left: 0px;
+          margin-right: 8px;
+          ul {
+            margin-top: -1px;
+          }
+      }
+      .follower__count {
+        vertical-align: 10px;
+        font-size: 21px;
       }
     }
   }
 }
 @include responsive(tab-portrait) {
   header {
-    .logo{
-      width: 22%;
-      margin-top: 20px;
-      i {
-        font-size: 26px;
-      }
-    }
     nav {
       margin-top: 12px;
+      &.loggedin {
+        width: 69%; 
+      }
     }
   }
 }

@@ -41,7 +41,6 @@
         opacity: 0;
         pointer-events: none;
         li {
-            padding: 10px;
             border-bottom: 1px solid #D9D9D9;
             text-align: left;
             a {
@@ -49,7 +48,10 @@
                 text-decoration: none;
                 color: #333;
                 padding: 10px;
-                transition: all 0.3s ease-out;
+                &:hover {
+                    color: #F2F2F2;
+                    background-color: #49758E;
+                }
             }
             i {
                 margin-right: 5px;
@@ -63,6 +65,7 @@
             &.disable{
                 @extend .font__color--secondary;
                 cursor: text;
+                padding: 10px;
                 &:hover {
                     @extend .font__color--secondary;
                     background-color: $white;

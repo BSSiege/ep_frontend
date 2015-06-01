@@ -8,8 +8,17 @@
   @extend %color__font--blue;
   @extend .font__align--center;
   border: 1px solid $button-border;
-
 }
+
+#action_board, #my_stance, #profile {
+  .background__color--icon-blue {
+    >p {
+      float: left;
+      width: 83%;
+    }
+  }
+}
+
 .social {
   float: left;
   margin: -10px 0;
@@ -77,10 +86,17 @@
   .text__box {
     height: 260px;
   }
+  .card {
+    width: 89%;
+  }
 }
 @include responsive(tab-portrait) {
+  .card {
+    width: 90%;
+  }
   .right__card--blue {
     min-height: 400px;
+    margin-top: 30px;
   }
   .right__arrow {
     height: 83px;
@@ -92,5 +108,23 @@
   .text__box {
     height: 340px;
     width: 64.66667%;
+  }
+  #action_board {
+    .margin__top--30--tp{
+      margin-top: 30px;
+    }
+    .background__color--icon-blue {
+      >p {
+        float: left;
+        width: 80%;
+      }
+    }
+
+    &.devider--left--inset{
+      @include  box-shadow(0px, 0px, 0px, rgba(#000,0), inset);
+    }
+    .action__text {
+      margin-top: 12px;
+    }
   }
 }

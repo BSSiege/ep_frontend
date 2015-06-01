@@ -293,7 +293,12 @@ $secondaryColor: $button-selected;
   float: left;
   margin-top: -7px;
 }
-
+@include responsive(tab-portrait) {
+  .checkbox2 + span {
+    width: 80%;
+    text-align: left;
+  }
+}
 
 
 .select-wrap {
@@ -402,6 +407,13 @@ $color: #8FC357;
     text-align: center;
     color: $text-hints;
     border-left: 1px solid $text-hints;
+  }
+}
+@include responsive(tab-portrait) {
+  .search {
+    &:before {
+      height: 30px;
+    }
   }
 }
 .searchTerm {

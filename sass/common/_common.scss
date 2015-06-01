@@ -133,6 +133,7 @@ input {
 .font__size--12px {
 	font-size: 12px;
 }
+
 .font__size--14px {
 	font-size: 14px;
 }
@@ -141,6 +142,11 @@ input {
 }
 .font__size--18px {
 	font-size: 18px;
+}
+@include responsive(tab-portrait) {
+	.font__size--12px--tp {
+		font-size: 12px;
+	}
 }
 .font__size--20px {
 	font-size: 20px;
@@ -275,8 +281,18 @@ input {
 .devider--right {
 	@include  box-shadow(1px, 0px, 0px, rgba(#000,.2));
 }
+@include responsive(tab-portrait) {
+	.devider--right {
+		@include  box-shadow(0px, 0px, 0px, rgba(#000,.2));
+	}
+}
 .devider--left--inset {
 	@include  box-shadow(1px, 0px, 0px, rgba(#000,.2), inset);
+}
+@include responsive(tab-portrait) {
+	.devider--left--inset {
+		@include  box-shadow(0px, 0px, 0px, rgba(#000,.2), inset);
+	}
 }
 .border--bottom {
 	border-bottom: 1px solid rgba(#000,.2);
@@ -287,6 +303,20 @@ input {
 }
 .width__special--half {
 	width: 50%;
+}
+
+@include responsive(tab-landscape) {
+	.width__special--full-tl {
+		width: 100%;
+	}
+}
+@include responsive(tab-portrait) {
+	.width__special--full-tp {
+		width: 100%;
+		>.user-avatar {
+			margin-left: 0;
+		}
+	}
 }
 
 // Icon holder

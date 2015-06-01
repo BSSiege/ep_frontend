@@ -107,3 +107,8 @@ button, .button {
 	}
 }
 
+@include responsive(tab-portrait) {
+	button, .button {
+		font-size: 13px;
+	}
+}
