@@ -1,11 +1,13 @@
 $( document ).ready(function() {
    $("#signup, #login").css("min-height",$(window).height()-$("header").height()+"px")
-   /* --------------------------------------------------- */
+  /* --------------------------------------------------- */
   /*	Scrollbar design 
-   /* --------------------------------------------------- */
+  /* --------------------------------------------------- */
    $(".nano").nanoScroller();
 
-   // TOOL TIp
+  /* --------------------------------------------------- */
+  /*  Tool Tip
+  /* --------------------------------------------------- */
 
   $('.tooltips').append("<span></span>");
   $('.tooltips:not([tooltip-position])').attr('tooltip-position','bottom');
@@ -14,19 +16,38 @@ $( document ).ready(function() {
   $(".tooltips").mouseenter(function(){
     $(this).find('span').empty().append($(this).attr('tooltip'));
   });
- 	
- 	// $(".stances").flip({
- 	// 	reverse: true
- 	// });
-	$(".flip-container").flip({
-		trigger: 'manual'
-	});
-	$(".stances .card a.button").click(function(event){
-		event.preventDefault();
-		// console.log("ok....");
-	    $(".flip-container").flip(true);
-    });
+
+  /* --------------------------------------------------- */
+  /*  Stance flip animation
+  /* --------------------------------------------------- */
+  
+  // Fixing the height due to fliping css
+  $( ".flip-container" ).map(function() {
+    $( this ).height($(this).find(".front").height()+80);
+  });
+  //Clicking on the stance
+  $(".stance").click(function(event){
+    event.preventDefault();
+
+    $(this).addClass("selected"); // Blue colur on stance button
+
+    // 500ms delay for showing the blue button
+    setTimeout(function(){ 
+      var FlipContainer = $(this).parents().eq(2);
+      FlipContainer.addClass("clicked"); // fliping animation
+      var StanceValues = $(this).data("stanceValue"); // get clicked stance value
+      FlipContainer.find(".stance__result").append("We should "+StanceValues); // appened on the back card
+      
+      // Setting up new height and scroll up animation 
+      FlipContainer.animate({
+          height: FlipContainer.find(".back").height()+80
+        }, 500, function() {
+      });
+    }.bind(this), 500);
+  });
+
 });
+
 
 function DropDown(el) {
   this.dd = el;
