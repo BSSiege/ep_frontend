@@ -20,11 +20,13 @@ $( document ).ready(function() {
   /* --------------------------------------------------- */
   /*  Stance flip animation
   /* --------------------------------------------------- */
-  
+  // Hiding all justification card on right
+  $(".stance__details").css("display","none");
   // Fixing the height due to fliping css
   $( ".flip-container" ).map(function() {
     $( this ).height($(this).find(".front").height()+80);
   });
+
   //Clicking on the stance
   $(".stance").click(function(event){
     event.preventDefault();
@@ -33,7 +35,7 @@ $( document ).ready(function() {
 
     // 500ms delay for showing the blue button
     setTimeout(function(){ 
-      var FlipContainer = $(this).parents().eq(2);
+      var FlipContainer = $(this).parents().eq(2); // parent class .flip-container
       FlipContainer.addClass("clicked"); // fliping animation
       var StanceValues = $(this).data("stanceValue"); // get clicked stance value
       FlipContainer.find(".stance__result").append("We should "+StanceValues); // appened on the back card
@@ -43,6 +45,26 @@ $( document ).ready(function() {
           height: FlipContainer.find(".back").height()+80
         }, 500, function() {
       });
+
+      // Right blue card hide
+      $(".right__card--blue").animate({
+          "min-height": 1
+        }, 500, function() {
+          $(".right__card--blue").hide("fast");
+      });
+      // Showing justification card on right
+      var JustificationBoardID = $(this).data("justificationBoardId"); // grabing right justification card id
+      // If there is showing another stance justification card
+      if($(".stance__details").hasClass("active")){
+        $(".stance__details").removeClass("active");
+        $(".stance__details").css("display","none");
+      }
+      // Showing justification card on right
+      $("#"+JustificationBoardID).addClass("active");
+      $("#"+JustificationBoardID).show("slow");
+      $("#"+JustificationBoardID+" .card > h3").append("We should "+StanceValues); // appending stance value
+    
+
     }.bind(this), 500);
   });
 
