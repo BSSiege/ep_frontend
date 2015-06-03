@@ -77,6 +77,11 @@ button, .button {
 		}
 	}
 
+	&.green {
+		background-color: #7FBA00;
+		@extend %color__font--white;
+	}
+
 	// Width
 
 	&.width--full { width: 100%;}

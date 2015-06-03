@@ -588,32 +588,36 @@ button.plus i, .button.plus i {
   font-weight: bold;
   margin-top: -3px;
 }
-/* line 82, ../sass/common/_button.scss */
+/* line 80, ../sass/common/_button.scss */
+button.green, .button.green {
+  background-color: #7FBA00;
+}
+/* line 87, ../sass/common/_button.scss */
 button.width--full, .button.width--full {
   width: 100%;
 }
-/* line 83, ../sass/common/_button.scss */
+/* line 88, ../sass/common/_button.scss */
 button.width--full--no-padding, .button.width--full--no-padding {
   width: 100%;
   padding: 6px 0;
 }
-/* line 84, ../sass/common/_button.scss */
+/* line 89, ../sass/common/_button.scss */
 button.width--half, .button.width--half {
   width: 50%;
 }
-/* line 88, ../sass/common/_button.scss */
+/* line 93, ../sass/common/_button.scss */
 button.padding--66, .button.padding--66 {
   padding: 9px 66px;
 }
-/* line 89, ../sass/common/_button.scss */
+/* line 94, ../sass/common/_button.scss */
 button.icon--right, .button.icon--right {
   padding-right: 8px;
 }
-/* line 90, ../sass/common/_button.scss */
+/* line 95, ../sass/common/_button.scss */
 button.icon--left, .button.icon--left {
   padding-left: 8px;
 }
-/* line 91, ../sass/common/_button.scss */
+/* line 96, ../sass/common/_button.scss */
 button i, .button i {
   height: 100%;
   display: inline-block;
@@ -621,25 +625,25 @@ button i, .button i {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 97, ../sass/common/_button.scss */
+/* line 102, ../sass/common/_button.scss */
 button i.margin__right--0, .button i.margin__right--0 {
   margin-right: 0px;
 }
 
-/* line 100, ../sass/common/_button.scss */
+/* line 105, ../sass/common/_button.scss */
 .button--close {
   position: absolute;
   right: 12px;
   top: 18px;
 }
-/* line 104, ../sass/common/_button.scss */
+/* line 109, ../sass/common/_button.scss */
 .button--close a {
   color: #ffffff;
   font-size: 18px;
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 111, ../sass/common/_button.scss */
+  /* line 116, ../sass/common/_button.scss */
   button, .button {
     font-size: 13px;
   }
@@ -1173,6 +1177,11 @@ input {
   color: rgba(255, 255, 255, 0.35);
 }
 
+/* line 210, ../sass/common/_common.scss */
+.background__color--royal-blue, header {
+  background-color: #1F2533 !important;
+}
+
 /* line 227, ../sass/common/_common.scss */
 .text__align--left {
   text-align: left;
@@ -1282,39 +1291,49 @@ input {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 301, ../sass/common/_common.scss */
+/* line 300, ../sass/common/_common.scss */
+.border--zero {
+  border: 0px solid !important;
+}
+
+/* line 304, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 304, ../sass/common/_common.scss */
+/* line 307, ../sass/common/_common.scss */
 .width__special--half {
   width: 50%;
 }
 
+/* line 310, ../sass/common/_common.scss */
+.width__special--68 {
+  width: 68%;
+}
+
 @media only screen and (max-width: 1099px) {
-  /* line 309, ../sass/common/_common.scss */
+  /* line 315, ../sass/common/_common.scss */
   .width__special--full-tl {
     width: 100%;
   }
 }
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 314, ../sass/common/_common.scss */
+  /* line 320, ../sass/common/_common.scss */
   .width__special--full-tp {
     width: 100%;
   }
-  /* line 316, ../sass/common/_common.scss */
+  /* line 322, ../sass/common/_common.scss */
   .width__special--full-tp > .user-avatar {
     margin-left: 0;
   }
 }
-/* line 323, ../sass/common/_common.scss */
+/* line 329, ../sass/common/_common.scss */
 .icon__box {
   width: 160px;
   margin: 30px auto;
   display: inline-block;
 }
-/* line 327, ../sass/common/_common.scss */
+/* line 333, ../sass/common/_common.scss */
 .icon__box .icon__box--holder {
   width: 21px;
   height: 21px;
@@ -1325,7 +1344,7 @@ input {
   padding: 10px;
   font-size: 25px;
 }
-/* line 336, ../sass/common/_common.scss */
+/* line 342, ../sass/common/_common.scss */
 .icon__box .icon__box--holder.selected {
   background-color: #49758E;
   color: #ffffff;
@@ -1454,7 +1473,7 @@ button.selected, .button.selected, .font__color--dark-bg--main, footer a, header
 }
 
 /* line 10, ../sass/common/_extends.scss */
-button.facebook, .button.facebook, button.twitter, .button.twitter, button.google, .button.google, button.linkedin, .button.linkedin, .alert__message .alert__message--message {
+button.facebook, .button.facebook, button.twitter, .button.twitter, button.google, .button.google, button.linkedin, .button.linkedin, button.green, .button.green, .alert__message .alert__message--message {
   color: #ffffff;
 }
 
@@ -1482,11 +1501,6 @@ button.facebook, .button.facebook, button.twitter, .button.twitter, button.googl
 /* line 27, ../sass/common/_extends.scss */
 body {
   background-color: #e9e9e9;
-}
-
-/* line 28, ../sass/common/_extends.scss */
-.background__color--royal-blue, header {
-  background-color: #1F2533;
 }
 
 /* line 29, ../sass/common/_extends.scss */

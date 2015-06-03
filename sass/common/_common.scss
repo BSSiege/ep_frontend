@@ -208,7 +208,7 @@ input {
 
 //
 .background__color--royal-blue {
-	@extend %color__background--royal-blue ;
+	background-color: $text !important;
 }
 .background__color--white {
 	@extend %color__background--white ;
@@ -297,12 +297,18 @@ input {
 .border--bottom {
 	border-bottom: 1px solid rgba(#000,.2);
 }
+.border--zero {
+	border: 0px solid !important;
+}
 // special width
 .width__special--full {
 	width: 100%;
 }
 .width__special--half {
 	width: 50%;
+}
+.width__special--68 {
+	width: 68%;
 }
 
 @include responsive(tab-landscape) {
