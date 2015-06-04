@@ -48,7 +48,7 @@ $( document ).ready(function() {
 
       // Right blue card hide
       $(".right__card--blue").animate({
-          "min-height": 1
+          "min-height": 0
         }, 500, function() {
           $(".right__card--blue").hide("fast");
       });
@@ -68,7 +68,41 @@ $( document ).ready(function() {
     }.bind(this), 500);
   });
 
+  $(".button--close").click(function(event){
+    event.preventDefault();
+
+    $(".right__card--blue").fadeOut("slow");
+  })
+
+  $(".font__color--icon-blue.social a").click(function(event){
+    event.preventDefault();
+
+    $("#social__share").hide();
+    var text = '<div class="card" id="social__share"><h3 class="line__height--105em">Where do you want to share?</h3><div class="icon__box"><div class="icon__box--holder font__color--icon-blue facebook"><i class="icon-facebook"></i></div><div class="icon__box--holder font__color--icon-blue twitter"><i class="icon-twitter"></i></div><div class="icon__box--holder font__color--icon-blue linkedin"><i class="icon-linkedin"></i></div></div><form action="" class=="margin__top--4"><textarea class="width--full border__radius--no" name="" id="field" onkeyup="countChar(this)" cols="30" rows="10"></textarea><p class="float--right font__color--secondary" id="charNum">(400)</p><div class="margin__top--30"></div><button type="submit" class="button font__weight--400 display--inblock">Post</button><p class="display--inblock margin__left--6 margin__bottom--30">|<a class="underline margin__left--6" href="">Cancel</a></p></form></div>';
+    $(this).parents().eq(1).after(text);
+
+    $("#social__share").hide();
+    $("#social__share").fadeIn("slow");
+
+
+    var SharedFor = $(this).data("socialSite");
+    console.log(SharedFor);
+    $("#social__share").find("."+SharedFor).addClass("selected");
+  })
+
+  
+
 });
+
+function countChar(val) {
+    var len = val.value.length;
+    if (len >= 500) {
+      val.value = val.value.substring(0, 500);
+    } else {
+      $('#charNum').text(500 - len);
+    }
+  };
+
 
 
 function DropDown(el) {
