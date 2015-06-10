@@ -65,6 +65,12 @@ input[type=password]{
     @include border-bottom-radius(0px);
     @include border-left-radius(0px); 
   }
+  &.font__size--12px{
+    @extend .font__size--12px;
+    @include placeholder {
+      font-size: 12px;
+    }
+  }
 }
 
 input[type=text], textarea, input[type=password] {
@@ -191,6 +197,11 @@ $secondaryColor: $button-selected;
     display: inline-block;
     vertical-align: top;
   }
+  .radio {
+    + span{
+      margin-top: -3px;
+    }
+  }
 }
 
 .checkbox {
@@ -237,8 +248,6 @@ $secondaryColor: $button-selected;
   cursor: pointer;
   float: left;
   &:before {
-    // @include transition(transform .4s cubic-bezier(.45,1.8,.5,.75));
-    // @include transform(rotate(-45deg) scale(0, 0));
     font-family: 'epistocracy';
     content: "\e616";
     position: absolute;
@@ -357,13 +366,16 @@ $secondaryColor: $button-selected;
     @include transform(scale(0,0));
     content: "";
     position: absolute;
-    top: 0;
+    top: .5px;
     left: rem(2);
     z-index: 1;
     width: rem(12);
     height: rem(12);
-    background: $primaryColor;
+    background: #97A552;
     border-radius: 50%;
+  }
+  span {
+    margin-top: -3px;
   }
   
   &:checked {
@@ -380,7 +392,7 @@ $secondaryColor: $button-selected;
     width: 1rem;
     height: 1rem;
     background: #fff;
-    border: 2px solid $secondaryColor;
+    border: 2px solid $text;
     border-radius: 50%;
   }
 }

@@ -242,6 +242,9 @@ input {
 .display--block {
 	display: block;
 }
+.display--none {
+	display: none;
+}
 .display--inblock {
 	display: inline-block;
 }
@@ -272,6 +275,9 @@ input {
 }
 .border--all{
 	border: 1px solid $button-border;
+}
+.border--all--dark{
+	border: 1px solid $text;
 }
 .devider--line--bottom{
 	height: 0;

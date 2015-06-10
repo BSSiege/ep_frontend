@@ -41,6 +41,20 @@
 .content__info__wrapper--twothird-with-gutter  {
 	@include column(2/3, $cycle: 3, $gutter: 5);
 }
+.content__info__wrapper--threefourth {
+	@include column(3/4, $cycle: 4, $gutter: 0);
+}
+.content__info__wrapper--threefourth-with-gutter  {
+	@include column(3/4, $cycle: 4, $gutter: 5);
+}
+.content__info__wrapper--onefourth {
+	@include column(1/4, $cycle: 4, $gutter: 0);
+
+}
+.content__info__wrapper--onefourth-with-gutter  {
+	@include column(1/4, $cycle: 4, $gutter: 2);
+	width: 22.5%;
+}
 
 
 

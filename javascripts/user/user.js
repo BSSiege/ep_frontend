@@ -67,12 +67,17 @@ $( document ).ready(function() {
 
     }.bind(this), 500);
   });
-
+  /* --------------------------------------------------- */
+  /*  close button 
+  /* --------------------------------------------------- */
   $(".button--close").click(function(event){
     event.preventDefault();
-
     $(".right__card--blue").fadeOut("slow");
   })
+
+  /* --------------------------------------------------- */
+  /*  Social button animation
+  /* --------------------------------------------------- */
 
   $(".font__color--icon-blue.social a").click(function(event){
     event.preventDefault();
@@ -89,8 +94,54 @@ $( document ).ready(function() {
     console.log(SharedFor);
     $("#social__share").find("."+SharedFor).addClass("selected");
   })
+  /* --------------------------------------------------- */
+  /*  Settings accordion
+  /* --------------------------------------------------- */
+  $('#cssmenu > ul > li > a').click(function() {
+    var checkElement = $(this).next();
+    if($(".has-sub.active").length === 1){
+      $('#cssmenu ul ul:visible').slideUp('normal');
+    }
+    $('#cssmenu li').removeClass('active');
+    $(this).closest('li').addClass('active'); 
+    
 
-  
+    if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+      $(this).closest('li').removeClass('active');
+      checkElement.slideUp('normal');
+    }
+
+    if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+      $('#cssmenu ul ul:visible').slideUp('normal');
+      checkElement.slideDown('normal');
+    }
+    $('#cssmenu ul ul a').click(function() {
+      $('#cssmenu ul ul a').removeClass("selected");
+      $(this).addClass("selected");
+    });
+    if($(this).closest('li').find('ul').children().length == 0) {
+      return true;
+    } else {
+      return false; 
+    }   
+  });
+
+  /* --------------------------------------------------- */
+  /*  Settings page edit button
+  /* --------------------------------------------------- */
+  // $(".edit__element").hide();
+  $(".settings__box .edit").click(function(event){
+    event.preventDefault();
+    $(this).hide();
+    $(this).parents().eq(1).prev().hide();
+    // $(this).parents().eq(1).next().fadeIn("slow");
+    $(this).parents().eq(1).next().slideDown("slow");
+  })
+  $(".edit__element button").click(function(event){
+    event.preventDefault();
+    $(".edit__element").slideUp();
+    $(".settings__box .content__info__wrapper--onethird, .settings__box .content__info__wrapper--onethird a").fadeIn();
+  })
 
 });
 
