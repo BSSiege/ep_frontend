@@ -143,6 +143,16 @@ $( document ).ready(function() {
     $(".settings__box .content__info__wrapper--onethird, .settings__box .content__info__wrapper--onethird a").fadeIn();
   })
 
+
+  $(".social__connect__box").hover(function() {
+        $(this).children(".social__overlay").stop().animate({bottom: '0px'}, 500);
+  }, 
+  function() {
+        $(this).children(".social__overlay").stop().animate({bottom: '-174px'}, 500);
+  });
+
+
+
 });
 
 function countChar(val) {

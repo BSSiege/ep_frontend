@@ -768,24 +768,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .content__info__wrapper--onefourth-with-gutter:after {
   clear: both;
 }
-/* line 50, ../sass/vendor/jeet/_grid.scss */
-.content__info__wrapper--onefourth-with-gutter:nth-of-type(4n) {
+/* line 58, ../sass/vendor/jeet/_grid.scss */
+.content__info__wrapper--onefourth-with-gutter:last-child {
   margin-right: 0%;
-  float: right;
-}
-/* line 54, ../sass/vendor/jeet/_grid.scss */
-.content__info__wrapper--onefourth-with-gutter:nth-of-type(4n + 1) {
-  clear: both;
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 62, ../sass/common/_base-grid.scss */
+  /* line 63, ../sass/common/_base-grid.scss */
   .content__grid--full {
     margin-top: -1px;
   }
 }
 @media only screen and (max-width: 1099px) {
-  /* line 67, ../sass/common/_base-grid.scss */
+  /* line 68, ../sass/common/_base-grid.scss */
   .content__grid--full {
     margin-top: -1px;
   }
@@ -1391,6 +1386,7 @@ input {
 /* line 133, ../sass/common/_common.scss */
 .font__size--12px, .input--text.font__size--12px,
 input[type=text].font__size--12px,
+input[type=email].font__size--12px,
 input[type=password].font__size--12px {
   font-size: 12px;
 }
@@ -1456,96 +1452,101 @@ input[type=password].font__size--12px {
   color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 210, ../sass/common/_common.scss */
+/* line 214, ../sass/common/_common.scss */
 .background__color--royal-blue, header {
   background-color: #1F2533 !important;
 }
 
-/* line 227, ../sass/common/_common.scss */
+/* line 243, ../sass/common/_common.scss */
 .text__align--left {
   text-align: left;
 }
 
-/* line 230, ../sass/common/_common.scss */
+/* line 246, ../sass/common/_common.scss */
 .text__align--right {
   text-align: right;
 }
 
-/* line 233, ../sass/common/_common.scss */
+/* line 249, ../sass/common/_common.scss */
 .text__align--center {
   text-align: center;
 }
 
-/* line 236, ../sass/common/_common.scss */
+/* line 252, ../sass/common/_common.scss */
 .text__align--justify {
   text-align: justify;
 }
 
-/* line 242, ../sass/common/_common.scss */
+/* line 258, ../sass/common/_common.scss */
 .display--block {
   display: block;
 }
 
-/* line 245, ../sass/common/_common.scss */
+/* line 261, ../sass/common/_common.scss */
 .display--none {
   display: none;
 }
 
-/* line 248, ../sass/common/_common.scss */
+/* line 264, ../sass/common/_common.scss */
 .display--inblock, header .logo, header nav li {
   display: inline-block;
 }
 
-/* line 251, ../sass/common/_common.scss */
+/* line 267, ../sass/common/_common.scss */
 .display--table {
   display: table;
 }
 
-/* line 254, ../sass/common/_common.scss */
+/* line 270, ../sass/common/_common.scss */
 .display--table-cell {
   display: table-cell;
 }
 
-/* line 258, ../sass/common/_common.scss */
+/* line 274, ../sass/common/_common.scss */
 .align__vertical--middle {
   vertical-align: middle;
 }
 
-/* line 262, ../sass/common/_common.scss */
+/* line 277, ../sass/common/_common.scss */
+.align__vertical--top {
+  vertical-align: top;
+}
+
+/* line 281, ../sass/common/_common.scss */
 .position--relative {
   position: relative;
 }
 
-/* line 266, ../sass/common/_common.scss */
+/* line 285, ../sass/common/_common.scss */
 .visibility--hidden {
   visibility: hidden;
 }
 
-/* line 270, ../sass/common/_common.scss */
+/* line 289, ../sass/common/_common.scss */
 .devider--dashed--bottom {
   height: 0;
   width: 100%;
   border-bottom: 2px dashed #D9D9D9;
 }
 
-/* line 276, ../sass/common/_common.scss */
+/* line 295, ../sass/common/_common.scss */
 .border--all {
   border: 1px solid #D9D9D9;
 }
 
-/* line 279, ../sass/common/_common.scss */
+/* line 298, ../sass/common/_common.scss */
 .border--all--dark {
   border: 1px solid #1F2533;
 }
 
-/* line 282, ../sass/common/_common.scss */
+/* line 301, ../sass/common/_common.scss */
 .devider--line--bottom {
   height: 0;
   width: 100%;
   border-bottom: 1px solid #1F2533;
 }
 
-/* line 287, ../sass/common/_common.scss */
+/* line 306, ../sass/common/_common.scss */
 .devider--right {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
@@ -1553,14 +1554,14 @@ input[type=password].font__size--12px {
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 291, ../sass/common/_common.scss */
+  /* line 310, ../sass/common/_common.scss */
   .devider--right {
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
     -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
   }
 }
-/* line 295, ../sass/common/_common.scss */
+/* line 314, ../sass/common/_common.scss */
 .devider--left--inset {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
@@ -1568,61 +1569,61 @@ input[type=password].font__size--12px {
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 299, ../sass/common/_common.scss */
+  /* line 318, ../sass/common/_common.scss */
   .devider--left--inset {
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
     -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
   }
 }
-/* line 303, ../sass/common/_common.scss */
+/* line 322, ../sass/common/_common.scss */
 .border--bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 306, ../sass/common/_common.scss */
+/* line 325, ../sass/common/_common.scss */
 .border--zero {
   border: 0px solid !important;
 }
 
-/* line 310, ../sass/common/_common.scss */
+/* line 329, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 313, ../sass/common/_common.scss */
+/* line 332, ../sass/common/_common.scss */
 .width__special--half {
   width: 50%;
 }
 
-/* line 316, ../sass/common/_common.scss */
+/* line 335, ../sass/common/_common.scss */
 .width__special--68 {
   width: 68%;
 }
 
 @media only screen and (max-width: 1099px) {
-  /* line 321, ../sass/common/_common.scss */
+  /* line 340, ../sass/common/_common.scss */
   .width__special--full-tl {
     width: 100%;
   }
 }
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 326, ../sass/common/_common.scss */
+  /* line 345, ../sass/common/_common.scss */
   .width__special--full-tp {
     width: 100%;
   }
-  /* line 328, ../sass/common/_common.scss */
+  /* line 347, ../sass/common/_common.scss */
   .width__special--full-tp > .user-avatar {
     margin-left: 0;
   }
 }
-/* line 335, ../sass/common/_common.scss */
+/* line 354, ../sass/common/_common.scss */
 .icon__box {
   width: 160px;
   margin: 30px auto;
   display: inline-block;
 }
-/* line 339, ../sass/common/_common.scss */
+/* line 358, ../sass/common/_common.scss */
 .icon__box .icon__box--holder {
   width: 21px;
   height: 21px;
@@ -1633,7 +1634,7 @@ input[type=password].font__size--12px {
   padding: 10px;
   font-size: 25px;
 }
-/* line 348, ../sass/common/_common.scss */
+/* line 367, ../sass/common/_common.scss */
 .icon__box .icon__box--holder.selected {
   background-color: #49758E;
   color: #ffffff;
@@ -1762,7 +1763,7 @@ button.selected, .button.selected, .font__color--dark-bg--main, footer a, header
 }
 
 /* line 10, ../sass/common/_extends.scss */
-button.facebook, .button.facebook, button.twitter, .button.twitter, button.google, .button.google, button.linkedin, .button.linkedin, button.green, .button.green, .alert__message .alert__message--message {
+button.facebook, .button.facebook, button.twitter, .button.twitter, button.google, .button.google, button.linkedin, .button.linkedin, button.green, .button.green, .font__color--white, .alert__message .alert__message--message {
   color: #ffffff;
 }
 
@@ -1813,22 +1814,22 @@ button.selected, .button.selected, .background__color--icon-blue {
 }
 
 /* line 35, ../sass/common/_extends.scss */
-button.facebook, .button.facebook {
+button.facebook, .button.facebook, .background__color--facebook {
   background-color: #3b5998;
 }
 
 /* line 36, ../sass/common/_extends.scss */
-button.twitter, .button.twitter {
+button.twitter, .button.twitter, .background__color--twitter {
   background-color: #55acee;
 }
 
 /* line 37, ../sass/common/_extends.scss */
-button.linkedin, .button.linkedin {
+button.linkedin, .button.linkedin, .background__color--linkedin {
   background-color: #0077B5;
 }
 
 /* line 38, ../sass/common/_extends.scss */
-button.google, .button.google {
+button.google, .button.google, .background__color--google {
   background-color: #db4437;
 }
 
@@ -1994,6 +1995,7 @@ textarea.border__radius--no {
 /* line 36, ../sass/common/_form-element.scss */
 .input--text,
 input[type=text],
+input[type=email],
 input[type=password] {
   outline: 0;
   font-size: 14px;
@@ -2019,44 +2021,51 @@ input[type=password] {
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text::-webkit-input-placeholder,
 input[type=text]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
 input[type=password]::-webkit-input-placeholder {
   font-size: 14px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text::-moz-placeholder,
 input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
 input[type=password]::-moz-placeholder {
   font-size: 14px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text:-moz-placeholder,
 input[type=text]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
 input[type=password]:-moz-placeholder {
   font-size: 14px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text:-ms-input-placeholder,
 input[type=text]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
 input[type=password]:-ms-input-placeholder {
   font-size: 14px;
 }
-/* line 54, ../sass/common/_form-element.scss */
+/* line 55, ../sass/common/_form-element.scss */
 .input--text.width--small,
 input[type=text].width--small,
+input[type=email].width--small,
 input[type=password].width--small {
   width: 92%;
   padding: 9px 4%;
 }
-/* line 58, ../sass/common/_form-element.scss */
+/* line 59, ../sass/common/_form-element.scss */
 .input--text.width--half,
 input[type=text].width--half,
+input[type=email].width--half,
 input[type=password].width--half {
   width: 40%;
   float: left;
 }
-/* line 62, ../sass/common/_form-element.scss */
+/* line 63, ../sass/common/_form-element.scss */
 .input--text.border__radius--no,
 input[type=text].border__radius--no,
+input[type=email].border__radius--no,
 input[type=password].border__radius--no {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -2070,30 +2079,34 @@ input[type=password].border__radius--no {
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text.font__size--12px::-webkit-input-placeholder,
 input[type=text].font__size--12px::-webkit-input-placeholder,
+input[type=email].font__size--12px::-webkit-input-placeholder,
 input[type=password].font__size--12px::-webkit-input-placeholder {
   font-size: 12px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text.font__size--12px::-moz-placeholder,
 input[type=text].font__size--12px::-moz-placeholder,
+input[type=email].font__size--12px::-moz-placeholder,
 input[type=password].font__size--12px::-moz-placeholder {
   font-size: 12px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text.font__size--12px:-moz-placeholder,
 input[type=text].font__size--12px:-moz-placeholder,
+input[type=email].font__size--12px:-moz-placeholder,
 input[type=password].font__size--12px:-moz-placeholder {
   font-size: 12px;
 }
 /* line 4, ../sass/vendor/bourbon/css3/_placeholder.scss */
 .input--text.font__size--12px:-ms-input-placeholder,
 input[type=text].font__size--12px:-ms-input-placeholder,
+input[type=email].font__size--12px:-ms-input-placeholder,
 input[type=password].font__size--12px:-ms-input-placeholder {
   font-size: 12px;
 }
 
-/* line 76, ../sass/common/_form-element.scss */
-input[type=text], textarea, input[type=password] {
+/* line 77, ../sass/common/_form-element.scss */
+input[type=text], textarea, input[type=password], input[type=email] {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
@@ -2101,12 +2114,12 @@ input[type=text], textarea, input[type=password] {
   outline: none;
 }
 
-/* line 84, ../sass/common/_form-element.scss */
-input[type=text]:focus, textarea:focus, input[type=password]:focus {
+/* line 85, ../sass/common/_form-element.scss */
+input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=email]:focus {
   box-shadow: 0 0 10px #e6b85c;
 }
 
-/* line 88, ../sass/common/_form-element.scss */
+/* line 89, ../sass/common/_form-element.scss */
 .dropdown {
   display: inline-block;
   position: relative;
@@ -2125,7 +2138,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 3px;
 }
 
-/* line 102, ../sass/common/_form-element.scss */
+/* line 103, ../sass/common/_form-element.scss */
 .dropdown:after {
   content: '';
   position: absolute;
@@ -2142,20 +2155,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   pointer-events: none;
 }
 
-/* line 118, ../sass/common/_form-element.scss */
+/* line 119, ../sass/common/_form-element.scss */
 .dropdown:before {
   border-bottom-style: solid;
   border-top: none;
 }
 
-/* line 123, ../sass/common/_form-element.scss */
+/* line 124, ../sass/common/_form-element.scss */
 .dropdown:after {
   margin-top: 11px;
   border-top-style: solid;
   border-bottom: none;
 }
 
-/* line 129, ../sass/common/_form-element.scss */
+/* line 130, ../sass/common/_form-element.scss */
 .dropdown-select {
   position: relative;
   width: 130%;
@@ -2175,7 +2188,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -webkit-appearance: none;
 }
 
-/* line 146, ../sass/common/_form-element.scss */
+/* line 147, ../sass/common/_form-element.scss */
 .dropdown-select:focus {
   z-index: 3;
   width: 100%;
@@ -2184,7 +2197,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   outline-offset: -2px;
 }
 
-/* line 154, ../sass/common/_form-element.scss */
+/* line 155, ../sass/common/_form-element.scss */
 .dropdown-select > option {
   margin: 3px;
   padding: 6px 8px;
@@ -2195,55 +2208,55 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
 }
 
 /* Fix for IE 8 putting the arrows behind the select element. */
-/* line 165, ../sass/common/_form-element.scss */
+/* line 166, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown {
   z-index: 1;
 }
 
-/* line 169, ../sass/common/_form-element.scss */
+/* line 170, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown-select {
   z-index: -1;
 }
 
-/* line 173, ../sass/common/_form-element.scss */
+/* line 174, ../sass/common/_form-element.scss */
 .lt-ie9 .dropdown-select:focus {
   z-index: 3;
 }
 
 /* Dirty fix for Firefox adding padding where it shouldn't. */
 @-moz-document url-prefix() {
-  /* line 180, ../sass/common/_form-element.scss */
+  /* line 181, ../sass/common/_form-element.scss */
   .dropdown-select {
     padding-left: 6px;
   }
 }
-/* line 190, ../sass/common/_form-element.scss */
+/* line 191, ../sass/common/_form-element.scss */
 .label--checkbox,
 .label--radio {
   position: relative;
   cursor: pointer;
   display: inline-block;
 }
-/* line 195, ../sass/common/_form-element.scss */
+/* line 196, ../sass/common/_form-element.scss */
 .label--checkbox .label--checkbox-text,
 .label--radio .label--checkbox-text {
   margin-top: 0px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 201, ../sass/common/_form-element.scss */
+/* line 202, ../sass/common/_form-element.scss */
 .label--checkbox .radio + span,
 .label--radio .radio + span {
   margin-top: -3px;
 }
 
-/* line 207, ../sass/common/_form-element.scss */
+/* line 208, ../sass/common/_form-element.scss */
 .checkbox {
   position: relative;
   margin: 0 12px 0 0;
   cursor: pointer;
 }
-/* line 211, ../sass/common/_form-element.scss */
+/* line 212, ../sass/common/_form-element.scss */
 .checkbox:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -2264,7 +2277,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-style: none;
   border-right-style: none;
 }
-/* line 227, ../sass/common/_form-element.scss */
+/* line 228, ../sass/common/_form-element.scss */
 .checkbox:checked:before {
   -webkit-transform: rotate(-45deg) scale(1, 1);
   -moz-transform: rotate(-45deg) scale(1, 1);
@@ -2272,7 +2285,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -o-transform: rotate(-45deg) scale(1, 1);
   transform: rotate(-45deg) scale(1, 1);
 }
-/* line 231, ../sass/common/_form-element.scss */
+/* line 232, ../sass/common/_form-element.scss */
 .checkbox:after {
   content: "";
   position: absolute;
@@ -2285,14 +2298,14 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   cursor: pointer;
 }
 
-/* line 245, ../sass/common/_form-element.scss */
+/* line 246, ../sass/common/_form-element.scss */
 .checkbox2 {
   position: relative;
   margin: 0 12px 0 0;
   cursor: pointer;
   float: left;
 }
-/* line 250, ../sass/common/_form-element.scss */
+/* line 251, ../sass/common/_form-element.scss */
 .checkbox2:before {
   font-family: 'epistocracy';
   content: "\e616";
@@ -2305,20 +2318,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   display: none;
   background: #fff;
 }
-/* line 265, ../sass/common/_form-element.scss */
+/* line 266, ../sass/common/_form-element.scss */
 .checkbox2:checked:after {
   display: none;
 }
-/* line 268, ../sass/common/_form-element.scss */
+/* line 269, ../sass/common/_form-element.scss */
 .checkbox2:checked:before {
   display: block;
 }
-/* line 273, ../sass/common/_form-element.scss */
+/* line 274, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text {
   text-decoration: line-through;
   color: #97A552;
 }
-/* line 276, ../sass/common/_form-element.scss */
+/* line 277, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text:after {
   content: "";
   border-bottom: 1px solid #97A552;
@@ -2327,7 +2340,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   margin-top: -6px;
   margin-bottom: 5px;
 }
-/* line 285, ../sass/common/_form-element.scss */
+/* line 286, ../sass/common/_form-element.scss */
 .checkbox2:after {
   display: block;
   content: "\e617";
@@ -2348,20 +2361,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 5px;
 }
 
-/* line 301, ../sass/common/_form-element.scss */
+/* line 302, ../sass/common/_form-element.scss */
 .checkbox2 + .label--checkbox-text {
   float: left;
   margin-top: -7px;
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 306, ../sass/common/_form-element.scss */
+  /* line 307, ../sass/common/_form-element.scss */
   .checkbox2 + span {
     width: 80%;
     text-align: left;
   }
 }
-/* line 313, ../sass/common/_form-element.scss */
+/* line 314, ../sass/common/_form-element.scss */
 .select-wrap {
   display: block;
   padding: 0;
@@ -2379,7 +2392,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-top-left-radius: 5px;
   color: #49758E;
 }
-/* line 325, ../sass/common/_form-element.scss */
+/* line 326, ../sass/common/_form-element.scss */
 .select-wrap:after {
   font-family: 'epistocracy';
   content: "\e618";
@@ -2393,7 +2406,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   padding: 7px 0 0 0;
 }
 
-/* line 339, ../sass/common/_form-element.scss */
+/* line 340, ../sass/common/_form-element.scss */
 .input-select {
   color: #49758E;
   padding: 0.6em 0.9em;
@@ -2410,13 +2423,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   transition: border-color 400ms, box-shadow 400ms;
 }
 
-/* line 360, ../sass/common/_form-element.scss */
+/* line 361, ../sass/common/_form-element.scss */
 .radio {
   position: relative;
   margin: 0 1rem 0 0;
   cursor: pointer;
 }
-/* line 364, ../sass/common/_form-element.scss */
+/* line 365, ../sass/common/_form-element.scss */
 .radio:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -2436,11 +2449,11 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   background: #97A552;
   border-radius: 50%;
 }
-/* line 377, ../sass/common/_form-element.scss */
+/* line 378, ../sass/common/_form-element.scss */
 .radio span {
   margin-top: -3px;
 }
-/* line 382, ../sass/common/_form-element.scss */
+/* line 383, ../sass/common/_form-element.scss */
 .radio:checked:before {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -2448,7 +2461,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 387, ../sass/common/_form-element.scss */
+/* line 388, ../sass/common/_form-element.scss */
 .radio:after {
   content: "";
   position: absolute;
@@ -2461,12 +2474,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   border-radius: 50%;
 }
 
-/* line 406, ../sass/common/_form-element.scss */
+/* line 407, ../sass/common/_form-element.scss */
 .search {
   width: 100%;
   position: relative;
 }
-/* line 409, ../sass/common/_form-element.scss */
+/* line 410, ../sass/common/_form-element.scss */
 .search:before {
   position: absolute;
   top: 0;
@@ -2483,12 +2496,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 426, ../sass/common/_form-element.scss */
+  /* line 427, ../sass/common/_form-element.scss */
   .search:before {
     height: 30px;
   }
 }
-/* line 431, ../sass/common/_form-element.scss */
+/* line 432, ../sass/common/_form-element.scss */
 .searchTerm {
   width: 96%;
   border: 1px solid #D9D9D9;
@@ -2497,7 +2510,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus {
   outline: none;
 }
 
-/* line 438, ../sass/common/_form-element.scss */
+/* line 439, ../sass/common/_form-element.scss */
 .searchButton {
   position: absolute;
   top: 0;
@@ -3537,6 +3550,109 @@ footer li {
 /* line 1, ../sass/pages/_settings.scss */
 #settings {
   min-height: 525px;
+}
+
+/* line 4, ../sass/pages/_settings.scss */
+.social__connect__box {
+  width: 23.5%;
+  margin-right: 2%;
+  min-height: 174px;
+  float: left;
+  -webkit-box-shadow: 0px 0px 0px 1px #1f2533;
+  -moz-box-shadow: 0px 0px 0px 1px #1f2533;
+  box-shadow: 0px 0px 0px 1px #1f2533;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 15, ../sass/pages/_settings.scss */
+.social__connect__box.last {
+  margin-right: 0;
+  float: right;
+}
+/* line 19, ../sass/pages/_settings.scss */
+.social__connect__box.connected {
+  -webkit-box-shadow: 0px 0px 0px 0px #1f2533;
+  -moz-box-shadow: 0px 0px 0px 0px #1f2533;
+  box-shadow: 0px 0px 0px 0px #1f2533;
+}
+/* line 23, ../sass/pages/_settings.scss */
+.social__connect__box.connected img {
+  width: 100%;
+  height: auto;
+}
+/* line 28, ../sass/pages/_settings.scss */
+.social__connect__box.connected .button.top {
+  width: 100%;
+  border: 0;
+  padding: 6px 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+/* line 39, ../sass/pages/_settings.scss */
+.social__connect__box > i {
+  font-size: 80px;
+  margin-top: 48px;
+  display: block;
+}
+/* line 43, ../sass/pages/_settings.scss */
+.social__connect__box > i.facebook {
+  color: #3b5998;
+}
+/* line 46, ../sass/pages/_settings.scss */
+.social__connect__box > i.twitter {
+  color: #55acee;
+}
+/* line 49, ../sass/pages/_settings.scss */
+.social__connect__box > i.google {
+  color: #db4437;
+}
+/* line 52, ../sass/pages/_settings.scss */
+.social__connect__box > i.linkedin {
+  color: #0077B5;
+}
+/* line 57, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay {
+  position: absolute;
+  bottom: -174px;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+/* line 63, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay.facebook {
+  background-color: rgba(59, 89, 152, 0.9);
+}
+/* line 66, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay.twitter {
+  background-color: rgba(85, 172, 238, 0.9);
+}
+/* line 69, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay.google {
+  background-color: rgba(219, 68, 55, 0.9);
+}
+/* line 72, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay.linkedin {
+  background-color: rgba(0, 119, 181, 0.9);
+}
+/* line 75, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay i, .social__connect__box .social__overlay span {
+  margin-top: 78px;
+  display: inline-block;
+}
+/* line 79, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay:hover {
+  color: #ffffff;
+}
+/* line 81, ../sass/pages/_settings.scss */
+.social__connect__box .social__overlay:hover i {
+  color: #ffffff;
 }
 
 /* line 5, ../sass/pages/_signup-login.scss */

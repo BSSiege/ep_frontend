@@ -181,6 +181,10 @@ input {
 .font__color--white--opacity--point35{
 	color: rgba(255,255,255, .35)
 }
+.font__color--white{
+	@extend %color__font--white;
+}
+
 .font__color--secondary{
 	@extend %color__font--secondary;
 }
@@ -222,6 +226,18 @@ input {
 .background__color--green {
 	@extend %color__background--green;
 }
+.background__color--facebook {
+	@extend %color__background--facebook;
+}
+.background__color--twitter {
+	@extend %color__background--twitter;
+}
+.background__color--google {
+	@extend %color__background--google;
+}
+.background__color--linkedin {
+	@extend %color__background--linkedin;
+}
 
 // Align
 .text__align--left {
@@ -257,6 +273,9 @@ input {
 // Vertical Align
 .align__vertical--middle{
 	vertical-align: middle;
+}
+.align__vertical--top{
+	vertical-align: top;
 }
 // Position
 .position--relative {

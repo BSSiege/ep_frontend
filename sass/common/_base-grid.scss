@@ -52,9 +52,10 @@
 
 }
 .content__info__wrapper--onefourth-with-gutter  {
-	@include column(1/4, $cycle: 4, $gutter: 2);
+	@include column(1/4, $cycle: 0, $gutter: 2);
 	width: 22.5%;
 }
+
 
 
 
