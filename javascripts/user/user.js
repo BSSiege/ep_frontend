@@ -97,12 +97,12 @@ $( document ).ready(function() {
   /* --------------------------------------------------- */
   /*  Settings accordion
   /* --------------------------------------------------- */
-  $('#cssmenu > ul > li > a').click(function() {
+  $('.cssmenu > ul > li > a').click(function() {
     var checkElement = $(this).next();
     if($(".has-sub.active").length === 1){
-      $('#cssmenu ul ul:visible').slideUp('normal');
+      $('.cssmenu ul ul:visible').slideUp('normal');
     }
-    $('#cssmenu li').removeClass('active');
+    $('.cssmenu li').removeClass('active');
     $(this).closest('li').addClass('active'); 
     
 
@@ -112,11 +112,11 @@ $( document ).ready(function() {
     }
 
     if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-      $('#cssmenu ul ul:visible').slideUp('normal');
+      $('.cssmenu ul ul:visible').slideUp('normal');
       checkElement.slideDown('normal');
     }
-    $('#cssmenu ul ul a').click(function() {
-      $('#cssmenu ul ul a').removeClass("selected");
+    $('.cssmenu ul ul a').click(function() {
+      $('.cssmenu ul ul a').removeClass("selected");
       $(this).addClass("selected");
     });
     if($(this).closest('li').find('ul').children().length == 0) {

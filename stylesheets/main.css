@@ -217,10 +217,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* Base Styles */
 /* line 3, ../sass/common/_accordion-menu.scss */
-#cssmenu,
-#cssmenu ul,
-#cssmenu li,
-#cssmenu a {
+.cssmenu,
+.cssmenu ul,
+.cssmenu li,
+.cssmenu a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -233,12 +233,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 17, ../sass/common/_accordion-menu.scss */
-#cssmenu a {
+.cssmenu a {
   line-height: 1.3;
 }
 
 /* line 20, ../sass/common/_accordion-menu.scss */
-#cssmenu {
+.cssmenu {
   width: 100%;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -246,17 +246,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 26, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li {
+.cssmenu > ul > li {
   margin: 0 0 6px 0;
 }
 
 /* line 29, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li:last-child {
+.cssmenu > ul > li:last-child {
   margin: 0;
 }
 
 /* line 32, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li > a {
+.cssmenu > ul > li > a {
   font-size: 15px;
   display: block;
   color: #1F2533;
@@ -273,7 +273,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 43, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li > a > span {
+.cssmenu > ul > li > a > span {
   display: block;
   border: 1px solid #D9D9D9;
   padding: 6px 10px;
@@ -284,18 +284,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 52, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li > a:hover {
+.cssmenu > ul > li > a:hover {
   text-decoration: none;
   background: #E6B85C;
 }
 
 /* line 56, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li.active {
+.cssmenu > ul > li.active {
   border-bottom: none;
 }
 
 /* line 59, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li.active > a {
+.cssmenu > ul > li.active > a {
   background: #49758E;
   color: #fff;
   -webkit-transition-property: background;
@@ -307,11 +307,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 67, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li.has-sub > a span {
+.cssmenu > ul > li.has-sub > a span {
   position: relative;
 }
 /* line 70, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li.has-sub > a span:after {
+.cssmenu > ul > li.has-sub > a span:after {
   font-family: 'epistocracy';
   content: "\e61e";
   position: absolute;
@@ -324,7 +324,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 83, ../sass/common/_accordion-menu.scss */
-#cssmenu > ul > li.has-sub.active > a span:after {
+.cssmenu > ul > li.has-sub.active > a span:after {
   font-family: 'epistocracy';
   content: "\e61d";
   position: absolute;
@@ -338,17 +338,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* Sub menu */
 /* line 96, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul {
+.cssmenu ul ul {
   display: none;
 }
 
 /* line 99, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul li {
+.cssmenu ul ul li {
   padding: 3px 0;
 }
 
 /* line 102, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul a {
+.cssmenu ul ul a {
   display: block;
   color: #1F2533;
   font-size: 13px;
@@ -357,7 +357,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 109, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul li a {
+.cssmenu ul ul li a {
   -webkit-transition-property: background;
   -moz-transition-property: background;
   transition-property: background;
@@ -366,12 +366,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transition-duration: 0.3s;
 }
 /* line 112, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul li a.selected {
+.cssmenu ul ul li a.selected {
   background-color: #49758E;
   color: #ffffff;
 }
 /* line 116, ../sass/common/_accordion-menu.scss */
-#cssmenu ul ul li a:hover {
+.cssmenu ul ul li a:hover {
   background: #E6B85C;
 }
 
@@ -2306,9 +2306,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   float: left;
 }
 /* line 251, ../sass/common/_form-element.scss */
-.checkbox2:before {
-  font-family: 'epistocracy';
-  content: "\e616";
+.checkbox2::before {
   position: absolute;
   z-index: 1;
   color: #97A552;
@@ -2318,20 +2316,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   display: none;
   background: #fff;
 }
-/* line 266, ../sass/common/_form-element.scss */
+/* line 265, ../sass/common/_form-element.scss */
 .checkbox2:checked:after {
   display: none;
 }
-/* line 269, ../sass/common/_form-element.scss */
+/* line 268, ../sass/common/_form-element.scss */
 .checkbox2:checked:before {
   display: block;
 }
-/* line 274, ../sass/common/_form-element.scss */
+/* line 273, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text {
   text-decoration: line-through;
   color: #97A552;
 }
-/* line 277, ../sass/common/_form-element.scss */
+/* line 276, ../sass/common/_form-element.scss */
 .checkbox2:checked + .label--checkbox-text:after {
   content: "";
   border-bottom: 1px solid #97A552;
@@ -2340,7 +2338,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   margin-top: -6px;
   margin-bottom: 5px;
 }
-/* line 286, ../sass/common/_form-element.scss */
+/* line 285, ../sass/common/_form-element.scss */
 .checkbox2:after {
   display: block;
   content: "\e617";
@@ -2361,20 +2359,20 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   border-top-left-radius: 5px;
 }
 
-/* line 302, ../sass/common/_form-element.scss */
+/* line 301, ../sass/common/_form-element.scss */
 .checkbox2 + .label--checkbox-text {
   float: left;
   margin-top: -7px;
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 307, ../sass/common/_form-element.scss */
+  /* line 306, ../sass/common/_form-element.scss */
   .checkbox2 + span {
     width: 80%;
     text-align: left;
   }
 }
-/* line 314, ../sass/common/_form-element.scss */
+/* line 313, ../sass/common/_form-element.scss */
 .select-wrap {
   display: block;
   padding: 0;
@@ -2392,7 +2390,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   border-top-left-radius: 5px;
   color: #49758E;
 }
-/* line 326, ../sass/common/_form-element.scss */
+/* line 325, ../sass/common/_form-element.scss */
 .select-wrap:after {
   font-family: 'epistocracy';
   content: "\e618";
@@ -2406,7 +2404,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   padding: 7px 0 0 0;
 }
 
-/* line 340, ../sass/common/_form-element.scss */
+/* line 339, ../sass/common/_form-element.scss */
 .input-select {
   color: #49758E;
   padding: 0.6em 0.9em;
@@ -2423,13 +2421,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   transition: border-color 400ms, box-shadow 400ms;
 }
 
-/* line 361, ../sass/common/_form-element.scss */
+/* line 360, ../sass/common/_form-element.scss */
 .radio {
   position: relative;
   margin: 0 1rem 0 0;
   cursor: pointer;
 }
-/* line 365, ../sass/common/_form-element.scss */
+/* line 364, ../sass/common/_form-element.scss */
 .radio:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -2449,11 +2447,11 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   background: #97A552;
   border-radius: 50%;
 }
-/* line 378, ../sass/common/_form-element.scss */
+/* line 377, ../sass/common/_form-element.scss */
 .radio span {
   margin-top: -3px;
 }
-/* line 383, ../sass/common/_form-element.scss */
+/* line 382, ../sass/common/_form-element.scss */
 .radio:checked:before {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -2461,7 +2459,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 388, ../sass/common/_form-element.scss */
+/* line 387, ../sass/common/_form-element.scss */
 .radio:after {
   content: "";
   position: absolute;
@@ -2474,12 +2472,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   border-radius: 50%;
 }
 
-/* line 407, ../sass/common/_form-element.scss */
+/* line 406, ../sass/common/_form-element.scss */
 .search {
   width: 100%;
   position: relative;
 }
-/* line 410, ../sass/common/_form-element.scss */
+/* line 409, ../sass/common/_form-element.scss */
 .search:before {
   position: absolute;
   top: 0;
@@ -2496,12 +2494,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 427, ../sass/common/_form-element.scss */
+  /* line 426, ../sass/common/_form-element.scss */
   .search:before {
     height: 30px;
   }
 }
-/* line 432, ../sass/common/_form-element.scss */
+/* line 431, ../sass/common/_form-element.scss */
 .searchTerm {
   width: 96%;
   border: 1px solid #D9D9D9;
@@ -2510,7 +2508,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   outline: none;
 }
 
-/* line 439, ../sass/common/_form-element.scss */
+/* line 438, ../sass/common/_form-element.scss */
 .searchButton {
   position: absolute;
   top: 0;
@@ -2679,7 +2677,7 @@ i {
 }
 
 /* line 55, ../sass/common/_icon-font.scss */
-.icon-check:before {
+.icon-check:before, .checkbox2::before:before {
   content: "\e616";
 }
 
@@ -3552,7 +3550,7 @@ footer li {
   min-height: 525px;
 }
 
-/* line 4, ../sass/pages/_settings.scss */
+/* line 7, ../sass/pages/_settings.scss */
 .social__connect__box {
   width: 23.5%;
   margin-right: 2%;
@@ -3565,23 +3563,23 @@ footer li {
   position: relative;
   overflow: hidden;
 }
-/* line 15, ../sass/pages/_settings.scss */
+/* line 18, ../sass/pages/_settings.scss */
 .social__connect__box.last {
   margin-right: 0;
   float: right;
 }
-/* line 19, ../sass/pages/_settings.scss */
+/* line 22, ../sass/pages/_settings.scss */
 .social__connect__box.connected {
   -webkit-box-shadow: 0px 0px 0px 0px #1f2533;
   -moz-box-shadow: 0px 0px 0px 0px #1f2533;
   box-shadow: 0px 0px 0px 0px #1f2533;
 }
-/* line 23, ../sass/pages/_settings.scss */
+/* line 26, ../sass/pages/_settings.scss */
 .social__connect__box.connected img {
   width: 100%;
   height: auto;
 }
-/* line 28, ../sass/pages/_settings.scss */
+/* line 31, ../sass/pages/_settings.scss */
 .social__connect__box.connected .button.top {
   width: 100%;
   border: 0;
@@ -3595,29 +3593,29 @@ footer li {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
-/* line 39, ../sass/pages/_settings.scss */
+/* line 42, ../sass/pages/_settings.scss */
 .social__connect__box > i {
   font-size: 80px;
   margin-top: 48px;
   display: block;
 }
-/* line 43, ../sass/pages/_settings.scss */
+/* line 46, ../sass/pages/_settings.scss */
 .social__connect__box > i.facebook {
   color: #3b5998;
 }
-/* line 46, ../sass/pages/_settings.scss */
+/* line 49, ../sass/pages/_settings.scss */
 .social__connect__box > i.twitter {
   color: #55acee;
 }
-/* line 49, ../sass/pages/_settings.scss */
+/* line 52, ../sass/pages/_settings.scss */
 .social__connect__box > i.google {
   color: #db4437;
 }
-/* line 52, ../sass/pages/_settings.scss */
+/* line 55, ../sass/pages/_settings.scss */
 .social__connect__box > i.linkedin {
   color: #0077B5;
 }
-/* line 57, ../sass/pages/_settings.scss */
+/* line 60, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay {
   position: absolute;
   bottom: -174px;
@@ -3625,32 +3623,32 @@ footer li {
   height: 100%;
   left: 0;
 }
-/* line 63, ../sass/pages/_settings.scss */
+/* line 66, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay.facebook {
   background-color: rgba(59, 89, 152, 0.9);
 }
-/* line 66, ../sass/pages/_settings.scss */
+/* line 69, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay.twitter {
   background-color: rgba(85, 172, 238, 0.9);
 }
-/* line 69, ../sass/pages/_settings.scss */
+/* line 72, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay.google {
   background-color: rgba(219, 68, 55, 0.9);
 }
-/* line 72, ../sass/pages/_settings.scss */
+/* line 75, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay.linkedin {
   background-color: rgba(0, 119, 181, 0.9);
 }
-/* line 75, ../sass/pages/_settings.scss */
+/* line 78, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay i, .social__connect__box .social__overlay span {
   margin-top: 78px;
   display: inline-block;
 }
-/* line 79, ../sass/pages/_settings.scss */
+/* line 82, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay:hover {
   color: #ffffff;
 }
-/* line 81, ../sass/pages/_settings.scss */
+/* line 84, ../sass/pages/_settings.scss */
 .social__connect__box .social__overlay:hover i {
   color: #ffffff;
 }

@@ -248,9 +248,8 @@ $secondaryColor: $button-selected;
   margin: 0 12px 0 0 ;
   cursor: pointer;
   float: left;
-  &:before {
-    font-family: 'epistocracy';
-    content: "\e616";
+  &::before {
+    @extend .icon-check;
     position: absolute;
 
     z-index: 1;
