@@ -57,6 +57,12 @@ header {
     }
   }
 }
+.landing {
+  position: absolute;
+  z-index: 99;
+  background-color: transparent !important;
+  width: 100%;
+}
 
 
 

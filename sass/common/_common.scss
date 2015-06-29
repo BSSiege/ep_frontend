@@ -336,6 +336,11 @@ input {
 	width: 68%;
 }
 
+// list style
+.list__style--disc{
+	list-style: disc;
+}
+
 @include responsive(tab-landscape) {
 	.width__special--full-tl {
 		width: 100%;
