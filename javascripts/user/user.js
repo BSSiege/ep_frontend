@@ -187,6 +187,25 @@ $( document ).ready(function() {
 
   new WOW().init();
 
+  var count = 0;
+  var topvalue = 800;
+  $(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+
+    if (count>1) {
+      topvalue = 20000;
+    }
+    if (scrollTop > topvalue ) {
+      $('.ao-toggle').prop('checked', true);
+      count++;
+    }
+
+    else {
+      console.log("done");
+    }
+
+  })
+
 });
 
 function countChar(val) {
