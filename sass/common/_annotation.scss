@@ -1,5 +1,5 @@
 .ao-item {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 35px 0;
   position: relative;
@@ -69,7 +69,7 @@
   text-align: center;
   background: rgba(255,255,255,1);
   color: rgba(20,40,47,0.9);
-  font-size: 16px;
+  font-size: 13px;
 
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
@@ -116,11 +116,11 @@
 
 .ao-annotations span:nth-child(4) {
   top: 54%;
-  right: 12%;
+  right: 8%;
 }
 
 .ao-annotations span:nth-child(5) {
-  bottom: 28%;
+  bottom: 18%;
   left: 45%;
   &:after {
     display: none;
@@ -128,8 +128,8 @@
 }
 
 .ao-item:nth-child(2) .ao-annotations span:nth-child(1) {
-  top: 21%;
-  left: 71%;
+  top: 22%;
+  left: 67%;
 }
 
 .ao-item:nth-child(2) .ao-annotations span:nth-child(2) {
@@ -138,8 +138,8 @@
 }
 
 .ao-item:nth-child(2) .ao-annotations span:nth-child(3) {
-  top: 48%;
-  right: 49%;
+  top: 47%;
+  right: 51%;
   &:after {
     -webkit-transform: rotate(90deg);  
     -ms-transform: rotate(90deg);  

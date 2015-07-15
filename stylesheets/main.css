@@ -3299,7 +3299,7 @@ Copyright (c) 2015 Daniel Eden
 
 /* line 1, ../sass/common/_annotation.scss */
 .ao-item {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 35px 0;
   position: relative;
@@ -3376,7 +3376,7 @@ Copyright (c) 2015 Daniel Eden
   text-align: center;
   background: white;
   color: rgba(20, 40, 47, 0.9);
-  font-size: 16px;
+  font-size: 13px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -3427,12 +3427,12 @@ Copyright (c) 2015 Daniel Eden
 /* line 117, ../sass/common/_annotation.scss */
 .ao-annotations span:nth-child(4) {
   top: 54%;
-  right: 12%;
+  right: 8%;
 }
 
 /* line 122, ../sass/common/_annotation.scss */
 .ao-annotations span:nth-child(5) {
-  bottom: 28%;
+  bottom: 18%;
   left: 45%;
 }
 /* line 125, ../sass/common/_annotation.scss */
@@ -3442,8 +3442,8 @@ Copyright (c) 2015 Daniel Eden
 
 /* line 130, ../sass/common/_annotation.scss */
 .ao-item:nth-child(2) .ao-annotations span:nth-child(1) {
-  top: 21%;
-  left: 71%;
+  top: 22%;
+  left: 67%;
 }
 
 /* line 135, ../sass/common/_annotation.scss */
@@ -3454,8 +3454,8 @@ Copyright (c) 2015 Daniel Eden
 
 /* line 140, ../sass/common/_annotation.scss */
 .ao-item:nth-child(2) .ao-annotations span:nth-child(3) {
-  top: 48%;
-  right: 49%;
+  top: 47%;
+  right: 51%;
 }
 /* line 143, ../sass/common/_annotation.scss */
 .ao-item:nth-child(2) .ao-annotations span:nth-child(3):after {
