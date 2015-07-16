@@ -10,3 +10,25 @@
   color: white;
   margin-top: 12px;
 }
+#profile {
+  #url{
+    .input-select {
+      border: 0;
+      height: 36px; 
+    }
+    &.select-wrap {
+      width: 200px;
+    }
+  }
+  input[type="text"]{
+    width: 72%;
+  }
+  textarea{
+    width: 74%;
+    margin-top: 20px;
+    border: 0;
+    padding: 1%;
+    height: 60px;
+    resize: none;
+  }
+}

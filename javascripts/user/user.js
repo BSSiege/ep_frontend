@@ -206,6 +206,14 @@ $( document ).ready(function() {
 
   })
 
+  $(".url_boxes").hide();
+  $( "#select2" ).change(function() {
+    $(".url_boxes").slideDown();
+  });
+  $(".url_boxes .close").click(function (event) {
+    event.preventDefault();
+    $(".url_boxes").slideUp();
+  })
 });
 
 function countChar(val) {
