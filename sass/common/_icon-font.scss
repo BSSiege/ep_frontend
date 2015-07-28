@@ -28,6 +28,9 @@ i {
 // </i>
 
 
+.icon-minus-single:before {
+  content: "\e61f";
+}
 .icon-minus:before {
   content: "\e61d";
 }

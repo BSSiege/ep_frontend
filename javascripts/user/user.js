@@ -214,6 +214,20 @@ $( document ).ready(function() {
     event.preventDefault();
     $(".url_boxes").slideUp();
   })
+
+  // Button show hide
+  // $(".button__show").hide();
+  $(".add_action").click(function (e){
+    e.preventDefault();
+    var data = '<div class="cancel__wrapper"><div class="content__info__wrapper--half-with-gutter margin__right--12 margin__top--12"><input type="text" placeholder="Link" class="margin__bottom--18 border--all border__radius--no"></div><div class="content__info__wrapper--half-with-gutter margin__top--12"><input type="text" placeholder="Title" class="margin__bottom--18 border--all border__radius--no"></div><span class="button font__weight--400 display--inblock float--left plus margin__bottom--12 cancel_action"><i class="icon-minus-single"></i>Cancel</span></div>';
+    $(".button__show").append(data);
+    console.log($(".cancel__wrapper"));
+  })
+  $(document).on('click',".cancel__wrapper .cancel_action", function(){
+  
+    $(this).closest(".cancel__wrapper").slideUp();
+    $(this).closest(".cancel__wrapper").remove();;
+  })
 });
 
 function countChar(val) {

@@ -74,7 +74,9 @@
   min-height: 60px;
 }
 
-
+.button__show {
+  @extend .cf;
+}
 @include responsive(tab-landscape) {
   .right__arrow {
     height: 83px;

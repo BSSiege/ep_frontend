@@ -40,6 +40,18 @@ input {
 .clear--none {
 	clear: none !important;
 }
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
 
 // Font decoration 
 .underline { text-decoration: underline}
