@@ -76,6 +76,11 @@ button, .button {
 			margin-top: -3px;
 		}
 	}
+	&.icon-button {
+		i {
+			margin: 0;
+		}
+	}
 
 	&.green {
 		background-color: #7FBA00;

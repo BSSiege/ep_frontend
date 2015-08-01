@@ -3119,24 +3119,6 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp;
 }
 
-@media only screen and (max-width: 1099px) {
-  /* line 44, ../sass/common/_2mixin.scss */
-  body {
-    background-color: red !important;
-  }
-}
-@media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 49, ../sass/common/_2mixin.scss */
-  body {
-    background-color: yellow !important;
-  }
-}
-@media only screen and (max-width: 480px) {
-  /* line 54, ../sass/common/_2mixin.scss */
-  body {
-    background-color: green !important;
-  }
-}
 /* Base Styles */
 /* line 3, ../sass/common/_accordion-menu.scss */
 .cssmenu,
@@ -4072,35 +4054,39 @@ button.plus i, .button.plus i {
   margin-top: -3px;
 }
 /* line 80, ../sass/common/_button.scss */
+button.icon-button i, .button.icon-button i {
+  margin: 0;
+}
+/* line 85, ../sass/common/_button.scss */
 button.green, .button.green {
   background-color: #7FBA00;
 }
-/* line 87, ../sass/common/_button.scss */
+/* line 92, ../sass/common/_button.scss */
 button.width--full, .button.width--full {
   width: 100%;
 }
-/* line 88, ../sass/common/_button.scss */
+/* line 93, ../sass/common/_button.scss */
 button.width--full--no-padding, .button.width--full--no-padding {
   width: 100%;
   padding: 6px 0;
 }
-/* line 89, ../sass/common/_button.scss */
+/* line 94, ../sass/common/_button.scss */
 button.width--half, .button.width--half {
   width: 50%;
 }
-/* line 93, ../sass/common/_button.scss */
+/* line 98, ../sass/common/_button.scss */
 button.padding--66, .button.padding--66 {
   padding: 9px 66px;
 }
-/* line 94, ../sass/common/_button.scss */
+/* line 99, ../sass/common/_button.scss */
 button.icon--right, .button.icon--right {
   padding-right: 8px;
 }
-/* line 95, ../sass/common/_button.scss */
+/* line 100, ../sass/common/_button.scss */
 button.icon--left, .button.icon--left {
   padding-left: 8px;
 }
-/* line 96, ../sass/common/_button.scss */
+/* line 101, ../sass/common/_button.scss */
 button i, .button i {
   height: 100%;
   display: inline-block;
@@ -4108,25 +4094,25 @@ button i, .button i {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 102, ../sass/common/_button.scss */
+/* line 107, ../sass/common/_button.scss */
 button i.margin__right--0, .button i.margin__right--0 {
   margin-right: 0px;
 }
 
-/* line 105, ../sass/common/_button.scss */
+/* line 110, ../sass/common/_button.scss */
 .button--close {
   position: absolute;
   right: 12px;
   top: 18px;
 }
-/* line 109, ../sass/common/_button.scss */
+/* line 114, ../sass/common/_button.scss */
 .button--close a {
   color: #ffffff;
   font-size: 18px;
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 116, ../sass/common/_button.scss */
+  /* line 121, ../sass/common/_button.scss */
   button, .button {
     font-size: 13px;
   }
@@ -4686,96 +4672,96 @@ input[type=password].font__size--12px {
   background-color: #1F2533 !important;
 }
 
-/* line 255, ../sass/common/_common.scss */
+/* line 261, ../sass/common/_common.scss */
 .text__align--left {
   text-align: left;
 }
 
-/* line 258, ../sass/common/_common.scss */
+/* line 264, ../sass/common/_common.scss */
 .text__align--right {
   text-align: right;
 }
 
-/* line 261, ../sass/common/_common.scss */
+/* line 267, ../sass/common/_common.scss */
 .text__align--center {
   text-align: center;
 }
 
-/* line 264, ../sass/common/_common.scss */
+/* line 270, ../sass/common/_common.scss */
 .text__align--justify {
   text-align: justify;
 }
 
-/* line 270, ../sass/common/_common.scss */
+/* line 276, ../sass/common/_common.scss */
 .display--block {
   display: block;
 }
 
-/* line 273, ../sass/common/_common.scss */
+/* line 279, ../sass/common/_common.scss */
 .display--none {
   display: none;
 }
 
-/* line 276, ../sass/common/_common.scss */
+/* line 282, ../sass/common/_common.scss */
 .display--inblock, header .logo, header nav li {
   display: inline-block;
 }
 
-/* line 279, ../sass/common/_common.scss */
+/* line 285, ../sass/common/_common.scss */
 .display--table {
   display: table;
 }
 
-/* line 282, ../sass/common/_common.scss */
+/* line 288, ../sass/common/_common.scss */
 .display--table-cell {
   display: table-cell;
 }
 
-/* line 286, ../sass/common/_common.scss */
+/* line 292, ../sass/common/_common.scss */
 .align__vertical--middle {
   vertical-align: middle;
 }
 
-/* line 289, ../sass/common/_common.scss */
+/* line 295, ../sass/common/_common.scss */
 .align__vertical--top {
   vertical-align: top;
 }
 
-/* line 293, ../sass/common/_common.scss */
+/* line 299, ../sass/common/_common.scss */
 .position--relative {
   position: relative;
 }
 
-/* line 297, ../sass/common/_common.scss */
+/* line 303, ../sass/common/_common.scss */
 .visibility--hidden {
   visibility: hidden;
 }
 
-/* line 301, ../sass/common/_common.scss */
+/* line 307, ../sass/common/_common.scss */
 .devider--dashed--bottom {
   height: 0;
   width: 100%;
   border-bottom: 2px dashed #D9D9D9;
 }
 
-/* line 307, ../sass/common/_common.scss */
+/* line 313, ../sass/common/_common.scss */
 .border--all {
   border: 1px solid #D9D9D9;
 }
 
-/* line 310, ../sass/common/_common.scss */
+/* line 316, ../sass/common/_common.scss */
 .border--all--dark {
   border: 1px solid #1F2533;
 }
 
-/* line 313, ../sass/common/_common.scss */
+/* line 319, ../sass/common/_common.scss */
 .devider--line--bottom {
   height: 0;
   width: 100%;
   border-bottom: 1px solid #1F2533;
 }
 
-/* line 318, ../sass/common/_common.scss */
+/* line 324, ../sass/common/_common.scss */
 .devider--right {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) ;
@@ -4783,14 +4769,14 @@ input[type=password].font__size--12px {
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 322, ../sass/common/_common.scss */
+  /* line 328, ../sass/common/_common.scss */
   .devider--right {
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
     -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) ;
   }
 }
-/* line 326, ../sass/common/_common.scss */
+/* line 332, ../sass/common/_common.scss */
 .devider--left--inset {
   -webkit-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
@@ -4798,66 +4784,66 @@ input[type=password].font__size--12px {
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 330, ../sass/common/_common.scss */
+  /* line 336, ../sass/common/_common.scss */
   .devider--left--inset {
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
     -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2) inset;
   }
 }
-/* line 334, ../sass/common/_common.scss */
+/* line 340, ../sass/common/_common.scss */
 .border--bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 337, ../sass/common/_common.scss */
+/* line 343, ../sass/common/_common.scss */
 .border--zero {
   border: 0px solid !important;
 }
 
-/* line 341, ../sass/common/_common.scss */
+/* line 347, ../sass/common/_common.scss */
 .width__special--full {
   width: 100%;
 }
 
-/* line 344, ../sass/common/_common.scss */
+/* line 350, ../sass/common/_common.scss */
 .width__special--half {
   width: 50%;
 }
 
-/* line 347, ../sass/common/_common.scss */
+/* line 353, ../sass/common/_common.scss */
 .width__special--68 {
   width: 68%;
 }
 
-/* line 352, ../sass/common/_common.scss */
+/* line 358, ../sass/common/_common.scss */
 .list__style--disc {
   list-style: disc;
 }
 
 @media only screen and (max-width: 1099px) {
-  /* line 357, ../sass/common/_common.scss */
+  /* line 363, ../sass/common/_common.scss */
   .width__special--full-tl {
     width: 100%;
   }
 }
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 362, ../sass/common/_common.scss */
+  /* line 368, ../sass/common/_common.scss */
   .width__special--full-tp {
     width: 100%;
   }
-  /* line 364, ../sass/common/_common.scss */
+  /* line 370, ../sass/common/_common.scss */
   .width__special--full-tp > .user-avatar {
     margin-left: 0;
   }
 }
-/* line 371, ../sass/common/_common.scss */
+/* line 377, ../sass/common/_common.scss */
 .icon__box {
   width: 160px;
   margin: 30px auto;
   display: inline-block;
 }
-/* line 375, ../sass/common/_common.scss */
+/* line 381, ../sass/common/_common.scss */
 .icon__box .icon__box--holder {
   width: 21px;
   height: 21px;
@@ -4868,7 +4854,7 @@ input[type=password].font__size--12px {
   padding: 10px;
   font-size: 25px;
 }
-/* line 384, ../sass/common/_common.scss */
+/* line 390, ../sass/common/_common.scss */
 .icon__box .icon__box--holder.selected {
   background-color: #49758E;
   color: #ffffff;
@@ -4896,7 +4882,13 @@ input[type=password].font__size--12px {
   font-size: 25px;
   color: white;
 }
-/* line 27, ../sass/common/_drop-down.scss */
+/* line 23, ../sass/common/_drop-down.scss */
+.wrapper-dropdon-2.small:after {
+  color: #999999;
+  font-size: 17px;
+  margin-top: -4px;
+}
+/* line 34, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon {
   /* Size & position */
   position: absolute;
@@ -4912,49 +4904,49 @@ input[type=password].font__size--12px {
   opacity: 0;
   pointer-events: none;
 }
-/* line 43, ../sass/common/_drop-down.scss */
+/* line 50, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li {
   border-bottom: 1px solid #D9D9D9;
   text-align: left;
 }
-/* line 46, ../sass/common/_drop-down.scss */
+/* line 53, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li a {
   display: block;
   text-decoration: none;
   color: #333;
   padding: 10px;
 }
-/* line 51, ../sass/common/_drop-down.scss */
+/* line 58, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li a:hover {
   color: #F2F2F2;
   background-color: #49758E;
 }
-/* line 56, ../sass/common/_drop-down.scss */
+/* line 63, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li i {
   margin-right: 5px;
   color: inherit;
   vertical-align: middle;
 }
-/* line 61, ../sass/common/_drop-down.scss */
+/* line 68, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li:hover {
   color: #F2F2F2;
   background-color: #49758E;
 }
-/* line 65, ../sass/common/_drop-down.scss */
+/* line 72, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li.disable {
   cursor: text;
   padding: 10px;
 }
-/* line 69, ../sass/common/_drop-down.scss */
+/* line 76, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2 .dropdon li.disable:hover {
   background-color: #ffffff;
 }
-/* line 77, ../sass/common/_drop-down.scss */
+/* line 84, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active:after {
   font-family: 'epistocracy';
   content: "\e615";
 }
-/* line 81, ../sass/common/_drop-down.scss */
+/* line 88, ../sass/common/_drop-down.scss */
 .wrapper-dropdon-2.active .dropdon {
   opacity: 1;
   width: 140px;
@@ -5047,27 +5039,37 @@ button.selected, .button.selected, .background__color--icon-blue {
   background-color: #97A552;
 }
 
-/* line 35, ../sass/common/_extends.scss */
+/* line 33, ../sass/common/_extends.scss */
+.background__color--done-green {
+  background-color: #4CAF50;
+}
+
+/* line 34, ../sass/common/_extends.scss */
+.background__color--orrange {
+  background-color: #F39C11;
+}
+
+/* line 37, ../sass/common/_extends.scss */
 button.facebook, .button.facebook, .background__color--facebook {
   background-color: #3b5998;
 }
 
-/* line 36, ../sass/common/_extends.scss */
+/* line 38, ../sass/common/_extends.scss */
 button.twitter, .button.twitter, .background__color--twitter {
   background-color: #55acee;
 }
 
-/* line 37, ../sass/common/_extends.scss */
+/* line 39, ../sass/common/_extends.scss */
 button.linkedin, .button.linkedin, .background__color--linkedin {
   background-color: #0077B5;
 }
 
-/* line 38, ../sass/common/_extends.scss */
+/* line 40, ../sass/common/_extends.scss */
 button.google, .button.google, .background__color--google {
   background-color: #db4437;
 }
 
-/* line 51, ../sass/common/_extends.scss */
+/* line 53, ../sass/common/_extends.scss */
 .content__info__wrapper--full:after, .card:after, .content__info__wrapper--full--no-padding:after, header .logo:after, #signup:after, #login:after {
   content: "";
   display: table;
@@ -5637,8 +5639,27 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   margin-top: -35px;
   padding: 7px 0 0 0;
 }
+/* line 337, ../sass/common/_form-element.scss */
+.select-wrap.big {
+  width: 230px;
+  border-right: 0;
+  border: 1px solid #49758E;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+/* line 345, ../sass/common/_form-element.scss */
+.select-wrap.big .input-select {
+  border-right: 0;
+  border-color: #fff;
+}
 
-/* line 339, ../sass/common/_form-element.scss */
+/* line 352, ../sass/common/_form-element.scss */
 .input-select {
   color: #49758E;
   padding: 0.6em 0.9em;
@@ -5655,13 +5676,13 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   transition: border-color 400ms, box-shadow 400ms;
 }
 
-/* line 360, ../sass/common/_form-element.scss */
+/* line 373, ../sass/common/_form-element.scss */
 .radio {
   position: relative;
   margin: 0 1rem 0 0;
   cursor: pointer;
 }
-/* line 364, ../sass/common/_form-element.scss */
+/* line 377, ../sass/common/_form-element.scss */
 .radio:before {
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
   -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
@@ -5681,11 +5702,11 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   background: #97A552;
   border-radius: 50%;
 }
-/* line 377, ../sass/common/_form-element.scss */
+/* line 390, ../sass/common/_form-element.scss */
 .radio span {
   margin-top: -3px;
 }
-/* line 382, ../sass/common/_form-element.scss */
+/* line 395, ../sass/common/_form-element.scss */
 .radio:checked:before {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5693,7 +5714,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-/* line 387, ../sass/common/_form-element.scss */
+/* line 400, ../sass/common/_form-element.scss */
 .radio:after {
   content: "";
   position: absolute;
@@ -5706,12 +5727,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   border-radius: 50%;
 }
 
-/* line 406, ../sass/common/_form-element.scss */
+/* line 419, ../sass/common/_form-element.scss */
 .search {
   width: 100%;
   position: relative;
 }
-/* line 409, ../sass/common/_form-element.scss */
+/* line 422, ../sass/common/_form-element.scss */
 .search:before {
   position: absolute;
   top: 0;
@@ -5728,12 +5749,12 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
 }
 
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 426, ../sass/common/_form-element.scss */
+  /* line 439, ../sass/common/_form-element.scss */
   .search:before {
     height: 30px;
   }
 }
-/* line 431, ../sass/common/_form-element.scss */
+/* line 444, ../sass/common/_form-element.scss */
 .searchTerm {
   width: 96%;
   border: 1px solid #D9D9D9;
@@ -5742,7 +5763,7 @@ input[type=text]:focus, textarea:focus, input[type=password]:focus, input[type=e
   outline: none;
 }
 
-/* line 438, ../sass/common/_form-element.scss */
+/* line 451, ../sass/common/_form-element.scss */
 .searchButton {
   position: absolute;
   top: 0;
@@ -5767,42 +5788,65 @@ header .logo i {
   font-size: 35px;
 }
 /* line 14, ../sass/common/_header.scss */
+header.secondary {
+  background-color: #ffffff !important;
+  height: 45px;
+}
+/* line 17, ../sass/common/_header.scss */
+header.secondary nav {
+  margin-top: 0;
+}
+/* line 19, ../sass/common/_header.scss */
+header.secondary nav li {
+  border-right: 1px solid #1F2533;
+}
+/* line 21, ../sass/common/_header.scss */
+header.secondary nav li:last-child {
+  border-right: 0;
+}
+/* line 25, ../sass/common/_header.scss */
+header.secondary nav a {
+  color: #1F2533;
+  margin-right: 18px;
+  font-size: 15px;
+}
+/* line 32, ../sass/common/_header.scss */
 header nav {
   width: 65%;
   margin-top: 12px;
 }
-/* line 17, ../sass/common/_header.scss */
+/* line 35, ../sass/common/_header.scss */
 header nav.loggedin {
   width: 84%;
 }
-/* line 20, ../sass/common/_header.scss */
+/* line 38, ../sass/common/_header.scss */
 header nav > ul {
   margin-top: 10px;
 }
-/* line 27, ../sass/common/_header.scss */
+/* line 45, ../sass/common/_header.scss */
 header nav li:last-child {
   margin-right: 0;
 }
-/* line 31, ../sass/common/_header.scss */
+/* line 49, ../sass/common/_header.scss */
 header nav a {
   font-size: 12px;
   font-weight: 700;
 }
-/* line 36, ../sass/common/_header.scss */
+/* line 54, ../sass/common/_header.scss */
 header nav .right__nav {
   font-size: 12px;
   font-weight: 700;
 }
-/* line 40, ../sass/common/_header.scss */
+/* line 58, ../sass/common/_header.scss */
 header nav .user__name {
   vertical-align: 13px;
 }
-/* line 43, ../sass/common/_header.scss */
+/* line 61, ../sass/common/_header.scss */
 header nav .follower__count {
   vertical-align: 8px;
   font-size: 30px;
 }
-/* line 47, ../sass/common/_header.scss */
+/* line 65, ../sass/common/_header.scss */
 header nav .notification {
   margin-left: 10px;
   padding: 0px 12px;
@@ -5819,7 +5863,7 @@ header nav .notification {
   display: inline-block;
 }
 
-/* line 60, ../sass/common/_header.scss */
+/* line 78, ../sass/common/_header.scss */
 .landing {
   position: absolute;
   z-index: 99;
@@ -5828,39 +5872,39 @@ header nav .notification {
 }
 
 @media only screen and (max-width: 1099px) {
-  /* line 72, ../sass/common/_header.scss */
+  /* line 90, ../sass/common/_header.scss */
   header nav.loggedin {
     width: 80%;
   }
-  /* line 75, ../sass/common/_header.scss */
+  /* line 93, ../sass/common/_header.scss */
   header nav li {
     margin-left: 0px;
     margin-right: 8px;
   }
-  /* line 78, ../sass/common/_header.scss */
+  /* line 96, ../sass/common/_header.scss */
   header nav li ul {
     margin-top: -1px;
   }
-  /* line 82, ../sass/common/_header.scss */
+  /* line 100, ../sass/common/_header.scss */
   header nav .follower__count {
     vertical-align: 10px;
     font-size: 21px;
   }
 }
 @media only screen and (min-width: 586px) and (max-width: 767px) {
-  /* line 91, ../sass/common/_header.scss */
+  /* line 109, ../sass/common/_header.scss */
   header nav {
     margin-top: 12px;
   }
-  /* line 93, ../sass/common/_header.scss */
+  /* line 111, ../sass/common/_header.scss */
   header nav.loggedin {
     width: 69%;
   }
 }
 @font-face {
   font-family: 'epistocracy';
-  src: url('../fonts/epistocracy.eot?-a5tqu5&1438098316');
-  src: url('../fonts/epistocracy.eot?&1438098316#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1438098316') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1438098316') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1438098316#epistocracy-10') format("svg");
+  src: url('../fonts/epistocracy.eot?-a5tqu5&1438361316');
+  src: url('../fonts/epistocracy.eot?&1438361316#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1438361316') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1438361316') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1438361316#epistocracy-10') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5879,184 +5923,204 @@ i {
 }
 
 /* line 31, ../sass/common/_icon-font.scss */
+.icon-plus-solid:before {
+  content: "\e620";
+}
+
+/* line 34, ../sass/common/_icon-font.scss */
+.icon-edit:before {
+  content: "\e621";
+}
+
+/* line 37, ../sass/common/_icon-font.scss */
+.icon-archive:before {
+  content: "\e622";
+}
+
+/* line 40, ../sass/common/_icon-font.scss */
+.icon-publish:before {
+  content: "\e623";
+}
+
+/* line 43, ../sass/common/_icon-font.scss */
 .icon-minus-single:before {
   content: "\e61f";
 }
 
-/* line 34, ../sass/common/_icon-font.scss */
+/* line 46, ../sass/common/_icon-font.scss */
 .icon-minus:before {
   content: "\e61d";
 }
 
-/* line 37, ../sass/common/_icon-font.scss */
+/* line 49, ../sass/common/_icon-font.scss */
 .icon-expand:before {
   content: "\e61e";
 }
 
-/* line 40, ../sass/common/_icon-font.scss */
+/* line 52, ../sass/common/_icon-font.scss */
 .icon-plus:before {
   content: "\e61c";
 }
 
-/* line 43, ../sass/common/_icon-font.scss */
+/* line 55, ../sass/common/_icon-font.scss */
 .icon-search:before {
   content: "\e61b";
 }
 
-/* line 46, ../sass/common/_icon-font.scss */
+/* line 58, ../sass/common/_icon-font.scss */
 .icon-arrow-down:before {
   content: "\e61a";
 }
 
-/* line 49, ../sass/common/_icon-font.scss */
+/* line 61, ../sass/common/_icon-font.scss */
 .icon-arrow-up:before {
   content: "\e619";
 }
 
-/* line 52, ../sass/common/_icon-font.scss */
+/* line 64, ../sass/common/_icon-font.scss */
 .icon-caret-down:before {
   content: "\e618";
 }
 
-/* line 55, ../sass/common/_icon-font.scss */
+/* line 67, ../sass/common/_icon-font.scss */
 .icon-uncheck:before {
   content: "\e617";
 }
 
-/* line 58, ../sass/common/_icon-font.scss */
+/* line 70, ../sass/common/_icon-font.scss */
 .icon-check:before, .checkbox2::before:before {
   content: "\e616";
 }
 
-/* line 61, ../sass/common/_icon-font.scss */
+/* line 73, ../sass/common/_icon-font.scss */
 .icon-angle-right:before {
   content: "\e614";
 }
 
-/* line 64, ../sass/common/_icon-font.scss */
+/* line 76, ../sass/common/_icon-font.scss */
 .icon-angle-up:before {
   content: "\e615";
 }
 
-/* line 67, ../sass/common/_icon-font.scss */
+/* line 79, ../sass/common/_icon-font.scss */
 .icon-close:before {
   content: "\e613";
 }
 
-/* line 70, ../sass/common/_icon-font.scss */
+/* line 82, ../sass/common/_icon-font.scss */
 .icon-angle-down:before {
   content: "\e612";
 }
 
-/* line 73, ../sass/common/_icon-font.scss */
+/* line 85, ../sass/common/_icon-font.scss */
 .icon-angle-left:before {
   content: "\e611";
 }
 
-/* line 76, ../sass/common/_icon-font.scss */
+/* line 88, ../sass/common/_icon-font.scss */
 .icon-twitter:before {
   content: "\e610";
 }
 
-/* line 79, ../sass/common/_icon-font.scss */
+/* line 91, ../sass/common/_icon-font.scss */
 .icon-e:before {
   content: "\e600";
 }
 
-/* line 82, ../sass/common/_icon-font.scss */
+/* line 94, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path1:before {
   content: "\e601";
   color: white;
 }
 
-/* line 86, ../sass/common/_icon-font.scss */
+/* line 98, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path2:before {
   content: "\e602";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 91, ../sass/common/_icon-font.scss */
+/* line 103, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path3:before {
   content: "\e603";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 96, ../sass/common/_icon-font.scss */
+/* line 108, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path4:before {
   content: "\e604";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 101, ../sass/common/_icon-font.scss */
+/* line 113, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path5:before {
   content: "\e605";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 106, ../sass/common/_icon-font.scss */
+/* line 118, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path6:before {
   content: "\e606";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 111, ../sass/common/_icon-font.scss */
+/* line 123, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path7:before {
   content: "\e607";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 116, ../sass/common/_icon-font.scss */
+/* line 128, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path8:before {
   content: "\e608";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 121, ../sass/common/_icon-font.scss */
+/* line 133, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path9:before {
   content: "\e609";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 126, ../sass/common/_icon-font.scss */
+/* line 138, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path10:before {
   content: "\e60a";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 131, ../sass/common/_icon-font.scss */
+/* line 143, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path11:before {
   content: "\e60b";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 136, ../sass/common/_icon-font.scss */
+/* line 148, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path12:before {
   content: "\e60c";
   margin-left: -4.1484375em;
   color: #f9a531;
 }
 
-/* line 141, ../sass/common/_icon-font.scss */
+/* line 153, ../sass/common/_icon-font.scss */
 .icon-google:before {
   content: "\e60d";
 }
 
-/* line 144, ../sass/common/_icon-font.scss */
+/* line 156, ../sass/common/_icon-font.scss */
 .icon-linkedin:before {
   content: "\e60e";
 }
 
-/* line 147, ../sass/common/_icon-font.scss */
+/* line 159, ../sass/common/_icon-font.scss */
 .icon-facebook:before {
   content: "\e60f";
 }

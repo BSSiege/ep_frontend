@@ -334,6 +334,19 @@ $secondaryColor: $button-selected;
     margin-top: -35px;
     padding: 7px 0 0 0;
   }
+  &.big {
+    width: 230px;
+    border-right: 0;
+    border: 1px solid #49758E;
+    @include border-top-radius(0);
+    @include border-right-radius(0);
+    @include border-bottom-radius(0);
+    @include border-left-radius(0);
+    .input-select {
+      border-right: 0;
+      border-color: #fff;
+    }
+  }
 }
 
 .input-select {

@@ -40,18 +40,18 @@
 }
 
 
-@include responsive(tab-landscape) {
-  body {
-  	background-color: red !important;
-  }
-}
-@include responsive(tab-portrait) {
-  body {
-  	background-color: yellow !important;
-  }
-}
-@include responsive(mobile) {
-  body {
-  	background-color: green !important;
-  }
-}
+// @include responsive(tab-landscape) {
+//   body {
+//   	background-color: red !important;
+//   }
+// }
+// @include responsive(tab-portrait) {
+//   body {
+//   	background-color: yellow !important;
+//   }
+// }
+// @include responsive(mobile) {
+//   body {
+//   	background-color: green !important;
+//   }
+// }

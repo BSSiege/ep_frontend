@@ -28,6 +28,18 @@ i {
 // </i>
 
 
+.icon-plus-solid:before {
+  content: "\e620";
+}
+.icon-edit:before {
+  content: "\e621";
+}
+.icon-archive:before {
+  content: "\e622";
+}
+.icon-publish:before {
+  content: "\e623";
+}
 .icon-minus-single:before {
   content: "\e61f";
 }

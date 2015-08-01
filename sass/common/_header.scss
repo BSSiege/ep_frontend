@@ -11,6 +11,24 @@ header {
       font-size: 35px;
     }
   }
+  &.secondary {
+    background-color: $white !important;
+    height: 45px;
+    nav {
+      margin-top: 0;
+      li{
+        border-right: 1px solid $text;
+        &:last-child {
+          border-right: 0;
+        }
+      }
+      a {
+        color: $text;
+        margin-right: 18px;
+        font-size: 15px;
+      }
+    }
+  }
   nav {
     width: 65%;
     margin-top: 12px;

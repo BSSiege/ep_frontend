@@ -19,6 +19,13 @@
         font-size: 25px;
         color: white;
     }
+    &.small {
+        &:after {
+            color: #999999;
+            font-size: 17px;
+            margin-top: -4px;
+        }
+    }
     &.secondary {
         &:after {
             @extend .font__color--secondary;

@@ -238,6 +238,12 @@ input {
 .background__color--green {
 	@extend %color__background--green;
 }
+.background__color--done-green {
+	@extend %color__background--done-green;
+}
+.background__color--orrange {
+	@extend %color__background--orrange;
+}
 .background__color--facebook {
 	@extend %color__background--facebook;
 }
