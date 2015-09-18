@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-/* line 5, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, a, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -5908,8 +5908,8 @@ header nav .notification {
 }
 @font-face {
   font-family: 'epistocracy';
-  src: url('../fonts/epistocracy.eot?-a5tqu5&1438439797');
-  src: url('../fonts/epistocracy.eot?&1438439797#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1438439797') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1438439797') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1438439797#epistocracy-10') format("svg");
+  src: url('../fonts/epistocracy.eot?-a5tqu5&1442595810');
+  src: url('../fonts/epistocracy.eot?&1442595810#iefix-a5tqu5') format("embedded-opentype"), url('../fonts/epistocracy.woff?-a5tqu5&1442595810') format("woff"), url('../fonts/epistocracy.ttf?-a5tqu5&1442595810') format("truetype"), url('../fonts/epistocracy.svg?-a5tqu5&1442595810#epistocracy-10') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5928,204 +5928,214 @@ i {
 }
 
 /* line 31, ../sass/common/_icon-font.scss */
+.icon-email:before {
+  content: "\e624";
+}
+
+/* line 34, ../sass/common/_icon-font.scss */
+.icon-link:before {
+  content: "\e625";
+}
+
+/* line 37, ../sass/common/_icon-font.scss */
 .icon-plus-solid:before {
   content: "\e620";
 }
 
-/* line 34, ../sass/common/_icon-font.scss */
+/* line 40, ../sass/common/_icon-font.scss */
 .icon-edit:before {
   content: "\e621";
 }
 
-/* line 37, ../sass/common/_icon-font.scss */
+/* line 43, ../sass/common/_icon-font.scss */
 .icon-archive:before {
   content: "\e622";
 }
 
-/* line 40, ../sass/common/_icon-font.scss */
+/* line 46, ../sass/common/_icon-font.scss */
 .icon-publish:before {
   content: "\e623";
 }
 
-/* line 43, ../sass/common/_icon-font.scss */
+/* line 49, ../sass/common/_icon-font.scss */
 .icon-minus-single:before {
   content: "\e61f";
 }
 
-/* line 46, ../sass/common/_icon-font.scss */
+/* line 52, ../sass/common/_icon-font.scss */
 .icon-minus:before {
   content: "\e61d";
 }
 
-/* line 49, ../sass/common/_icon-font.scss */
+/* line 55, ../sass/common/_icon-font.scss */
 .icon-expand:before {
   content: "\e61e";
 }
 
-/* line 52, ../sass/common/_icon-font.scss */
+/* line 58, ../sass/common/_icon-font.scss */
 .icon-plus:before {
   content: "\e61c";
 }
 
-/* line 55, ../sass/common/_icon-font.scss */
+/* line 61, ../sass/common/_icon-font.scss */
 .icon-search:before {
   content: "\e61b";
 }
 
-/* line 58, ../sass/common/_icon-font.scss */
+/* line 64, ../sass/common/_icon-font.scss */
 .icon-arrow-down:before {
   content: "\e61a";
 }
 
-/* line 61, ../sass/common/_icon-font.scss */
+/* line 67, ../sass/common/_icon-font.scss */
 .icon-arrow-up:before {
   content: "\e619";
 }
 
-/* line 64, ../sass/common/_icon-font.scss */
+/* line 70, ../sass/common/_icon-font.scss */
 .icon-caret-down:before {
   content: "\e618";
 }
 
-/* line 67, ../sass/common/_icon-font.scss */
+/* line 73, ../sass/common/_icon-font.scss */
 .icon-uncheck:before {
   content: "\e617";
 }
 
-/* line 70, ../sass/common/_icon-font.scss */
+/* line 76, ../sass/common/_icon-font.scss */
 .icon-check:before, .checkbox2::before:before {
   content: "\e616";
 }
 
-/* line 73, ../sass/common/_icon-font.scss */
+/* line 79, ../sass/common/_icon-font.scss */
 .icon-angle-right:before {
   content: "\e614";
 }
 
-/* line 76, ../sass/common/_icon-font.scss */
+/* line 82, ../sass/common/_icon-font.scss */
 .icon-angle-up:before {
   content: "\e615";
 }
 
-/* line 79, ../sass/common/_icon-font.scss */
+/* line 85, ../sass/common/_icon-font.scss */
 .icon-close:before {
   content: "\e613";
 }
 
-/* line 82, ../sass/common/_icon-font.scss */
+/* line 88, ../sass/common/_icon-font.scss */
 .icon-angle-down:before {
   content: "\e612";
 }
 
-/* line 85, ../sass/common/_icon-font.scss */
+/* line 91, ../sass/common/_icon-font.scss */
 .icon-angle-left:before {
   content: "\e611";
 }
 
-/* line 88, ../sass/common/_icon-font.scss */
+/* line 94, ../sass/common/_icon-font.scss */
 .icon-twitter:before {
   content: "\e610";
 }
 
-/* line 91, ../sass/common/_icon-font.scss */
+/* line 97, ../sass/common/_icon-font.scss */
 .icon-e:before {
   content: "\e600";
 }
 
-/* line 94, ../sass/common/_icon-font.scss */
+/* line 100, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path1:before {
   content: "\e601";
   color: white;
 }
 
-/* line 98, ../sass/common/_icon-font.scss */
+/* line 104, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path2:before {
   content: "\e602";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 103, ../sass/common/_icon-font.scss */
+/* line 109, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path3:before {
   content: "\e603";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 108, ../sass/common/_icon-font.scss */
+/* line 114, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path4:before {
   content: "\e604";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 113, ../sass/common/_icon-font.scss */
+/* line 119, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path5:before {
   content: "\e605";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 118, ../sass/common/_icon-font.scss */
+/* line 124, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path6:before {
   content: "\e606";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 123, ../sass/common/_icon-font.scss */
+/* line 129, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path7:before {
   content: "\e607";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 128, ../sass/common/_icon-font.scss */
+/* line 134, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path8:before {
   content: "\e608";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 133, ../sass/common/_icon-font.scss */
+/* line 139, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path9:before {
   content: "\e609";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 138, ../sass/common/_icon-font.scss */
+/* line 144, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path10:before {
   content: "\e60a";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 143, ../sass/common/_icon-font.scss */
+/* line 149, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path11:before {
   content: "\e60b";
   margin-left: -4.1484375em;
   color: white;
 }
 
-/* line 148, ../sass/common/_icon-font.scss */
+/* line 154, ../sass/common/_icon-font.scss */
 .icon-epistocracy-logo .path12:before {
   content: "\e60c";
   margin-left: -4.1484375em;
   color: #f9a531;
 }
 
-/* line 153, ../sass/common/_icon-font.scss */
+/* line 159, ../sass/common/_icon-font.scss */
 .icon-google:before {
   content: "\e60d";
 }
 
-/* line 156, ../sass/common/_icon-font.scss */
+/* line 162, ../sass/common/_icon-font.scss */
 .icon-linkedin:before {
   content: "\e60e";
 }
 
-/* line 159, ../sass/common/_icon-font.scss */
+/* line 165, ../sass/common/_icon-font.scss */
 .icon-facebook:before {
   content: "\e60f";
 }
@@ -6493,7 +6503,7 @@ i {
   border-right: 8px solid #c0392b;
 }
 
-/* line 106, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, C:/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 87.5%;
   line-height: 1.71429em;

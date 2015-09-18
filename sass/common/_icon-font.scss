@@ -28,6 +28,12 @@ i {
 // </i>
 
 
+.icon-email:before {
+  content: "\e624";
+}
+.icon-link:before {
+  content: "\e625";
+}
 .icon-plus-solid:before {
   content: "\e620";
 }
